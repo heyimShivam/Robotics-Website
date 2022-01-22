@@ -1,4 +1,4 @@
-import "./home.css"
+import "./pages.css"
 import Viewpager from "../components/mainSlidingBanner";
 import MainBannerCard from "../components/mainBanner";
 

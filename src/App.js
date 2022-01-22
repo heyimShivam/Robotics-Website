@@ -11,6 +11,9 @@ function App() {
         <RoboNavBar />
         <Routing />
       </Router>
+    <video className='background-video' autoPlay loop muted>
+      <source src="videos/pexels-pavel-danilyuk-8084632.mp4" type='video/mp4' />
+    </video>
     </div>
   );
 }

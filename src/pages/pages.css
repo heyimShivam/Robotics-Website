@@ -1,0 +1,234 @@
+/* Main Banner Css */
+
+.mainBanner {
+  width: 100%;
+  height: 100%;
+}
+  
+.bannerContainer {
+  display: block;
+  overflow: hidden;
+  width: 100%;
+}
+
+.main-banner {
+  color: white;
+  background-image: url('../../public/illustration/slider-left-dec.jpg');
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  opacity: 0;
+ background-size: cover;
+}
+.backshadow {
+  position: absolute;
+  top:0;
+
+  background-color: rgba(0, 0, 0, 0.719);
+  width: 100%;
+  height: 100%;
+}
+.main-element {
+  position: absolute;
+  top:45%;
+  text-align: center;
+  width: 100%;
+}
+
+.gallery {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.slidingCardContainer {
+    position: absolute;
+    bottom: 380px;
+    right: 530px;
+}
+
+.bannerImage {
+  width: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.input {
+  position: absolute;
+}
+
+.scene {
+  width: 1440px;
+  max-width: 100%;
+  min-height: 100vh;
+  margin: auto;
+  padding: 40px 30px;
+}
+
+.card-wrap {
+  display: block;
+  width: 300px;
+  max-width: 100%;
+  height: 340px;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  padding: 15px;
+}
+
+.card, .front, .back, .card-photo{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-face {
+  position: absolute;
+  backface-visibility: hidden;
+}
+
+.card {
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 1s, box-shadow .4s;
+  box-shadow: 0 1px 2px 0 rgba(60,64,67,0.302), 0 1px 3px 1px rgba(60,64,67,0.149);
+  border-radius: 10px;
+}
+
+.card-photo {
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.card:hover {
+  box-shadow: 0 1px 3px 0 rgba(60,64,67,0.302), 0 4px 8px 3px rgba(60,64,67,0.149);
+}
+.cardText {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  color: white;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  text-transform: capitalize;
+  bottom: 0;
+  padding: 5px;
+}
+
+.cardTextLead {
+  background-color: silver;
+}
+
+.cardTextSubLead {
+  background-color: orangered;
+}
+
+.cardTextCoLead {
+  background-color: orange;
+}
+
+.cardTextExeMem {
+  background-color: royalblue;
+}
+
+.cardTextVolunteers {
+  background-color: red;
+}
+
+.cardSubText {
+  text-transform: capitalize;
+  bottom: 0;
+  font-size: 18px;
+}
+li {
+  list-style: none;
+}
+.fabcards {
+  font-size: 35px;
+  color: white;
+}
+.fabcards :hover {
+  color: royalblue;
+  background-color: pink;
+}
+.cardBackName {
+  color: white;
+  margin-top: 15px;
+  text-transform: capitalize;
+}
+.fieldOFIBackName {
+  color: whitesmoke;
+  margin-top: 5px;
+  margin-bottom: 8px;
+  text-transform: capitalize;
+}
+.linksRound {
+  background-color: red;
+  
+  padding: 10px;
+  border-radius: 25px ;
+}
+.cardButton {
+  position: relative;
+  z-index: 1000;
+  bottom: 0;
+}
+.back {
+  background-color: white;
+  background-image: url("../../public/illustration/concrete_wall.png") ;
+  transform: rotateY( 180deg );
+  text-align: center;
+  color: darkgray;
+  border-radius: 10px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+}
+
+.back p {
+  margin: 0;
+  position: absolute;
+  color: white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.flipcard {
+  opacity: 0;
+}
+
+input:checked + .card {
+  transform: rotateY( 180deg );
+}
+
+@media screen and (min-width: 960px) {
+  .scene {
+      display: flex;
+      justify-content: space-around;
+  }
+}
+
+.cards-list {
+  z-index: 0;
+  margin-bottom: 120px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.container-members-heading {
+  color: white;
+  padding: 80px;
+  border-radius: 25px;
+  text-align: justify;
+  margin-top: 100px;
+  text-shadow: 5px 3px 5px #333;
+}
+.container-members-heading h1 {
+  font-size: 70px;
+}

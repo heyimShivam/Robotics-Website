@@ -4,19 +4,23 @@ export const navItems = [
         url: "/#home",
     },
     {
-        title: "About us",
-        url: "/#about",
+        title: "Achievements",
+        url: "/#achievements",
     },
     {
-        title: "Events",
-        url: "/#services",
+        title: "Activities",
+        url: "/activities",
     },
     {
-        title: "Timeline",
-        url: "/#timeline",
+        title: "Members",
+        url: "/members",
     },
     {
-        title: "Contact Us",
-        url: "/#contact",
+        title: "Gallery",
+        url: "/gallery",
     },
-]
+    {
+        title: "About",
+        url: "/about",
+    }
+  ]
