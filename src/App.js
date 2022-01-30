@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router} from 'react-router-dom';
 import RoboNavBar from './components/navbar';
 import Routing from './routing/routing';
+import Footer from './components/footer';
 
 function App() {
   return (
@@ -10,10 +11,8 @@ function App() {
       <Router>
         <RoboNavBar />
         <Routing />
+        <Footer />
       </Router>
-    <video className='background-video' autoPlay loop muted>
-      <source src="videos/pexels-pavel-danilyuk-8084632.mp4" type='video/mp4' />
-    </video>
     </div>
   );
 }

@@ -32,6 +32,18 @@ function Members() {
         </div>
 {/*  Core Memebers */}
 
+Core
+<div class="profile-card-4 text-center"><img alt="" src="http://envato.jayasankarkr.in/code/profile/assets/img/profile-4.jpg" class="img img-responsive" />
+        <div class="profile-content">
+            <div class="profile-name">John Doe
+                <p>@johndoedesigner</p>
+            </div>
+            <div class="profile-description">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</div>
+            <a href="/" class="bn5">Register</a><a href="/" class="bn5">Details</a>
+        </div>
+    </div>
+Core
+
 <div class="cards-list">
             {coreMemebersDetails.map(userData => (  
             <label class="card-wrap">

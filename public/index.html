@@ -41,6 +41,24 @@
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script type="module">
+      import Swiper from 'https://unpkg.com/swiper@7/swiper-bundle.esm.browser.min.js'
+    
+      var swiper = new Swiper('.blog-slider', {
+      spaceBetween: 30,
+  direction: 'vertical',
+      effect: 'fade',
+      loop: true,
+      mousewheel: {
+        invert: false,
+      },
+      // autoHeight: true,
+      pagination: {
+        el: '.blog-slider__pagination',
+        clickable: true,
+      }
+    });
+    </script>
   </body>
   <!-- <img src="./logo/robosoc-122x90.png" width="2px"> -->
 </html>

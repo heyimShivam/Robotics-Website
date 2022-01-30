@@ -1,6 +1,12 @@
 import "./pages.css"
 import { MainBannerImagesData } from '../websiteUserData/imagesData'
 import { useSpring, animated } from '@react-spring/web'
+import $ from 'jquery';
+import MainMembersHome from "../components/mainMembersHome";
+import Footer from "../components/footer";
+import ProjectHighLights from "../components/projectsAndHighlights";
+import ContactUs from "../components/contactUs";
+import Highlights from "../components/highlights";
 
 function RoboticsText() {
   const styles = useSpring({
@@ -19,7 +25,10 @@ function Home() {
     return (
       <>
       <div id="home">
-        <div className="main-banner"></div>
+        
+        <video className='main-banner' autoPlay loop muted>
+           <source src="videos/pexels-pavel-danilyuk-8084632.mp4" type='video/mp4' />
+        </video>
         {/* <div className="backshadow"></div> */}
           <div className="container-fluid main-element d-flex justify-content-center">
             <div className="" style={{ color: '#fff', zIndex:'500' }}>
@@ -34,10 +43,16 @@ function Home() {
           </div> 
         </div>
         <div className="container">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt ratione fuga est cum animi totam consectetur ducimus, odit ullam explicabo in pariatur esse ipsam tempore accusantium sapiente minima eligendi. Magnam facilis hic numquam libero. Quia corrupti maxime provident laboriosam esse non laudantium totam perferendis fugiat neque optio aliquam dolorum obcaecati reprehenderit corporis omnis quae blanditiis tenetur, doloremque, sit magni, quidem repellendus distinctio temporibus? Ut veniam hic placeat iste reiciendis, veritatis consequuntur facilis temporibus. Velit repudiandae a maiores officia quibusdam, omnis fugit impedit sequi quia harum eveniet alias! Saepe repellat quidem ad mollitia voluptatum asperiores velit voluptate, atque ducimus! Fugit, debitis! Quos sunt provident doloribus pariatur fugit vitae voluptatem, quam tempore dignissimos asperiores perferendis id enim mollitia natus adipisci, iusto explicabo?
+          <MainMembersHome />
+        </div>
+        <div>
+        <ProjectHighLights />
         </div>
         <div className="container">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt ratione fuga est cum animi totam consectetur ducimus, odit ullam explicabo in pariatur esse ipsam tempore accusantium sapiente minima eligendi. Magnam facilis hic numquam libero. Quia corrupti maxime provident laboriosam esse non laudantium totam perferendis fugiat neque optio aliquam dolorum obcaecati reprehenderit corporis omnis quae blanditiis tenetur, doloremque, sit magni, quidem repellendus distinctio temporibus? Ut veniam hic placeat iste reiciendis, veritatis consequuntur facilis temporibus. Velit repudiandae a maiores officia quibusdam, omnis fugit impedit sequi quia harum eveniet alias! Saepe repellat quidem ad mollitia voluptatum asperiores velit voluptate, atque ducimus! Fugit, debitis! Quos sunt provident doloribus pariatur fugit vitae voluptatem, quam tempore dignissimos asperiores perferendis id enim mollitia natus adipisci, iusto explicabo?
+          <Highlights />
+        </div>
+        <div >
+          <ContactUs />
         </div>
       </>
     );
