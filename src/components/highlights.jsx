@@ -2,51 +2,31 @@ import 'swiper/css';
 import './components.css'
 
 import 'swiper/css/pagination';
+import { projectDetails } from '../websiteUserData/Activities and Highlights Data.jsx';
 
 
 function Highlights(){
     return(<>
-    <div className="blog-slider">
-  <div className="blog-slider__wrp swiper-wrapper">
-    <div className="blog-slider__item swiper-slide">
-      <div className="blog-slider__img">
-        
-        <img src="https://res.cloudinary.com/muhammederdem/image/upload/q_60/v1535759872/kuldar-kalvik-799168-unsplash.webp" alt="" />
-      </div>
-      <div className="blog-slider__content">
-        <span className="blog-slider__code">26 December 2019</span>
-        <div className="blog-slider__title">Lorem Ipsum Dolor</div>
-        <div className="blog-slider__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae voluptate repellendus magni illo ea animi? </div>
-        <a href="#" className="blog-slider__button">READ MORE</a>
-      </div>
-    </div>
-    <div className="blog-slider__item swiper-slide">
-      <div className="blog-slider__img">
-        <img src="https://res.cloudinary.com/muhammederdem/image/upload/q_60/v1535759871/jason-leung-798979-unsplash.webp" alt="" />
-      </div>
-      <div className="blog-slider__content">
-        <span className="blog-slider__code">26 December 2019</span>
-        <div className="blog-slider__title">Lorem Ipsum Dolor2</div>
-        <div className="blog-slider__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae voluptate repellendus magni illo ea animi?</div>
-        <a href="#" className="blog-slider__button">READ MORE</a>
-      </div>
-    </div>
-    
-    <div className="blog-slider__item swiper-slide">
-      <div className="blog-slider__img">
-        <img src="https://res.cloudinary.com/muhammederdem/image/upload/q_60/v1535759871/alessandro-capuzzi-799180-unsplash.webp" alt="" />
-      </div>
-      <div className="blog-slider__content">
-        <span className="blog-slider__code">26 December 2019</span>
-        <div className="blog-slider__title">Lorem Ipsum Dolor</div>
-        <div className="blog-slider__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae voluptate repellendus magni illo ea animi?</div>
-        <a href="#" className="blog-slider__button">READ MORE</a>
-      </div>
-    </div>
-    
-  </div>
-  <div className="blog-slider__pagination"></div>
-</div>
+    <ul class="cardsNew">
+    {projectDetails.map(data => (  
+          <li key={data.id}>
+          <a href={data.link} class="cardNew">
+            <img src={data.mainImage} class="card__image" alt="" />
+            <div class="card__overlay">
+              <div class="card__header">
+                <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>                     
+                <img class="card__thumb" src={data.image} alt="" />
+                <div class="card__header-text">
+                  <h3 class="card__title">{data.title}</h3>            
+                  <span class="card__status">{data.shortDetails}</span>
+                </div>
+              </div>
+              <p class="card__description">{data.content}</p>
+            </div>
+          </a>      
+        </li>
+    ))}
+</ul>
     </>)
 }
 
