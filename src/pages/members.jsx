@@ -12,19 +12,19 @@ function Members() {
         <h1>Current Members</h1>  
         </div>
 
-        <div class="cards-list">
-            <label class="card-wrap">
-                <input type="checkbox" class="flipcard" />
-                <div class="card">
-                    <div class="front card-face">
-                        <img src="members/IMG_20210513_210655 - 20BEE095 Shivam.jpg" alt="" class="card-photo" />
+        <div className="cards-list">
+            <label className="card-wrap">
+                <input type="checkbox" className="flipcard" />
+                <div className="card">
+                    <div className="front card-face">
+                        <img src="members/IMG_20210513_210655 - 20BEE095 Shivam.jpg" alt="" className="card-photo" />
                         <h4 className="cardText cardTextLead">Shivam<br/>
                             <span className="cardSubText">
                               Executive Memeber
                             </span>
                         </h4>
                     </div>
-                    <div class="back card-face">
+                    <div className="back card-face">
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                     </div>
                 </div>
@@ -33,36 +33,36 @@ function Members() {
 {/*  Core Memebers */}
 
 Core
-<div class="profile-card-4 text-center"><img alt="" src="http://envato.jayasankarkr.in/code/profile/assets/img/profile-4.jpg" class="img img-responsive" />
-        <div class="profile-content">
-            <div class="profile-name">John Doe
+<div className="profile-card-4 text-center"><img alt="" src="http://envato.jayasankarkr.in/code/profile/assets/img/profile-4.jpg" className="img img-responsive" />
+        <div className="profile-content">
+            <div className="profile-name">John Doe
                 <p>@johndoedesigner</p>
             </div>
-            <div class="profile-description">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</div>
-            <a href="/" class="bn5">Register</a><a href="/" class="bn5">Details</a>
+            <div className="profile-description">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</div>
+            <a href="/" className="bn5">Register</a><a href="/" className="bn5">Details</a>
         </div>
     </div>
 Core
 
-<div class="cards-list">
+<div className="cards-list">
             {coreMemebersDetails.map(userData => (  
-            <label class="card-wrap">
-            <input type="checkbox" class="flipcard" />
-            <div class="card">
-                <div class="front card-face">
-                    <img src={userData.image} alt="" class="card-photo" />
+            <label className="card-wrap">
+            <input type="checkbox" className="flipcard" />
+            <div className="card">
+                <div className="front card-face">
+                    <img src={userData.image} alt="" className="card-photo" />
                     <h4 className="cardText cardTextSubLead">{userData.name}<br/>
                         <span className="cardSubText">
                           {userData.role}
                         </span>
                         </h4>
                     </div>
-                    <div class="back card-face">
+                    <div className="back card-face">
                         <div>
                             <br />
-                            <h4 class="cardBackName">{userData.name}</h4>
+                            <h4 className="cardBackName">{userData.name}</h4>
                             <br />
-                            <div class="fieldOFIBackName">
+                            <div className="fieldOFIBackName">
                                 Field Of Intreset
                             </div>
                             
@@ -76,18 +76,18 @@ Core
                                
                                <div className="col">
                                    <a href={userData.linkedin}>
-                                   <i class="fas fabcards fa-arrow-circle-left"></i>
+                                   <i className="fas fabcards fa-arrow-circle-left"></i>
                 
                                    </a>
                                </div>
                                <div className="col">
                                    <a href="goole.com">
-                                   <i class="fab fabcards fa-github"></i>
+                                   <i className="fab fabcards fa-github"></i>
                                    </a>
                                </div>
                                <div className="col">
                                    <a href={userData.linkedin}>
-                                   <i class="fab fabcards fa-linkedin-in"></i>
+                                   <i className="fab fabcards fa-linkedin-in"></i>
                                    
                                    </a>
                                </div>
@@ -102,25 +102,25 @@ Core
 
 {/*  Codinators Memebers */}
 
-<div class="cards-list">
+<div className="cards-list">
             {codinatorsMemebersDetails.map(userData => (  
-            <label class="card-wrap">
-            <input type="checkbox" class="flipcard" />
-            <div class="card">
-                <div class="front card-face">
-                    <img src={userData.image} alt="" class="card-photo" />
+            <label className="card-wrap">
+            <input type="checkbox" className="flipcard" />
+            <div className="card">
+                <div className="front card-face">
+                    <img src={userData.image} alt="" className="card-photo" />
                     <h4 className="cardText cardTextCoLead">{userData.name}<br/>
                         <span className="cardSubText">
                           Codinators
                         </span>
                         </h4>
                     </div>
-                    <div class="back card-face">
+                    <div className="back card-face">
                         <div>
                             <br />
-                            <h4 class="cardBackName">{userData.name}</h4>
+                            <h4 className="cardBackName">{userData.name}</h4>
                             <br />
-                            <div class="fieldOFIBackName">
+                            <div className="fieldOFIBackName">
                                 Field Of Intreset
                             </div>
                             
@@ -134,18 +134,18 @@ Core
                                
                                <div className="col">
                                    <a href={userData.linkedin}>
-                                   <i class="fas fabcards fa-arrow-circle-left"></i>
+                                   <i className="fas fabcards fa-arrow-circle-left"></i>
                 
                                    </a>
                                </div>
                                <div className="col">
                                    <a href="goole.com">
-                                   <i class="fab fabcards fa-github"></i>
+                                   <i className="fab fabcards fa-github"></i>
                                    </a>
                                </div>
                                <div className="col">
                                    <a href={userData.linkedin}>
-                                   <i class="fab fabcards fa-linkedin-in"></i>
+                                   <i className="fab fabcards fa-linkedin-in"></i>
                                    
                                    </a>
                                </div>
@@ -160,25 +160,25 @@ Core
 
 {/*  Executive Memebers */}
 
-        <div class="cards-list">
+        <div className="cards-list">
             {executiveMemebersDetails.map(userData => (  
-            <label class="card-wrap">
-            <input type="checkbox" class="flipcard" />
-            <div class="card">
-                <div class="front card-face">
-                    <img src={userData.image} alt="" class="card-photo" />
+            <label className="card-wrap">
+            <input type="checkbox" className="flipcard" />
+            <div className="card">
+                <div className="front card-face">
+                    <img src={userData.image} alt="" className="card-photo" />
                     <h4 className="cardText cardTextExeMem">{userData.name}<br/>
                         <span className="cardSubText">
                           Executive Memeber
                         </span>
                         </h4>
                     </div>
-                    <div class="back card-face">
+                    <div className="back card-face">
                         <div>
                             <br />
-                            <h4 class="cardBackName">{userData.name}</h4>
+                            <h4 className="cardBackName">{userData.name}</h4>
                             <br />
-                            <div class="fieldOFIBackName">
+                            <div className="fieldOFIBackName">
                                 Field Of Intreset
                             </div>
                             
@@ -192,18 +192,18 @@ Core
                                
                                <div className="col">
                                    <a href={userData.linkedin}>
-                                   <i class="fas fabcards fa-arrow-circle-left"></i>
+                                   <i className="fas fabcards fa-arrow-circle-left"></i>
                 
                                    </a>
                                </div>
                                <div className="col">
                                    <a href="goole.com">
-                                   <i class="fab fabcards fa-github"></i>
+                                   <i className="fab fabcards fa-github"></i>
                                    </a>
                                </div>
                                <div className="col">
                                    <a href={userData.linkedin}>
-                                   <i class="fab fabcards fa-linkedin-in"></i>
+                                   <i className="fab fabcards fa-linkedin-in"></i>
                                    
                                    </a>
                                </div>
@@ -218,20 +218,20 @@ Core
 
 {/*  Volunteers Memebers */}
 
-<div class="cards-list">
+<div className="cards-list">
             {volunteersMemebersDetails.map(userData => (  
-            <label class="card-wrap">
-            <input type="checkbox" class="flipcard" />
-            <div class="card">
-                <div class="front card-face">
-                    <img src={userData.image} alt="" class="card-photo" />
+            <label className="card-wrap">
+            <input type="checkbox" className="flipcard" />
+            <div className="card">
+                <div className="front card-face">
+                    <img src={userData.image} alt="" className="card-photo" />
                     <h4 className="cardText cardTextVolunteers">{userData.name}<br/>
                         <span className="cardSubText">
                         Volunteer
                         </span>
                         </h4>
                     </div>
-                    <div class="back card-face">
+                    <div className="back card-face">
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                     </div>
                 </div>
