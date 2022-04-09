@@ -48,7 +48,7 @@ function Home() {
         <div>
         <ProjectHighLights />
         </div>
-        <div className="container">
+        <div className="">
           <Highlights />
         </div>
         <div >

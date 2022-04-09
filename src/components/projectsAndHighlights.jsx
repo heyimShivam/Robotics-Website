@@ -11,7 +11,7 @@ function ProjectHighLights() {
               <a className="postcard__img_link" href="#empty">
                 <img
                   className="postcard__img"
-                  src="images/projects/humanoid.jpeg"
+                  src="Images/projects/humanoid.jpeg"
                   alt="pic Title"
                 />
               </a>
@@ -43,7 +43,7 @@ function ProjectHighLights() {
               <a className="postcard__img_link" href="#empty">
                 <img
                   className="postcard__img"
-                  src="images/projects/wheelchair.jpeg"
+                  src="Images/projects/wheelchair.jpeg"
                   alt="pic Title"
                 />
               </a>
@@ -78,7 +78,7 @@ function ProjectHighLights() {
               <a className="postcard__img_link" href="#empty">
                 <img
                   className="postcard__img"
-                  src="images/projects/balancingbot.jpeg"
+                  src="Images/projects/balancingbot.jpeg"
                   alt="pic Title"
                 />
               </a>
