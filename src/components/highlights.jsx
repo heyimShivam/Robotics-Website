@@ -1,53 +1,83 @@
-import 'swiper/css';
-import './components.css'
+import "swiper/css";
+import "./components.css";
 
-import 'swiper/css/pagination';
+import "swiper/css/pagination";
 
+function Highlights() {
+  return (
+    <>
+    <div class="activities">
+      <h1 class="activity-head" >Activities and Highlights</h1>
+    </div>
+      <div className="blog-slider">
+        <div className="blog-slider__wrp swiper-wrapper">
+          <div className="blog-slider__item swiper-slide">
+            <div className="blog-slider__img">
+              <img
+                src="images/events/roboweek.png"
+                alt=""
+              />
+            </div>
+            <div className="blog-slider__content">
+              <span className="blog-slider__code">26 December 2019</span>
+              <div className="blog-slider__title">Roboweek </div>
+              <div className="blog-slider__text">
+                Roboweek is a week long event conducted by Robotics Society of
+                NIT Hamirpur. The aim of ROBOWEEK is to spread awareness about
+                robotics nation wide by providing a platform to Robotics
+                Enthusiasts to learn and get their skills tested.
+              </div>
+              <a href="https://robosocnith.com/index.html" className="blog-slider__button">
+                Learn More
+              </a>
+            </div>
+          </div>
+          <div className="blog-slider__item swiper-slide">
+            <div className="blog-slider__img">
+              <img
+                src="images/events/roboticsday.jpeg"
+                alt=""
+              />
+            </div>
+            <div className="blog-slider__content">
+              <span className="blog-slider__code">26 December 2019</span>
+              <div className="blog-slider__title">Robotics Day 2k19</div>
+              <div className="blog-slider__text">
+                Celebrated in the memory of our Co-Founder Late Lamyanba
+                Heisnam, we oraganize events and showcase our projects to
+                students.
+              </div>
+              <a href="https://robosocnith.com/index.html" className="blog-slider__button">
+                Learn More
+              </a>
+            </div>
+          </div>
 
-function Highlights(){
-    return(<>
-    <div className="blog-slider">
-  <div className="blog-slider__wrp swiper-wrapper">
-    <div className="blog-slider__item swiper-slide">
-      <div className="blog-slider__img">
-        
-        <img src="https://res.cloudinary.com/muhammederdem/image/upload/q_60/v1535759872/kuldar-kalvik-799168-unsplash.webp" alt="" />
+          <div className="blog-slider__item swiper-slide">
+            <div className="blog-slider__img">
+              <img
+                src="images/events/nimbus.jpeg"
+                alt=""
+              />
+            </div>
+            <div className="blog-slider__content">
+              <span className="blog-slider__code">26 December 2019</span>
+              <div className="blog-slider__title">Nimbus 2k19</div>
+              <div className="blog-slider__text">
+                Nimbus is the annual technical fest of NIT Hamirpur. In 2k18, we
+                showcased the following projects: Brain Controlled Wheelchair,
+                Aim and Shoot, Self Balancing Robot, Humanoid.
+              </div>
+              <a href="https://robosocnith.com/index.html" className="blog-slider__button">
+                Learn More
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className="blog-slider__pagination"></div>
       </div>
-      <div className="blog-slider__content">
-        <span className="blog-slider__code">26 December 2019</span>
-        <div className="blog-slider__title">Lorem Ipsum Dolor</div>
-        <div className="blog-slider__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae voluptate repellendus magni illo ea animi? </div>
-        <a href="#" className="blog-slider__button">READ MORE</a>
-      </div>
-    </div>
-    <div className="blog-slider__item swiper-slide">
-      <div className="blog-slider__img">
-        <img src="https://res.cloudinary.com/muhammederdem/image/upload/q_60/v1535759871/jason-leung-798979-unsplash.webp" alt="" />
-      </div>
-      <div className="blog-slider__content">
-        <span className="blog-slider__code">26 December 2019</span>
-        <div className="blog-slider__title">Lorem Ipsum Dolor2</div>
-        <div className="blog-slider__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae voluptate repellendus magni illo ea animi?</div>
-        <a href="#" className="blog-slider__button">READ MORE</a>
-      </div>
-    </div>
-    
-    <div className="blog-slider__item swiper-slide">
-      <div className="blog-slider__img">
-        <img src="https://res.cloudinary.com/muhammederdem/image/upload/q_60/v1535759871/alessandro-capuzzi-799180-unsplash.webp" alt="" />
-      </div>
-      <div className="blog-slider__content">
-        <span className="blog-slider__code">26 December 2019</span>
-        <div className="blog-slider__title">Lorem Ipsum Dolor</div>
-        <div className="blog-slider__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae voluptate repellendus magni illo ea animi?</div>
-        <a href="#" className="blog-slider__button">READ MORE</a>
-      </div>
-    </div>
-    
-  </div>
-  <div className="blog-slider__pagination"></div>
-</div>
-    </>)
+    </>
+  );
 }
 
 export default Highlights;
