@@ -3,7 +3,7 @@ import './components.css'
 function MainMembersHome () {
     return(
     <>
-      <div class="row">
+      <div className="row">
       <div className="col-md-4">
       <div class="cardMain">
         <div class="imgBx">
