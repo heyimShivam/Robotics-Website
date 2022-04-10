@@ -161,8 +161,8 @@ iframe {
 }
 
 .wrap-contact100 {
-  width: 1163px;
-  background: #fff;
+  width:60%;
+  background: #fef8f8;
   border-radius: 10px;
   overflow: hidden;
 
@@ -225,7 +225,7 @@ textarea.input100 {
   position: relative;
   width: 100%;
   z-index: 1;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
 }
 
 .input100 {
