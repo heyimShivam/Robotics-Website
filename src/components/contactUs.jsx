@@ -1,7 +1,7 @@
 import './ContactUsCss/util.css'
 
 function ContactUs() {
-	return (<><div className="bg-contact100" style={{ backgroundImage: `url('background/bg-01.jpg')`, marginTop: `120px` }}>
+	return (<><div className="bg-contact100" >
 		<div className="container-contact100">
 			<div className="wrap-contact100">
 				<div className="contact100-pic js-tilt" data-tilt>
