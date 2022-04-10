@@ -1,29 +1,29 @@
 export const projectDetails = [
     {
         id: 1,
-        title: 'RoboWeek',
+        title: 'RoboWeek 2.0',
         link: '#',
-        shortDetails: 'Nothing yet',
-        image: 'Images/dsc-19-2000x1333.jpg',
-        mainImage: 'members/IMG_20210513_210655 - 20BEE095 Shivam.jpg',
-        content: 'Roboweek is a week long event conducted by Robotics Society of NIT ...'
+        shortDetails: '',
+        image: 'Images/Color Logo with text at bottom - Copy.png',
+        mainImage: '',/*pic clicked on 11th to be added*/
+        content: 'It is a blend of affairs encompassing week long enticing activities ranging from guest talks, robotic workshops, coding manias, fun events, cryptic hunt, quizzes and much more which lasted over a week'
     },
     {
         id: 2,
-        title: 'RoboWeek 2',
+        title: 'Robotics Day 2k19',
         link: '#',
-        shortDetails: 'Nothing yet',
-        image: 'members/IMG_20210513_210655 - 20BEE095 Shivam.jpg',
-        mainImage: 'Images/dsc-19-2000x1333.jpg',
-        content: 'Roboweek is a week long event conducted by Robotics Society of NIT ...'
+        shortDetails: '',
+        image: 'Images/robotics-day-1-676x451.jpeg',
+        mainImage: 'Images/robotics-day-1-676x451.jpeg',
+        content: 'Celebrated in the memory of our Co-Founder Late Lamyanba Heisnam, we oraganize events and showcase our projects to students.'
     },
     {
         id: 3,
-        title: 'RoboWeek 3',
+        title: 'Nimbus 2k19',
         link: '#',
-        shortDetails: 'Nothing yet',
-        image: 'https://i.imgur.com/2DhmtJ4.jpg',
-        mainImage: 'Images/dsc-28-2000x1333.jpg',
-        content: 'Roboweek is a week long event conducted by Robotics Society of NIT ...'    
+        shortDetails: '',
+        image: 'Images/nimbus.jpeg',
+        mainImage: 'Images/nimbusmain.jpg',
+        content: 'Nimbus is the annual technical fest of NIT Hamirpur. In 2k18, we showcased the following projects : Brain Controlled Wheelchair, Aim and Shoot, Self Balancing Robot, Humanoid.'    
     }
 ]
