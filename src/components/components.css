@@ -809,5 +809,5 @@ a:hover {
 .card__image {
   object-fit: cover;
   opacity: 35%;
-  height: 500px;
+  height: 400px;
 }
