@@ -28,15 +28,13 @@ function Members() {
             </div>
 
             {/*  Core Memebers */}
-
             <div className="cards-list">
                 {coreMemebersDetails.map(userData => (
                     <label className="card-wrap">
-
                         <div className="profile-card-4 text-center"><img alt="" src={userData.image} className="card-photo img img-responsive" />
                             <div className="profile-content">
                                 <div className="profile-name">{userData.name}
-                                    <p>{userData.role}</p>
+                                    <p className="profile-position">{userData.role}</p>
                                 </div>
                                 <div className="profile-description">
                                     {userData.field.map(data => (
@@ -46,56 +44,6 @@ function Members() {
                                     ))}
                                 </div>
                                 <a href="/" className="bn5">LinkedIn</a><a href="/" className="bn5">Github</a>
-                            </div>
-                        </div>
-
-                        <input type="checkbox" className="flipcard" />
-                        <div className="card">
-                            <div className="front card-face">
-                                <img alt="" className="card-photo" />
-                                <h4 className="cardText cardTextSubLead"><br />
-                                    <span className="cardSubText">
-
-                                    </span>
-                                </h4>
-                            </div>
-                            <div className="back card-face">
-                                <div>
-                                    <br />
-                                    <h4 className="cardBackName">{userData.name}</h4>
-                                    <br />
-                                    <div className="fieldOFIBackName">
-                                        Field Of Intreset
-                                    </div>
-
-                                    {userData.field.map(data => (
-                                        <li>
-                                            {data}
-                                        </li>
-                                    ))}
-                                    <br></br>
-                                    <div className="d-flex  cardButton">
-
-                                        <div className="col">
-                                            <a href={userData.linkedin}>
-                                                <i className="fas fabcards fa-arrow-circle-left"></i>
-
-                                            </a>
-                                        </div>
-                                        <div className="col">
-                                            <a href="goole.com">
-                                                <i className="fab fabcards fa-github"></i>
-                                            </a>
-                                        </div>
-                                        <div className="col">
-                                            <a href={userData.linkedin}>
-                                                <i className="fab fabcards fa-linkedin-in"></i>
-
-                                            </a>
-                                        </div>
-                                    </div>
-
-                                </div>
                             </div>
                         </div>
                     </label>
