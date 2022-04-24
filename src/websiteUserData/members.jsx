@@ -6,7 +6,7 @@ export const coreMemebersDetails = [
         linkedin: 'https://www.linkedin.com/in/swayam-kaul-9b064a175',
         github: 'https://github.com/swayamkaul',
         field: ['Blockchain Flutter Android' ,' IOT Machine Learning'],
-
+    },
     {
         name: 'Jai Singh Malhotra',
         role: 'General Secretary',
