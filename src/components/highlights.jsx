@@ -7,10 +7,10 @@ import { projectDetails } from '../websiteUserData/Activities and Highlights Dat
 
 function Highlights() {
   return (<>
-    <div className="container">
+    <div className="container" style={{ margin:'0'}}>
       <div class="cardsNew justify-content-around">
         {projectDetails.map(data => (
-          <div class="d-flex justify-content-center" key={data.id}>
+          <div class="d-flex justify-content-center" style={{minWidth: '390px'}} key={data.id}>
             <a href={data.link} class="cardNew">
               <img src={data.mainImage} class="card__image" alt="" />
               <div class="card__overlay">
