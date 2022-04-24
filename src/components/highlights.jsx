@@ -7,7 +7,7 @@ import { projectDetails } from '../websiteUserData/Activities and Highlights Dat
 
 function Highlights() {
   return (<>
-    <div className="container" style={{ margin:'0'}}>
+    <div className="container">
       <div class="cardsNew justify-content-around">
         {projectDetails.map(data => (
           <div class="d-flex justify-content-center" style={{minWidth: '390px'}} key={data.id}>
