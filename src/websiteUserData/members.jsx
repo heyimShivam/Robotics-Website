@@ -1,20 +1,12 @@
 export const coreMemebersDetails = [
     {
-<<<<<<< HEAD
-        name: 'shivam',
-        role: 'Core Team 8',
-        image: 'members/IMG_20210513_210655 - 20BEE095 Shivam.jpg',
-        linkedin: 'https://www.linkedin.com/in/heyimshivam/',
-        github: 'https://www.linkedin.com/in/heyimshivam/',
-        field: ['Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias corporis'],
-=======
         name: 'Swayam Kaul',
         role: 'President',
         image: 'members/coremembers/Swayam sir latest.jpg',
         linkedin: 'https://www.linkedin.com/in/swayam-kaul-9b064a175',
         github: 'https://github.com/swayamkaul',
         field: ['Blockchain Flutter Android' ,' IOT Machine Learning'],
-
+    },
     {
         name: 'Jai Singh Malhotra',
         role: 'General Secretary',
@@ -22,7 +14,6 @@ export const coreMemebersDetails = [
         linkedin: 'https://www.linkedin.com/in/js-malhotra/',
         github: 'https://github.com/bhatakti-atama',
         field: ['Machine Learning Simulation', 'Image Processing'],
->>>>>>> origin/develop
     },
     {
         name: 'Rishabh Dhenkawat',
