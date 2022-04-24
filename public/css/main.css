@@ -157,12 +157,12 @@ iframe {
   justify-content: center;
   align-items: center;
   padding: 15px;
-  background: rgba(132,106,221,0.9);
+  background:#fef8f8;
 }
 
 .wrap-contact100 {
-  width: 1163px;
-  background: #fff;
+  width:60%;
+  background: #fef8f8;
   border-radius: 10px;
   overflow: hidden;
 
@@ -173,7 +173,7 @@ iframe {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding: 110px 130px 157px 148px;
+  
 }
 
 /*------------------------------------------------------------------
@@ -225,7 +225,7 @@ textarea.input100 {
   position: relative;
   width: 100%;
   z-index: 1;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
 }
 
 .input100 {
@@ -320,11 +320,11 @@ textarea.input100 {
   width: 100%;
   height: 50px;
   border-radius: 25px;
-  background: #846add;
+  background: #e6e6e6;
   font-family: Montserrat-Bold;
   font-size: 15px;
   line-height: 1.5;
-  color: #fff;
+  color: #b0b2b2;
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;

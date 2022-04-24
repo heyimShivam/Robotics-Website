@@ -25,11 +25,8 @@ function Home() {
     return (
       <>
       <div id="home">
-        
-        <video className='main-banner' autoPlay loop muted>
-           <source src="videos/pexels-pavel-danilyuk-8084632.mp4" type='video/mp4' />
-        </video>
-        {/* <div className="backshadow"></div> */}
+        <div className='main-banner'></div>
+        <div className="backshadow"></div>
           <div className="container-fluid main-element d-flex justify-content-center">
             <div className="" style={{ color: '#fff', zIndex:'500' }}>
               <h2 className="headingText " style={{color:"white"}}>Robotics Society NITH</h2>
@@ -48,7 +45,7 @@ function Home() {
         <div>
         <ProjectHighLights />
         </div>
-        <div className="container">
+        <div className="">
           <Highlights />
         </div>
         <div >

@@ -2,22 +2,21 @@ import "./footer.css";
 function Footer() {
   return (
     <>
-   
       <div class="footer-dark" style={{paddingTop:"0px",paddingBottom:"0px"}}>
         <footer style={{paddingTop:"1%",paddingBottom:"1%"}}>
           <div class="container">
             <div class="row">
               <div class="col-sm-6 col-md-3 item">
-                <h3>Projects</h3>
+                <h3>Services</h3>
                 <ul>
                   <li>
-                    <a href="#">New Projects</a>
+                    <a href="#">Web design</a>
                   </li>
                   <li>
-                    <a href="#">Previous Projects</a>
+                    <a href="#">Development</a>
                   </li>
                   <li>
-                    <a href="#">Competitions</a>
+                    <a href="#">Hosting</a>
                   </li>
                 </ul>
               </div>
@@ -25,13 +24,13 @@ function Footer() {
                 <h3>About</h3>
                 <ul>
                   <li>
-                    <a href="#">Achievements</a>
+                    <a href="#">Company</a>
                   </li>
                   <li>
                     <a href="#">Team</a>
                   </li>
                   <li>
-                    <a href="#">Gallery</a>
+                    <a href="#">Careers</a>
                   </li>
                 </ul>
               </div>
@@ -55,14 +54,10 @@ function Footer() {
                 </a>
               </div>
             </div>
-            <p class="copyright" style={{color:"#ffffff"}}>Robotics Society NIT Hamirpur © 2022</p>
+            <p class="copyright">Robotics Society NIT Hamirpur © 2022</p>
           </div>
         </footer>
       </div>
-      
-
-
-      
     </>
   );
 }
