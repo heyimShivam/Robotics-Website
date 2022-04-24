@@ -5,7 +5,7 @@ export const coreMemebersDetails = [
         image: 'members/IMG_20210513_210655 - 20BEE095 Shivam.jpg',
         linkedin: 'https://www.linkedin.com/in/heyimshivam/',
         github: 'https://www.linkedin.com/in/heyimshivam/',
-        field: ['web Development', 'Graphic Design', 'Graphic Design'],
+        field: ['Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias corporis'],
     },
     {
         name: 'shivam Chaudhary',
