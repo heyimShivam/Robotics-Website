@@ -3,15 +3,19 @@ import Viewpager from "../components/mainSlidingBanner";
 import MainBannerCard from "../components/mainBanner";
 
 function Gallery() {
-    return (
+  return (
+    <>
       <div className="gallery" >
-        <Viewpager/>
+        <Viewpager />
         <div className="slidingCardContainer">
-          <MainBannerCard className="slidingCards"/>
+          <MainBannerCard className="slidingCards" />
         </div>
       </div>
-      
-    );
-  }
-  
+      <div className="container">
+        Shivam
+      </div>
+    </>
+  );
+}
+
 export default Gallery;
