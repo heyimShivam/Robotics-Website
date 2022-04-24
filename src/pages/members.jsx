@@ -32,22 +32,22 @@ function Members() {
             <div className="cards-list">
                 {coreMemebersDetails.map(userData => (
                     <label className="card-wrap">
-                        <div className="profile-card-4 text-center"><img alt="" src={userData.image} className="card-photo img img-responsive" />
-                            <div className="profile-content">
-                                <div className="profile-name">{userData.name}
-                                    <p className="profile-position">{userData.role}</p>
-                                </div>
-                                <div className="profile-description">
-                                    {userData.field.map(data => (
-                                        <li>
-                                            {data}
-                                        </li>
-                                    ))}
-                                </div>
-                                <a href="/" className="bn5">LinkedIn</a><a href="/" className="bn5">Github</a>
+                    <div className="profile-card-4 text-center"><img alt="" src={userData.image} className="card-photo img img-responsive" />
+                        <div className="profile-content">
+                            <div className="profile-name">{userData.name}
+                                <p className="profile-position">{userData.role}</p>
                             </div>
+                            <div className="profile-description">
+                                {userData.field.map(data => (
+                                    <li>
+                                        {data}
+                                    </li>
+                                ))}
+                            </div>
+                            <a href="/" className="bn5">LinkedIn</a><a href="/" className="bn5">Github</a>
                         </div>
-                    </label>
+                    </div>
+                </label>
                 ))}
             </div>
 
