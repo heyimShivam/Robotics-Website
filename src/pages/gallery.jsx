@@ -1,6 +1,7 @@
 import "./pages.css"
 import Viewpager from "../components/mainSlidingBanner";
 import MainBannerCard from "../components/mainBanner";
+import images from "../websiteUserData/gallery"
 
 function Gallery() {
   return (
@@ -12,7 +13,12 @@ function Gallery() {
         </div>
       </div>
       <div className="container">
-        Shivam
+        {images.map(_imgData =>
+          (
+            <div className="img img-responsive">
+              <img src="{_imgData.path}" alt="img" />
+            </div>
+          ))}
       </div>
     </>
   );

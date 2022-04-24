@@ -7,7 +7,8 @@ export const coreMemebersDetails = [
         github: 'https://github.com/swayamkaul',
         field: ['Blockchain Flutter Android' ,' IOT Machine Learning'],
     },
-     {
+
+    {
         name: 'Jai Singh Malhotra',
         role: 'General Secretary',
         image: 'members/coremembers/jai sir.jpg',
