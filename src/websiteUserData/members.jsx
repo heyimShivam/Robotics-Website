@@ -10,7 +10,7 @@ export const coreMemebersDetails = [
     {
         name: 'Jai Singh Malhotra',
         role: 'General Secretary',
-        image: 'members/coremembers/jai sir.jpg',
+        image: 'members/coremembers/Jai sir.jpg',
         linkedin: 'https://www.linkedin.com/in/js-malhotra/',
         github: 'https://github.com/bhatakti-atama',
         field: ['Machine Learning Simulation', 'Image Processing'],
@@ -74,7 +74,7 @@ export const coreMemebersDetails = [
     {
         name: 'Vidhi Shekhawat',
         role: 'Treseurer',
-        image: 'members/coremembers/Vidhi Shekhawat.jpg',
+        image: 'members/coremembers/Vidhi Shekhawat.JPG',
         linkedin: 'https://www.linkedin.com/in/vidhishekhawat',
         github: '#',
         field: ['Mechatronics, Product Design','Development'],
