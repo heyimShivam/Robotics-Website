@@ -265,7 +265,7 @@ export const volunteersMemebersDetails = [
         field: ['web Development', 'Graphic Design', 'Graphic Design'],
     },
     {
-        name: 'ROcket',
+        name: 'Done',
         image: 'members/IMG_20210513_210655 - 20BEE095 Shivam.jpg',
         linkedin: 'https://www.linkedin.com/in/heyimshivam/',
         github: 'https://www.linkedin.com/in/heyimshivam/',
