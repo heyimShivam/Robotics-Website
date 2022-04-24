@@ -5,7 +5,7 @@ export const projectDetails = [
         link: '#',
         shortDetails: '',
         image: 'Images/Color Logo with text at bottom - Copy.png',
-        mainImage: '',/*pic clicked on 11th to be added*/
+        mainImage: 'Images/robotics-day-1-676x451.jpeg',/*pic clicked on 11th to be added*/
         content: 'It is a blend of affairs encompassing week long enticing activities ranging from guest talks, robotic workshops, coding manias, fun events, cryptic hunt, quizzes and much more which lasted over a week'
     },
     {
