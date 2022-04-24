@@ -22,7 +22,7 @@ export const coreMemebersDetails = [
         image: 'members/coremembers/Rishabh sir.jpg',
         linkedin: 'https://in.linkedin.com/in/rishabh-dhenkawat-a63737173',
         github: 'https://github.com/rishabhdhenkawat',
-        field: ['Data Science'],
+        field: ['Data Science','.'],
     },
     {
         name: 'Anand Kumar',
@@ -79,7 +79,31 @@ export const coreMemebersDetails = [
         linkedin: 'https://www.linkedin.com/in/vidhishekhawat',
         github: '#',
         field: ['Mechatronics, Product Design','Development'],
-    }
+    },
+    {
+        name: 'Wable Sanket',
+        role: 'Core-coordinator',
+        image: 'members/coordinator/Wable.jpeg',
+        linkedin: 'https://www.linkedin.com/in/wablesanket',
+        github: 'https://github.com/sanketwable',
+        field: ['Backend','.'],
+    },
+    {
+        name: 'Danish Sheikh',
+        role: 'Core-coordinator',
+        image: 'members/coordinator/Danish Sheikh.jpg',
+        linkedin: 'https://www.linkedin.com/in/danish-sheikh-47934b171',
+        github: 'https://github.com/DanishSheikh1999',
+        field: ['Androind Development, AI','Blockchain, IoT'],
+    },
+    {
+        name: 'Uttkarsh Chaurasia',
+        role: 'Core-coordinator',
+        image: 'members/coordinator/Uttkarsh.jpeg',
+        linkedin: 'https://www.linkedin.com/in/uttkarsh-chaurasia-7a31b4171/',
+        github: 'https://github.com/chaurasiauttkarsh',
+        field: ['Augumented and Virtual Reality','IoT, BCI, AI'],
+    },
 ]
 
 export const executiveMemebersDetails = [
@@ -88,7 +112,7 @@ export const executiveMemebersDetails = [
         image: 'members/IMG_20210513_210655 - 20BEE095 Shivam.jpg',
         linkedin: 'https://www.linkedin.com/in/heyimshivam/',
         github: 'https://www.linkedin.com/in/heyimshivam/',
-        field: ['web Development', 'Graphic Design', 'Graphic Design'],
+        field: ['web Development'],
     },
     {
         name: 'Priya',
@@ -252,27 +276,6 @@ export const volunteersMemebersDetails = [
 
 export const codinatorsMemebersDetails = [
     {
-        name: 'Wable Sanket',
-        image: 'members/coordinator/Wable.jpeg',
-        linkedin: 'https://www.linkedin.com/in/wablesanket',
-        github: 'https://github.com/sanketwable',
-        field: ['Backend'],
-    },
-    {
-        name: 'Danish Sheikh',
-        image: 'members/coordinator/Danish Sheikh.jpg',
-        linkedin: 'https://www.linkedin.com/in/danish-sheikh-47934b171',
-        github: 'https://github.com/DanishSheikh1999',
-        field: ['Androind Development, AI','Blockchain, IoT'],
-    },
-    {
-        name: 'Uttkarsh Chaurasia',
-        image: 'members/coordinator/Uttkarsh.jpeg',
-        linkedin: 'https://www.linkedin.com/in/uttkarsh-chaurasia-7a31b4171/',
-        github: 'https://github.com/chaurasiauttkarsh',
-        field: ['Augumented and Virtual Reality','IoT, BCI, AI'],
-    },
-    {
         name: 'Baibhav',
         image: 'members/coordinator/Baibhav.jpeg',
         linkedin: 'https://www.linkedin.com/in/baibhav-mishra-90211a197/',
@@ -298,21 +301,21 @@ export const codinatorsMemebersDetails = [
         image: 'members/coordinator/Shubham Goyal.jpg',
         linkedin: 'https://www.linkedin.com/in/shubham-goyal-476126197/',
         github: '#',
-        field: ['ML, DL, OpenCv'],
+        field: ['ML, DL, OpenCv','.'],
     },
     {
         name: 'Hardik Gupta',
         image: 'members/coordinator/Hardik Gupta.jpg',
         linkedin: 'https://www.linkedin.com/in/hardik-gupta-b65409202/',
         github: '#',
-        field: ['PCB Designing'],
+        field: ['PCB Designing','.'],
     },
     {
         name: 'Kratika Mittal',
         image: 'members/coordinator/Kratika Mittal.jpg',
         linkedin: 'https://www.linkedin.com/in/kratika-mittal-1423a2197',
         github: 'https://github.com/kratika19',
-        field: ['Programming, Full Stack Development'],
+        field: ['Programming, Full Stack Development','.'],
     },
     {
         name: 'Ansh Jain',
@@ -347,7 +350,7 @@ export const codinatorsMemebersDetails = [
         image: 'members/coordinator/Arihant raj siddharth.jpg',
         linkedin: 'https://www.linkedin.com/in/arihant-raj-siddharth-816148197/',
         github: '#',
-        field: ['Error Control in Digital Communication'],
+        field: ['Error Control in Digital Communication','.'],
     },
     {
         name: 'Nitin bansal',
@@ -368,7 +371,7 @@ export const codinatorsMemebersDetails = [
         image: 'members/coordinator/Navdeep Rathore.jpg',
         linkedin: 'https://www.linkedin.com/in/navdeep-singh-rathore-869245196/',
         github: '#',
-        field: ['Web development, Programming'],
+        field: ['Web development, Programming','.'],
     },
     {
         name: 'Mohd Nomaan',
@@ -382,27 +385,27 @@ export const codinatorsMemebersDetails = [
         image: 'members/coordinator/Prateek Gupta.jpg',
         linkedin: 'https://www.linkedin.com/in/prateek-g-664b8812a',
         github: '#',
-        field: ['Android development'],
+        field: ['Android development','.'],
     },
     {
         name: 'Ritesh Kumar',
         image: 'members/coordinator/Ritesh Kumar.jpg',
         linkedin: 'https://www.linkedin.com/in/ritcode',
         github: 'https://github.com/ritcode',
-        field: ['Web, Blockchain, Cloud'],
+        field: ['Web, Blockchain, Cloud','.'],
     },
     {
         name: 'Ankita Jaiswal',
         image: 'members/coordinator/Ankita.jpeg',
         linkedin: 'https://www.linkedin.com/in/ankita-jaiswal-4840611ab',
         github: '#',
-        field: ['Robotics, Problem Solving(Coding), ML'],
+        field: ['Robotics, Problem Solving(Coding), ML','.'],
     },
     {
         name: 'Ritika Lohia',
         image: 'members/coordinator/Ritika.jpeg',
         linkedin: 'https://www.linkedin.com/in/ritika-lohia-731972195/',
         github: 'https://github.com/ritikalohia',
-        field: ['Web Developement'],
+        field: ['Web Developement','.'],
     }
 ]
