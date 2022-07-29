@@ -234,19 +234,20 @@ input:checked+.card {
 
 .cards-list {
   z-index: 0;
-  margin-bottom: 120px;
+  margin-bottom: 0px;
   width: 100%;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  padding-bottom: 50px;
 }
 
 .container-members-heading {
   color: white;
-  padding: 80px;
-  border-radius: 25px;
+  padding: 150px 0 50px 0;
+  /* border-radius: 25px; */
   text-align: justify;
-  margin-top: 100px;
+  /* margin-top: 50px; */
   text-shadow: 5px 3px 5px #333;
 }
 
@@ -407,9 +408,10 @@ a:focus {
 
 
 .profile-card-4 {
-  max-width: 300px;
-  background-color: #FFF;
-  border-radius: 5px;
+  max-width: 350px;
+  min-height: 400px;
+  background-color: #ffffff;
+  border-radius: 10px;
   box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   position: relative;
@@ -424,7 +426,7 @@ a:focus {
 .profile-card-4 .profile-content {
   position: relative;
   padding: 15px;
-  background-color: #FFF;
+  background-color: #fafafa;
 }
 
 .profile-card-4 .profile-name {
@@ -434,7 +436,7 @@ a:focus {
   right: 0px;
   top: -70px;
   color: #FFF;
-  font-size: 17px;
+  font-size: 20px;
 }
 
 .profile-card-4 .profile-name p {
@@ -445,7 +447,7 @@ a:focus {
 
 .profile-card-4 .profile-description {
   color: #777;
-  font-size: 12px;
+  font-size: 15px;
   padding: 10px;
   padding-bottom: 20px;
 }
@@ -472,7 +474,7 @@ a:focus {
   top: -10px;
   left: 0px;
   right: 0px;
-  background-color: #FFF;
+  background-color: #E3FCBF;
   z-index: 0;
   transform: skewY(3deg);
 }
@@ -834,12 +836,12 @@ a:focus {
   border: none;
   outline: none;
   color: rgb(255, 255, 255);
-  background: #111;
+  background: rgb(255, 255, 255);
   cursor: pointer;
-  position: relative;
+  /* position: relative; */
   z-index: 0;
   border-radius: 10px;
-  margin: 3% 3%;
+  margin: auto 3%;
 
 }
 
