@@ -22,5 +22,9 @@ export const navItems = [
     {
         title: "About",
         url: "/about",
+    },
+    {
+        title: "Alumni",
+        url: "/alumni",
     }
-  ]
+]
