@@ -5,7 +5,7 @@ export const navItems = [
     },
     {
         title: "Achievements",
-        url: "/#achievements",
+        url: "/Achievements",
     },
     {
         title: "Activities",

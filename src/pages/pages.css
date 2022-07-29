@@ -74,14 +74,15 @@
 }
 
 .profile-position {
-  color: whitesmoke;
+  color: #0b0b0b;
 }
 
 .card-wrap {
+  min-height: 373px;
   display: block;
   width: 300px;
   max-width: 100%;
-  height: 340px;
+  height: 373px;
   margin: 0 auto;
   margin-bottom: 100px;
   padding: 15px;
@@ -111,7 +112,6 @@
 
 .card-photo {
   object-fit: cover;
-  border-radius: 10px;
 }
 
 
@@ -431,12 +431,13 @@ a:focus {
 
 .profile-card-4 .profile-name {
   font-weight: bold;
-  position: absolute;
   left: 0px;
   right: 0px;
   top: -70px;
+
   color: #FFF;
   font-size: 20px;
+
 }
 
 .profile-card-4 .profile-name p {

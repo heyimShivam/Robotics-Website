@@ -21,7 +21,7 @@ export const coreMemebersDetails = [
         image: 'members/coremembers/Rishabh sir.jpg',
         linkedin: 'https://in.linkedin.com/in/rishabh-dhenkawat-a63737173',
         github: 'https://github.com/rishabhdhenkawat',
-        field: ['Data Science'],
+        field: ['Data Science','.'],
     },
     {
         name: 'Anand Kumar',
@@ -78,7 +78,31 @@ export const coreMemebersDetails = [
         linkedin: 'https://www.linkedin.com/in/vidhishekhawat',
         github: '#',
         field: ['Mechatronics, Product Design','Development'],
-    }
+    },
+    {
+        name: 'Wable Sanket',
+        role: 'Core-coordinator',
+        image: 'members/coordinator/Wable.jpeg',
+        linkedin: 'https://www.linkedin.com/in/wablesanket',
+        github: 'https://github.com/sanketwable',
+        field: ['Backend','.'],
+    },
+    {
+        name: 'Danish Sheikh',
+        role: 'Core-coordinator',
+        image: 'members/coordinator/Danish Sheikh.jpg',
+        linkedin: 'https://www.linkedin.com/in/danish-sheikh-47934b171',
+        github: 'https://github.com/DanishSheikh1999',
+        field: ['Androind Development, AI','Blockchain, IoT'],
+    },
+    {
+        name: 'Uttkarsh Chaurasia',
+        role: 'Core-coordinator',
+        image: 'members/coordinator/Uttkarsh.jpeg',
+        linkedin: 'https://www.linkedin.com/in/uttkarsh-chaurasia-7a31b4171/',
+        github: 'https://github.com/chaurasiauttkarsh',
+        field: ['Augumented and Virtual Reality','IoT, BCI, AI'],
+    },
 ]
 
 export const executiveMemebersDetails = [
@@ -87,7 +111,7 @@ export const executiveMemebersDetails = [
         image: 'members/IMG_20210513_210655 - 20BEE095 Shivam.jpg',
         linkedin: 'https://www.linkedin.com/in/heyimshivam/',
         github: 'https://www.linkedin.com/in/heyimshivam/',
-        field: ['web Development', 'Graphic Design', 'Graphic Design'],
+        field: ['web Development'],
     },
     {
         name: 'Priya',
@@ -213,11 +237,11 @@ export const executiveMemebersDetails = [
 
 export const volunteersMemebersDetails = [
     {
-        name: 'shivam',
-        image: 'members/IMG_20210513_210655 - 20BEE095 Shivam.jpg',
-        linkedin: 'https://www.linkedin.com/in/heyimshivam/',
-        github: 'https://www.linkedin.com/in/heyimshivam/',
-        field: ['web Development', 'Graphic Design', 'Graphic Design'],
+        name: 'Aakash Tiwari',
+        image: 'members/volunteers/aakash-tiwari.jpg',
+        linkedin: 'https://www.linkedin.com/in/aakash07122003/',
+        github: 'https://github.com/Aakash872/',
+        field: ['Mechanical Engineering ', 'I love to explore'],
     },
     {
         name: 'shivam Chaudhary',
@@ -234,43 +258,187 @@ export const volunteersMemebersDetails = [
         field: ['web Development', 'Graphic Design', 'Graphic Design'],
     },
     {
-        name: 'XXXX',
-        image: 'members/IMG_20210513_210655 - 20BEE095 Shivam.jpg',
-        linkedin: 'https://www.linkedin.com/in/heyimshivam/',
+        name: 'Vanshika Gyanchandani ',
+        image: 'members/volunteers/VANSHIKA GYANCHANDANI.jpg',
+        linkedin: 'https://www.linkedin.com/in/vanshika-gyanchandani-16216422a',
         github: 'https://www.linkedin.com/in/heyimshivam/',
-        field: ['web Development', 'Graphic Design', 'Graphic Design'],
+        field: ['I admire Web development,C-Programming'],
     },
     {
-        name: 'ROcket',
-        image: 'members/IMG_20210513_210655 - 20BEE095 Shivam.jpg',
-        linkedin: 'https://www.linkedin.com/in/heyimshivam/',
-        github: 'https://www.linkedin.com/in/heyimshivam/',
-        field: ['web Development', 'Graphic Design', 'Graphic Design'],
+        name: 'Ramanpreet Kaur',
+        image: 'members/volunteers/RAMANPREET KAUR.jpg',
+        linkedin: '    https://www.linkedin.com/in/ramanpreet-kaur-220223230/     ',
+        github: '',
+        field: ['Bhangra Lover'],
+    },
+    {
+        name: 'Dhananjay ',
+        image: 'members/volunteers/DHANANJAY.jpg',
+        linkedin: 'https://www.linkedin.com/mwlite/in/dhananjay-chaddha-44a870223',
+        github: '',
+        field: ['I am spidey Fandom '],
+    },
+    {
+        name: 'Arushi Guleria ',
+        image: 'members/volunteers/Arushi Guleria.jpg',
+        linkedin: 'https://www.linkedin.com/in/arushi-guleria-5662b122a',
+        github: '',
+        field: ['What goes around, comes around'],
+    },
+    {
+        name: 'Mahima Gaur',
+        image: 'members/volunteers/Mahima Gaur.jpg',
+        linkedin: 'https://www.linkedin.com/in/mahima-gaur-b862b122a',
+        
+        github: 'https://github.com/Mahima0111',
+        field: ['Driven and motivated coder and web developer .'],
+    },
+    {
+        name: 'Akanksha Sharma ',
+        image: 'members/volunteers/akanksha.jpg',
+        linkedin: 'https://www.linkedin.com/in/akanksha0803',
+        github: '',
+        field: ['Graphic designer, Content writer , Digital artist'],
+    },
+    {
+        name: 'Gautam Jangir',
+        image: 'members/volunteers/Gautam Jangir.jpg',
+        linkedin: 'https://www.linkedin.com/in/gautam-jangir-8b9060223',
+        github: '',
+        field: ['Data management and Content making'],
+    },
+    {
+        name: 'Khyati Soni',
+        image: 'members/volunteers/khyati Soni.jpg',
+        linkedin: 'https://www.linkedin.com/in/khyati-soni-a0116422a',
+        github: 'https://github.com/AestheticWitchnerd',
+        field: ['I really admire java and web development :)'],
+    },
+    {
+        name: 'Aditya Ojha',
+        image: 'members/volunteers/Aditya.jpg',
+        linkedin: '     ',//to be filled
+        github: 'https://github.com/ADITYA97-CODER',
+        field: ['Always be ready to accept the reality'],
+    },
+
+    {
+        name: 'Sarika Lakhotia',
+        image: 'members/volunteers/Sarika Lakhotia.jpg',
+        linkedin: 'https://www.linkedin.com/in/sarika-lakhotia-2a5a51221',
+        github: '',
+        field: ['C++ and Content Writing'],
+    },
+    {
+        name: 'Varun jain',
+        image: 'members/volunteers/Varun.jpg',
+        linkedin: 'https://www.linkedin.com/in/varun-jain-9280a122a',
+        github: 'https://github.com/varunnitian/currency_converter',
+        field: ['A robo aficionado eager to work on tech specs like c++ ,python,ROS and arduino.'],
+    },
+    {
+        name: 'RAJNEESH KUMAR',
+        image: 'members/volunteers/RAJNEESH KUMAR.jpg',
+        linkedin: 'https://www.linkedin.com/in/aryaraj76438/',
+        github: 'https://github.com/AryaRaj76438',
+        field: ['Im from Virtual World Basic Python, Poster Design'],
+    },
+    {
+        name: 'Priyanshu Sagar',
+        image: 'members/volunteers/Priyanshu sagar.jpg',
+        linkedin: 'https://www.linkedin.com/in/priyanshu-sagar-76b645228',
+        github: '',
+        field: ['Playing with Unity engine'],
+    },
+    {
+        name: 'Saroj Kumar Mahto ',
+        image: 'members/volunteers/Saroj Kumar Mahto.jpg',
+        linkedin: 'https://www.linkedin.com/in/saroj-kumar-mahto-0551ba228',
+        github: '',
+        field: ['I am curious and programming Enthusiast '],
+    },
+    {
+        name: 'Priya Sharma ',
+        image: 'members/volunteers/PRIYA SHARMA.jpg',
+        linkedin: 'https://www.linkedin.com/in/priya-sharma-a56006230',
+        github: '',
+        field: ['Admire java'],
+    },
+    {
+        name: 'Ashutosh Soni',
+        image: 'members/volunteers/Ashutosh Soni.jpg',
+        linkedin: 'https://www.linkedin.com/in/ashutosh-soni-92b03b22b',
+        github: 'https://github.com/AshutoshSoniDesigner',
+        field: ['Where Design and Science Meet'],
+    },
+    {
+        name: 'Mridul verma',
+        image: 'members/volunteers/MRIDUL VERMA.jpeg',
+        linkedin: 'https://www.linkedin.com/mwlite/in/mridul-verma-a53110234',
+        github: '',
+        field: ['"Carpediem Good Instagram handler"'],
+    },
+    {
+        name: 'Vanshika Gyanchandani ',
+        image: 'members/volunteers/VANSHIKA GYANCHANDANI.jpg',
+        linkedin: 'https://www.linkedin.com/in/vanshika-gyanchandani-16216422a',
+        github: 'https://github.com/Vanshi2504ka',
+        field: ['I admire Web development,C-Programming'],
+    },
+    {
+        name: 'Hajwma Boro',
+        image: 'members/volunteers/HAJWMA BORO.jpg',
+        linkedin: 'https://www.linkedin.com/in/hajwma-boro-54a810230',
+        github: '',
+        field: ['Exploring C programming, Design'],
+    },
+    {
+        name: 'Nandini singh',
+        image: 'members/volunteers/Nandini singh.jpg',
+        linkedin: 'https://www.linkedin.com/in/nandini-singh-39a78a223',
+        github: '',
+     field: ['Programming: Just turning caffeine into code.'],
+    },
+    {
+        name: 'Madhav ',
+        image: 'members/volunteers/Madhav.jpg',
+        linkedin: 'https://www.linkedin.com/in/madhav-singhal-2bba73215',
+        github: '',
+        field: ['Error 404: brain not working'],
+    },
+    {
+        name: 'Jils ',
+        image: 'members/volunteers/Jils.jpeg',
+        linkedin: 'https://www.linkedin.com/in/jils-thakkar-93498b22b',
+        github: '',
+        field: ['Web Development/C++'],
+    },
+    {
+        name: 'Vanshika Govindani',
+        image: 'members/volunteers/Vanshika Govindani.jpeg',
+        linkedin: 'https://www.linkedin.com/in/vanshika-govindani-492a96229/',
+        github: 'https://github.com/Vanshika-Govindani',
+        field: ['Finding my way through c++ and kotlin'],
+    },
+    {
+        name: 'Urvish',
+        image: 'members/volunteers/URVISH.jpg',
+        linkedin: 'https://www.linkedin.com/in/urvish-jat-559a3b223',
+        github: '',
+        field: ['C++ programming '],
+    },
+    {
+        name: 'Shreyansh singh chauhan ',
+        image: 'members/volunteers/SHREYANSH CHAUHAN.jpg',
+        linkedin: '        ',//to be filled
+        github: '',
+        field: ['My failure is my mentor!'],
     }
+
+
 ]
 
 export const codinatorsMemebersDetails = [
-    {
-        name: 'Wable Sanket',
-        image: 'members/coordinator/Wable.jpeg',
-        linkedin: 'https://www.linkedin.com/in/wablesanket',
-        github: 'https://github.com/sanketwable',
-        field: ['Backend'],
-    },
-    {
-        name: 'Danish Sheikh',
-        image: 'members/coordinator/Danish Sheikh.jpg',
-        linkedin: 'https://www.linkedin.com/in/danish-sheikh-47934b171',
-        github: 'https://github.com/DanishSheikh1999',
-        field: ['Androind Development, AI','Blockchain, IoT'],
-    },
-    {
-        name: 'Uttkarsh Chaurasia',
-        image: 'members/coordinator/Uttkarsh.jpeg',
-        linkedin: 'https://www.linkedin.com/in/uttkarsh-chaurasia-7a31b4171/',
-        github: 'https://github.com/chaurasiauttkarsh',
-        field: ['Augumented and Virtual Reality','IoT, BCI, AI'],
-    },
     {
         name: 'Baibhav',
         image: 'members/coordinator/Baibhav.jpeg',
@@ -297,21 +465,21 @@ export const codinatorsMemebersDetails = [
         image: 'members/coordinator/Shubham Goyal.jpg',
         linkedin: 'https://www.linkedin.com/in/shubham-goyal-476126197/',
         github: '#',
-        field: ['ML, DL, OpenCv'],
+        field: ['ML, DL, OpenCv','.'],
     },
     {
         name: 'Hardik Gupta',
         image: 'members/coordinator/Hardik Gupta.jpg',
         linkedin: 'https://www.linkedin.com/in/hardik-gupta-b65409202/',
         github: '#',
-        field: ['PCB Designing'],
+        field: ['PCB Designing','.'],
     },
     {
         name: 'Kratika Mittal',
         image: 'members/coordinator/Kratika Mittal.jpg',
         linkedin: 'https://www.linkedin.com/in/kratika-mittal-1423a2197',
         github: 'https://github.com/kratika19',
-        field: ['Programming, Full Stack Development'],
+        field: ['Programming, Full Stack Development','.'],
     },
     {
         name: 'Ansh Jain',
@@ -346,7 +514,7 @@ export const codinatorsMemebersDetails = [
         image: 'members/coordinator/Arihant raj siddharth.jpg',
         linkedin: 'https://www.linkedin.com/in/arihant-raj-siddharth-816148197/',
         github: '#',
-        field: ['Error Control in Digital Communication'],
+        field: ['Error Control in Digital Communication','.'],
     },
     {
         name: 'Nitin bansal',
@@ -367,7 +535,7 @@ export const codinatorsMemebersDetails = [
         image: 'members/coordinator/Navdeep Rathore.jpg',
         linkedin: 'https://www.linkedin.com/in/navdeep-singh-rathore-869245196/',
         github: '#',
-        field: ['Web development, Programming'],
+        field: ['Web development, Programming','.'],
     },
     {
         name: 'Mohd Nomaan',
@@ -381,28 +549,28 @@ export const codinatorsMemebersDetails = [
         image: 'members/coordinator/Prateek Gupta.jpg',
         linkedin: 'https://www.linkedin.com/in/prateek-g-664b8812a',
         github: '#',
-        field: ['Android development'],
+        field: ['Android development','.'],
     },
     {
         name: 'Ritesh Kumar',
         image: 'members/coordinator/Ritesh Kumar.jpg',
         linkedin: 'https://www.linkedin.com/in/ritcode',
         github: 'https://github.com/ritcode',
-        field: ['Web, Blockchain, Cloud'],
+        field: ['Web, Blockchain, Cloud','.'],
     },
     {
         name: 'Ankita Jaiswal',
         image: 'members/coordinator/Ankita.jpeg',
         linkedin: 'https://www.linkedin.com/in/ankita-jaiswal-4840611ab',
         github: '#',
-        field: ['Robotics, Problem Solving(Coding), ML'],
+        field: ['Robotics, Problem Solving(Coding), ML','.'],
     },
     {
         name: 'Ritika Lohia',
         image: 'members/coordinator/Ritika.jpeg',
         linkedin: 'https://www.linkedin.com/in/ritika-lohia-731972195/',
         github: 'https://github.com/ritikalohia',
-        field: ['Web Developement'],
+        field: ['Web Developement','.'],
     }
 ]
 
