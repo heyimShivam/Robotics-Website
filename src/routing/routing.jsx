@@ -6,7 +6,7 @@ import Members from '../pages/members';
 
 import Alumni from '../pages/alumni';
 
-import Achievements from '../pages/Achievements';
+import Achievements from '../pages/achievements';
 import About from '../components/about';
 
 function Routing() {
