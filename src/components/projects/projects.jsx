@@ -1,0 +1,125 @@
+import React from 'react'
+import './projects.css'
+import { LongProjectsData } from '../../websiteUserData/projects'
+import { PastProjectsData } from '../../websiteUserData/projects'
+import { RoboconProjectsData } from '../../websiteUserData/projects'
+
+const Projects = () => {
+  return (
+    <>
+        <div class="project-head">
+        <h1 class="activity-head">Long Term Projects</h1>
+      </div>
+      <div className="container">
+        <div>
+          <section className="light">
+            {/* blue red green */}
+
+            {
+                LongProjectsData.map(Data => (
+                    <article className="postcard light blue" >
+              <a className="postcard__img_link" href="#empty">
+                <img
+                  className="postcard__img"
+                  src={Data.img}
+                  alt="pic Title"
+                />
+              </a>
+              <div className="postcard__text t-dark">
+                <h1 className="postcard__title blue">
+                  <a href="https://robosocnith.com/index.html">
+                    {Data.title}
+                  </a>
+                </h1>
+                {/* <div className="postcard__subtitle small">*/}
+                <div className="postcard__bar"></div>
+                <div className="postcard__preview-txt">
+                  {Data.data}
+                </div>
+              </div>
+            </article>
+                ) )
+            }
+            
+          </section>
+        </div>
+      </div>
+      <div class="project-head">
+        <h1 class="activity-head">Past Projects</h1>
+      </div>
+      <div className="container">
+        <div>
+          <section className="light">
+            {/* blue red green */}
+
+            {
+                PastProjectsData.map(Data => (
+                    <article className="postcard light blue" >
+              <a className="postcard__img_link" href="#empty">
+                <img
+                  className="postcard__img"
+                  src={Data.img}
+                  alt="pic Title"
+                />
+              </a>
+              <div className="postcard__text t-dark">
+                <h1 className="postcard__title blue">
+                  <a href="https://robosocnith.com/index.html">
+                    {Data.title}
+                  </a>
+                </h1>
+                {/* <div className="postcard__subtitle small">*/}
+                <div className="postcard__bar"></div>
+                <div className="postcard__preview-txt">
+                  {Data.data}
+                </div>
+              </div>
+            </article>
+                ) )
+            }
+            
+          </section>
+        </div>
+      </div>
+      <div class="project-head">
+        <h1 class="activity-head">ROBOCON Projects</h1>
+      </div>
+      <div className="container">
+        <div>
+          <section className="light">
+            {/* blue red green */}
+
+            {
+                RoboconProjectsData.map(Data => (
+                    <article className="postcard light blue" >
+              <a className="postcard__img_link" href="#empty">
+                <img
+                  className="postcard__img"
+                  src={Data.img}
+                  alt="pic Title"
+                />
+              </a>
+              <div className="postcard__text t-dark">
+                <h1 className="postcard__title blue">
+                  <a href="https://robosocnith.com/index.html">
+                    {Data.title}
+                  </a>
+                </h1>
+                {/* <div className="postcard__subtitle small">*/}
+                <div className="postcard__bar"></div>
+                <div className="postcard__preview-txt">
+                  {Data.data}
+                </div>
+              </div>
+            </article>
+                ) )
+            }
+            
+          </section>
+        </div>
+      </div>
+    </>
+  )
+}
+
+export default Projects

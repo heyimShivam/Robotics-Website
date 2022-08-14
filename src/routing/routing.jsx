@@ -1,11 +1,9 @@
 import { Routes, Route } from 'react-router-dom';
-import Footer from '../components/footer';
 import Home from '../pages/home';
 import Gallery from '../pages/gallery';
 import Members from '../pages/members';
-
 import Alumni from '../pages/alumni';
-
+import Projects from '../components/projects/projects';
 import Achievements from '../pages/achievements';
 import About from '../pages/about';
 
@@ -19,6 +17,7 @@ function Routing() {
         <Route exact path='/gallery' element={< Gallery />}></Route>
         <Route exact path='/members' element={< Members />}></Route>
         <Route exact path='/alumni' element={< Alumni />}></Route>
+        <Route exace path='/activities' element={<Projects />}></Route>
       </Routes>
     );
   }
