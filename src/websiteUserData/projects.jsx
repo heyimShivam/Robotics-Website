@@ -1,4 +1,4 @@
-import IMG1 from "./../images/projects/swarm.jpg";
+import IMG1 from "./../images/projects/swarm_.jpg";
 import IMG2 from "./../images/projects/3D.jpeg";
 import IMG3 from "./../images/projects/arm.jpeg";
 import IMG4 from "./../images/projects/balancingbot.jpeg";
@@ -18,6 +18,7 @@ import IMG17 from "./../images/projects/RUBIX_CLUB_SOLVER.jpeg";
 import IMG18 from "./../images/projects/Slam.png";
 import IMG19 from "./../images/projects/Tetris.jpeg";
 import IMG20 from "./../images/projects/vision.png";
+import IMG21 from "./../images/projects/humanoid.jpeg"
 
 export const LongProjectsData = [
   {
@@ -28,7 +29,7 @@ export const LongProjectsData = [
   },
   {
     color: "red",
-    img: IMG1,
+    img: IMG21,
     title: "HUMANIOD ROBOT",
     data: "Humanoid robot is a robot that operates like a human body. These robots must be capable of dealing with a wide range of tasks and objects encountered in dynamic unstructured environments.They require a lightweight body, high flexibility, a variety of sensors, and artificial intelligence. ",
   },

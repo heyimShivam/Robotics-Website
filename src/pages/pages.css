@@ -431,12 +431,10 @@ a:focus {
 }
 
 .profile-card-4 .profile-name {
-  font-weight: bold;
   left: 0px;
   right: 0px;
   top: -70px;
-
-  color: #FFF;
+  color: rgb(0, 0, 0);
   font-size: 20px;
 
 }
@@ -586,7 +584,7 @@ a:focus {
   left: 10px;
   font-size: 25px;
   font-weight: bold;
-  color: #FFF;
+  color: rgb(0, 0, 0);
   padding: 15px 20px;
   background: linear-gradient(140deg, rgba(0, 0, 0, 0.4) 50%, rgba(255, 255, 0, 0) 50%);
   transition: all 0.15s linear;
@@ -667,7 +665,7 @@ a:focus {
   font-weight: bold;
   top: -35px;
   left: 125px;
-  color: #FFF;
+  color: rgb(0, 0, 0);
 }
 
 .profile-card-7 .profile-overview {

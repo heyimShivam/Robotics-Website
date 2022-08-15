@@ -397,7 +397,7 @@ export const volunteersMemebersDetails = [
         image: 'members/volunteers/Nandini singh.jpg',
         linkedin: 'https://www.linkedin.com/in/nandini-singh-39a78a223',
         github: '',
-     field: ['Programming: Just turning caffeine into code.'],
+        field: ['Programming: Just turning caffeine into code.'],
     },
     {
         name: 'Madhav ',
