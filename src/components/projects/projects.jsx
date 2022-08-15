@@ -27,9 +27,9 @@ const Projects = () => {
               </a>
               <div className="postcard__text t-dark">
                 <h1 className="postcard__title blue">
-                  <a href="https://robosocnith.com/index.html">
+                  
                     {Data.title}
-                  </a>
+                  
                 </h1>
                 {/* <div className="postcard__subtitle small">*/}
                 <div className="postcard__bar"></div>
@@ -64,9 +64,9 @@ const Projects = () => {
               </a>
               <div className="postcard__text t-dark">
                 <h1 className="postcard__title blue">
-                  <a href="https://robosocnith.com/index.html">
+                  
                     {Data.title}
-                  </a>
+                  
                 </h1>
                 {/* <div className="postcard__subtitle small">*/}
                 <div className="postcard__bar"></div>
@@ -101,9 +101,9 @@ const Projects = () => {
               </a>
               <div className="postcard__text t-dark">
                 <h1 className="postcard__title blue">
-                  <a href="https://robosocnith.com/index.html">
+                  
                     {Data.title}
-                  </a>
+                  
                 </h1>
                 {/* <div className="postcard__subtitle small">*/}
                 <div className="postcard__bar"></div>
