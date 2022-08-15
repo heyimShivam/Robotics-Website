@@ -26,5 +26,9 @@ export const navItems = [
     {
         title: "Alumni",
         url: "/alumni",
+    },
+    {
+        title: "Event",
+        url: "/event",
     }
 ]

@@ -2984,10 +2984,34 @@
 }
 
 
+@media screen and (max-width: 1024px) {
+    .container-contact100{
+		margin: 0%;
+		padding: 0%;
+    }
+	.bg-contact100 {
+		padding:0;
+	}
+	.wrap-input100{
+		width: 50vw;
+	}
+	.contact100-form-btn{
+		width: 40%;
+	}
+	.container-contact100-form-btn {
+		width: 40%;
+	}
+}
+
+/***********for small devices****************/
 
 
-
-
-
-
-
+@media screen and (max-width: 600px) {
+    .container-contact100{
+		margin: 0;
+		padding: 0;
+    }
+	.wrap-input100{
+		width: 50vw;
+	}
+}

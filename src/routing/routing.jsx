@@ -8,6 +8,8 @@ import Alumni from '../pages/alumni';
 
 import Achievements from '../pages/achievements';
 import About from '../components/about';
+import Event from '../components/event';
+
 
 function Routing() {
     return (    
@@ -19,6 +21,8 @@ function Routing() {
         <Route exact path='/gallery' element={< Gallery />}></Route>
         <Route exact path='/members' element={< Members />}></Route>
         <Route exact path='/alumni' element={< Alumni />}></Route>
+        <Route exact path='/event' element={< Event />}></Route>
+       
       </Routes>
     );
   }

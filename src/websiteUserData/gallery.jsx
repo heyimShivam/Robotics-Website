@@ -1,6 +1,6 @@
 export const images = [
     {
-        path: "images/gallery/1.jpg"
+    path: "images/gallery/1.jpg"
     },
     {
         path: "images/gallery/2.jpg"
