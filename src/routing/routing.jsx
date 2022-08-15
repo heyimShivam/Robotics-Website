@@ -6,8 +6,8 @@ import Alumni from '../pages/alumni';
 import Projects from '../components/projects/projects';
 import Achievements from '../pages/achievements';
 import About from '../components/about';
-import Event from '../components/event';
-import About from '../components/about';
+import Event from '../components/event'; 
+
 function Routing() {
     return (    
       <Routes>
