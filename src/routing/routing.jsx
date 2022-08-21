@@ -8,7 +8,6 @@ import Achievements from '../pages/achievements';
 
 import About from '../components/about';
 
-import About from '../pages/about';
 
 
 function Routing() {

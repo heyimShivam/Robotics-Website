@@ -1,12 +1,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Ubuntu:wght@400;700&display=swap');
-H1{
+.about__heading {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
-    padding: 3% 0 3% 0;
+    padding: 7% 0 3% 0;
     font-size: 100px;
 }
-p{
+.about__p{
     font-size: 150%;
     padding: 3% 20% 3% 20%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;

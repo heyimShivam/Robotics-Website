@@ -59,7 +59,7 @@ function Members() {
                     <div className="profile-card-4 text-center"><img alt="" src={userData.image} className="card-photo img img-responsive" />
                         <div className="profile-content">
                             <div className="profile-name">{userData.name}
-                                <p className="profile-position">{userData.role}</p>
+                                <p className="profile-position">Coordinator </p>
                             </div>
                             <div className="profile-description">
                                 {userData.field.map(data => (
@@ -83,7 +83,7 @@ function Members() {
                    <div className="profile-card-4 text-center"><img alt="" src={userData.image} className="card-photo img img-responsive" />
                        <div className="profile-content">
                            <div className="profile-name">{userData.name}
-                               <p className="profile-position">{userData.role}</p>
+                               <p className="profile-position">Executive</p>
                            </div>
                            <div className="profile-description">
                                {userData.field.map(data => (
@@ -107,7 +107,7 @@ function Members() {
                     <div className="profile-card-4 text-center"><img alt="" src={userData.image} className="card-photo img img-responsive" />
                         <div className="profile-content">
                             <div className="profile-name">{userData.name}
-                                <p className="profile-position">{userData.role}</p>
+                                <p className="profile-position">Volunteer</p>
                             </div>
                             <div className="profile-description">
                                 {userData.field.map(data => (

@@ -64,9 +64,9 @@ class Navbar extends React.Component {
                             <ul>
                                 {navItems.map((item, index) => {
                                     return (
-                                        <li key={index} className={ item.title.toLowerCase() === this.state.page && "nav-active" }>
-                                          <Link className='LinkesNav' to={item.url}>{item.title}</Link>
-                                          </li>
+                                    <li key={index} className={ item.title.toLowerCase() === this.state.page && "nav-active" }>
+                                    <Link className='LinkesNav' to={item.url}>{item.title}</Link>
+                                    </li>
                                 )
                                 })}
                             </ul>
