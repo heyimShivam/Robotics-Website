@@ -79,23 +79,23 @@ function Members() {
 
             <div className="cards-list">
                 {executiveMemebersDetails.map(userData => (
-                   <label className="card-wrap">
-                   <div className="profile-card-4 text-center"><img alt="" src={userData.image} className="card-photo img img-responsive" />
-                       <div className="profile-content">
-                           <div className="profile-name">{userData.name}
-                               <p className="profile-position">Executive</p>
-                           </div>
-                           <div className="profile-description">
-                               {userData.field.map(data => (
-                                   <li>
-                                       {data}
-                                   </li>
-                               ))}
-                           </div>
-                           <a href="/" className="bn5"><img src="logo/linkedin.svg" alt="Linked In" style={{width : "20px", color : "white"}} /></a><a href="/" className="bn5"><img src="logo/github.svg" alt="Github" style={{width : "25px", color : "white"}} /></a>
-                       </div>
-                   </div>
-               </label>
+                    <label className="card-wrap">
+                    <div className="profile-card-4 text-center"><img alt="" src={userData.image} className="card-photo img img-responsive" />
+                        <div className="profile-content">
+                            <div className="profile-name">{userData.name}
+                                <p className="profile-position">Executive</p>
+                            </div>
+                            <div className="profile-description">
+                                {userData.field.map(data => (
+                                    <li>
+                                        {data}
+                                    </li>
+                                ))}
+                            </div>
+                            <a href="/" className="bn5"><img src="logo/linkedin.svg" alt="Linked In" style={{width : "20px", color : "white"}} /></a><a href="/" className="bn5"><img src="logo/github.svg" alt="Github" style={{width : "25px", color : "white"}} /></a>
+                        </div>
+                    </div>
+                </label>
                 ))}
             </div>
 
