@@ -96,7 +96,7 @@ function Members() {
                         </div>
                     </div>
                 </label>
-                ))}
+
             </div>
 
             {/*  Volunteers Memebers */}
