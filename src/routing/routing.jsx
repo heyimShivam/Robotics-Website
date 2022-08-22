@@ -3,7 +3,7 @@ import Footer from '../components/footer';
 import Home from '../pages/home';
 import Gallery from '../pages/gallery'
 import Members from '../pages/members';
-import Achievements from '../pages/Achievements';
+import Achievements from '../pages/achievements';
 
 function Routing() {
     return (    
