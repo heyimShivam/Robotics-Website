@@ -1,0 +1,13 @@
+.project-head {
+    margin-top: 4vh;
+}
+.postcard__title {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.project__img{
+    width: fit-content;
+    aspect-ratio: 1/1;
+    overflow: hidden;
+}

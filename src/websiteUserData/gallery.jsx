@@ -1,5 +1,6 @@
 export const images = [
     {
+
         path: "images/gallery/1.jpg"
     },
     {

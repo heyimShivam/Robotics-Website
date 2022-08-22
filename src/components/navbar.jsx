@@ -35,7 +35,8 @@ class Navbar extends React.Component {
     render(){
        
         return(<> 
-                    <div className = { this.state.width <= 1100 ? "main-nav win-resize" : "main-nav" } >
+                    <div className = { this.state.width <= 1100 ? "main-nav win-resize" : "main-nav" }>
+
                     {/* <div className="nav-logo">
                         <a href="./index.html" className="scrollto"><img src="./img/logo-2.png"></a>
                     </div> */}
@@ -63,9 +64,9 @@ class Navbar extends React.Component {
                             <ul>
                                 {navItems.map((item, index) => {
                                     return (
-                                        <li key={index} className={ item.title.toLowerCase() === this.state.page && "nav-active" }>
-                                          <Link className='LinkesNav' to={item.url}>{item.title}</Link>
-                                          </li>
+                                    <li key={index} className={ item.title.toLowerCase() === this.state.page && "nav-active" }>
+                                    <Link className='LinkesNav' to={item.url}>{item.title}</Link>
+                                    </li>
                                 )
                                 })}
                             </ul>

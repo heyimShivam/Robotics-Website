@@ -1,6 +1,7 @@
 import "./pages.css"
 import Viewpager from "../components/mainSlidingBanner";
 import MainBannerCard from "../components/mainBanner";
+import images from "../websiteUserData/gallery";
 
 function Gallery() {
   return (

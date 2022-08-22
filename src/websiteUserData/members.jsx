@@ -7,7 +7,6 @@ export const coreMemebersDetails = [
         github: 'https://github.com/swayamkaul',
         field: ['Blockchain Flutter Android' ,' IOT Machine Learning'],
     },
-
     {
         name: 'Jai Singh Malhotra',
         role: 'General Secretary',
@@ -398,7 +397,7 @@ export const volunteersMemebersDetails = [
         image: 'members/volunteers/Nandini singh.jpg',
         linkedin: 'https://www.linkedin.com/in/nandini-singh-39a78a223',
         github: '',
-     field: ['Programming: Just turning caffeine into code.'],
+        field: ['Programming: Just turning caffeine into code.'],
     },
     {
         name: 'Madhav ',
@@ -572,5 +571,80 @@ export const codinatorsMemebersDetails = [
         linkedin: 'https://www.linkedin.com/in/ritika-lohia-731972195/',
         github: 'https://github.com/ritikalohia',
         field: ['Web Developement','.'],
+    }
+]
+
+export const alumni_members = [
+    {
+        name: 'Sumit Kumar Verma',
+        role: 'Ex-President',
+        image: 'members/alumni/sumit.jpeg',
+        linkedin: 'https://www.linkedin.com/in/wablesanket',
+        github: 'https://github.com/sanketwable',
+        field: ['Mobile Robotics, Bio-Inspired Robotics, IOT, App Development'],
+    },
+    {
+        name: 'Utkarsh Tiwari',
+        role: 'Ex-General Secretary',
+        image: 'members/alumni/utkarsh.jpeg',
+        linkedin: 'https://www.linkedin.com/in/wablesanket',
+        github: 'https://github.com/sanketwable',
+        field: ['Computer Vision, Machine Learning '],
+    },
+    {
+        name: 'Sagar Singh',
+        role: 'Ex-Treasurer',
+        image: 'members/alumni/sagar.jpeg',
+        linkedin: 'https://www.linkedin.com/in/wablesanket',
+        github: 'https://github.com/sanketwable',
+        field: ['Autonomous car, Designing, Manufacturing of parts'],
+    },
+    {
+        name: 'Vineet Sharma',
+        role: 'Ex-Secretary of External Affairs',
+        image: 'members/alumni/vineet.jpeg',
+        linkedin: 'https://www.linkedin.com/in/wablesanket',
+        github: 'https://github.com/sanketwable',
+        field: ['Deep Learning, Web Development'],
+    },
+    {
+        name: 'Amit Kumar Nirala',
+        role: 'Ex-Core Coordiantor',
+        image: 'members/alumni/nirala.jpeg',
+        linkedin: 'https://www.linkedin.com/in/wablesanket',
+        github: 'https://github.com/sanketwable',
+        field: ['Mechanical design'],
+    },
+    {
+        name: 'Suyash Tripathi',
+        role: 'Ex-Core Coordiantor',
+        image: 'members/alumni/Suyash Tripathi.jpg',
+        linkedin: 'https://www.linkedin.com/in/wablesanket',
+        github: 'https://github.com/sanketwable',
+        field: ['Management, Mechanical, Design'],
+    },
+    {
+        name: 'Pragay',
+        role: 'Ex-Core Coordiantor',
+        image: 'members/alumni/pragay.jpeg',
+        linkedin: 'https://www.linkedin.com/in/wablesanket',
+        github: 'https://github.com/sanketwable',
+        field: ['Graphic designing, video editor'],
+    },
+    {
+        name: 'Pradyuman',
+        role: 'Ex-Core Coordiantor',
+        image: 'members/alumni/Pradyuman.jpg',
+        linkedin: 'https://www.linkedin.com/in/wablesanket',
+        github: 'https://github.com/sanketwable',
+        field: ['BackeMobile and Web Application Developmentnd'],
+    },
+    {
+        name: 'Pranjal Agarwal',
+        role: 'Ex-Core Coordiantor',
+        image: 'members/alumni/pranjal.jpeg',
+        linkedin: 'https://www.linkedin.com/in/wablesanket',
+        github: 'https://github.com/sanketwable',
+        field: ['Web Development, Machine Learning, Coding'],
     }
 ]
