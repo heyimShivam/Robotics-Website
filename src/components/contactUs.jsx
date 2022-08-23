@@ -1,5 +1,3 @@
-import './ContactUsCss/util.css'
-
 function ContactUs() {
 	return (<><div className="bg-contact100" >
 		<div className="container-contact100">

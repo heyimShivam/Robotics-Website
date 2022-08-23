@@ -355,6 +355,17 @@ textarea.input100 {
   .contact100-form {
     width: 44%;
   }
+  .input100 {
+    width: 75%;
+  }
+
+  .contact100-form{
+    width: 50%;
+    justify-content: flex-start;
+  }
+  .contact100-form-btn{
+    width: 40%;
+  }
 }
 
 @media (max-width: 992px) {
@@ -369,11 +380,40 @@ textarea.input100 {
   .contact100-form {
     width: 55%;
   }
+  .input100 {
+    width: 75%;
+  }
+
+  .contact100-form{
+    width: 50%;
+    justify-content: flex-start;
+  }
+  .contact100-form-btn{
+    width: 40%;
+  }
 }
 
 @media (max-width: 768px) {
   .wrap-contact100 {
     padding: 110px 80px 157px 80px;
+  }
+  .container-contact100 {
+    justify-content: flex-start;
+  }
+  
+  .wrap-contact100{
+    width: 100%;
+  }
+  .input100 {
+    width: 75%;
+  }
+
+  .contact100-form{
+    width: 50%;
+    justify-content: flex-start;
+  }
+  .contact100-form-btn{
+    width: 40%;
   }
 
   .contact100-pic {
@@ -381,7 +421,7 @@ textarea.input100 {
   }
 
   .contact100-form {
-    width: 100%;
+    width: 75%;
   }
 }
 
