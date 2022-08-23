@@ -310,7 +310,7 @@ a:hover {
   }
 
   .postcard .postcard__img {
-    max-width: 300px;
+    max-width: 30vw;
     max-height: 100%;
     transition: transform 0.3s ease;
   }
@@ -808,6 +808,5 @@ a:hover {
 
 .card__image {
   object-fit: cover;
-  opacity: 35%;
-  height: 400px;
+  opacity: 70%;
 }
