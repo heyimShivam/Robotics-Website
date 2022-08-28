@@ -357,6 +357,7 @@ textarea.input100 {
   }
   .input100 {
     width: 75%;
+    z-index: 5;
   }
 
   .contact100-form{
@@ -381,7 +382,7 @@ textarea.input100 {
     width: 55%;
   }
   .input100 {
-    width: 75%;
+    width: 70%;
   }
 
   .contact100-form{
@@ -405,7 +406,7 @@ textarea.input100 {
     width: 100%;
   }
   .input100 {
-    width: 75%;
+    width: 70%;
   }
 
   .contact100-form{
@@ -421,7 +422,7 @@ textarea.input100 {
   }
 
   .contact100-form {
-    width: 75%;
+    width: 70%;
   }
 }
 
