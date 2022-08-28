@@ -22,11 +22,11 @@ import IMG20 from './../images/gallery/20.jpg'
 export const Images = [
     {
         path: IMG1,
-        tag : ['Roboweek','All','Nimbus']
+        tag : ['All','Nimbus']
     },
     {
         path: IMG2,
-        tag : ['Roboweek','Farewell']
+        tag : ['All', 'Roboweek','Farewell']
     },
     {
         path: IMG3,
@@ -42,7 +42,7 @@ export const Images = [
     },
     {
         path: IMG6,
-        tag : ['Roboweek']
+        tag : ['All', 'Roboweek']
     },
     {
         path: IMG7,
@@ -94,7 +94,7 @@ export const Images = [
     },
     {
         path: IMG19,
-        tag : ['Roboweek']
+        tag : ['All', 'Roboweek']
     },
     {
         path: IMG20,

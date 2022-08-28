@@ -40,15 +40,21 @@ function Gallery() {
 
         <div className='container my-4'>
           <div className='row'>
-            {Images.map((userData) => (
-              <div className="">
-                {userData.tag.map((data) => (
-                  <div className={`col-lg-4 col-md-6 col-sm-12 my-2 ${ data === tag ? "img__container" : "disable__img" }`}>
-                    <img src={userData.path} alt='' className="gallery__img"/>
+            {
+              Images.map((userData) => (
+                userData.tag.includes(tag) ? (
+                  <div className="col-lg-4 col-md-6 col-sm-12 my-2">
+                  {
+                    userData.tag.map((data) => (
+                      <div className={` ${ data === tag ? "img__container" : "disable__img" }`}>
+                        <img src={userData.path} alt='' className="gallery__img"/>
+                      </div>
+                    ))
+                  }
                 </div>
-                ))}
-            </div>
-            ))}
+                ): ''
+              ))
+            }
           </div>
         </div>
       </div>
