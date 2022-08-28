@@ -25,7 +25,7 @@ function Gallery() {
             <button
               className={`btn btn-${
                 tag === newTag ? "" : "outline-"
-              }dark tag__button`}
+              }dark tag__button `}
               onClick={() => changeTag(newTag)}
             >
               {newTag}
@@ -38,18 +38,24 @@ function Gallery() {
         </div>
         {/* {`${ data === tag ? "gallery__img" : "disable__img" }`} */}
 
-        <div className='container my-4'>
-          <div className='row'>
-            {Images.map((userData) => (
-              <div className="">
-                {userData.tag.map((data) => (
-                  <div className={`col-lg-4 col-md-6 col-sm-12 my-2 ${ data === tag ? "img__container" : "disable__img" }`}>
-                    <img src={userData.path} alt='' className="gallery__img"/>
+        <div className='container'>
+          {Images.map((userData) => (
+            <div className='row'>
+              {userData.tag.map((data) => (
+                <div
+                  className={`${
+                    data === tag ? "col-lg-4 col-md-6 col-sm-12 my-2 " : "disable__img"
+                  }`}
+                >
+                  <img
+                    src={userData.path}
+                    alt=''
+                    className='gallery__img'
+                  />
                 </div>
-                ))}
+              ))}
             </div>
-            ))}
-          </div>
+          ))}
         </div>
       </div>
     </>
