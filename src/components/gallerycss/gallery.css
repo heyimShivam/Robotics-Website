@@ -4,11 +4,6 @@
     border-radius: 5px;*/
 }
 
-.img__container{
-    display: grid;
-    grid-template-columns: repeat(1fr, 3);
-    gap: 2rem;
-}
 .button__container {
     display: flex;
     justify-content: center;
@@ -24,4 +19,13 @@
     position: relative;
     top: 0;
     display: none;
+}
+
+@media only screen and (max-width: 990px){
+    .button__container{
+        margin-top: 2rem;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
 }

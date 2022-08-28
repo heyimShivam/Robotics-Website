@@ -18,4 +18,11 @@
     background-color: #292c2f;
     color: aliceblue;
 }
-
+@media only screen and (max-width: 990px){
+    .about__heading{
+        font-size: 2rem;
+    }
+    .about__p{
+        font-size: 1rem;
+    }
+}

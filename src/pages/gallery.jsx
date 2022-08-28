@@ -5,7 +5,7 @@ import "./../components/gallerycss/gallery.css";
 // import MainBannerCard from "../components/mainBanner";
 import { Images } from "./../websiteUserData/gallery";
 import React, { useState } from "react";
-import { data } from "jquery";
+import Viewpager from "../components/mainSlidingBanner";
 
 function Gallery() {
   const [tag, setTag] = useState("All");
@@ -19,13 +19,16 @@ function Gallery() {
 
   return (
     <>
+    <div className="gallery" >
+        <Viewpager />
+      </div>
       <div className='container'>
         <div className='container button__container'>
           {mainTag.map((newTag) => (
             <button
               className={`btn btn-${
                 tag === newTag ? "" : "outline-"
-              }dark tag__button`}
+              }dark tag__button `}
               onClick={() => changeTag(newTag)}
             >
               {newTag}
