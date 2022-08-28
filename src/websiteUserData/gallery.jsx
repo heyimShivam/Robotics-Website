@@ -19,6 +19,7 @@ import IMG18 from './../images/gallery/18.jpg'
 import IMG19 from './../images/gallery/19.jpg'
 import IMG20 from './../images/gallery/20.jpg'
 
+export const TagsList = ["All", "Roboweek", "Nimbus", "Farewell"];
 export const Images = [
     {
         path: IMG1,
