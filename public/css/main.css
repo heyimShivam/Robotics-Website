@@ -348,6 +348,9 @@ textarea.input100 {
 [ Responsive ]*/
 
 @media (max-width: 1200px) {
+  .contact100-form-title{
+    text-align: center;
+  }
   .contact100-pic {
     width: 33.5%;
   }
@@ -366,6 +369,14 @@ textarea.input100 {
   }
   .contact100-form-btn{
     width: 40%;
+  }
+  .wrap-input100{
+    display: flex;
+    justify-content: center;
+  }
+  .wrap-contact100{
+    display: flex;
+    justify-content: center;
   }
 }
 
@@ -427,8 +438,17 @@ textarea.input100 {
 }
 
 @media (max-width: 576px) {
+  .contact100-form-title{
+    text-align: left;
+  }
   .wrap-contact100 {
     padding: 110px 15px 157px 15px;
+  }
+  .wrap-input100{
+    display: block;
+  }
+  .wrap-contact100{
+    display: block;
   }
 }
 
