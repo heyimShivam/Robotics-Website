@@ -2,13 +2,10 @@ import { Routes, Route } from 'react-router-dom';
 import Home from '../pages/home';
 import Gallery from '../pages/gallery';
 import Members from '../pages/members';
+import Achievements from '../pages/achievements';
 import Alumni from '../pages/alumni';
 import Projects from '../components/projects/projects';
-import Achievements from '../pages/achievements';
-
 import About from '../components/about';
-
-
 
 function Routing() {
     return (    

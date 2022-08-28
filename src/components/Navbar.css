@@ -4,3 +4,18 @@
   text-decoration: bold;
   text-transform: lowercase;
 }
+
+.LinkesNavDropdown {
+  color: white;
+  font-size: 15px;
+  text-decoration: bold;
+}
+
+.LinkesNavDropdownMobile {
+  color: white;
+  text-decoration: bold;
+}
+
+.dropdown-menu .dropdown-item {
+  color: black;
+}
