@@ -10,6 +10,11 @@
   font-size: 15px;
   text-decoration: bold;
 }
+
+.LinkesNavDropdownMobile {
+  color: white;
+  text-decoration: bold;
+}
 .dropdown-menu .dropdown-item {
   color: black;
 }
