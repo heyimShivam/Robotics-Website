@@ -4,3 +4,12 @@
   text-decoration: bold;
   text-transform: lowercase;
 }
+
+.LinkesNavDropdown {
+  color: white;
+  font-size: 15px;
+  text-decoration: bold;
+}
+.dropdown-menu .dropdown-item {
+  color: black;
+}

@@ -3,15 +3,12 @@
 import "./../components/gallerycss/gallery.css";
 // import Viewpager from "../components/mainSlidingBanner";
 // import MainBannerCard from "../components/mainBanner";
-import { Images } from "./../websiteUserData/gallery";
+import { Images, TagsList } from "./../websiteUserData/gallery";
 import React, { useState } from "react";
 import Viewpager from "../components/mainSlidingBanner";
 
 function Gallery() {
   const [tag, setTag] = useState("All");
-
-  const mainTag = ["All", "Roboweek", "Nimbus", "Farewell"];
-
   const changeTag = (activeTag) => {
     setTag(activeTag);
     console.log(tag, activeTag);
@@ -24,7 +21,7 @@ function Gallery() {
       </div>
       <div className='container'>
         <div className='container button__container'>
-          {mainTag.map((newTag) => (
+          {TagsList.map((newTag) => (
             <button
               className={`btn btn-${
                 tag === newTag ? "" : "outline-"

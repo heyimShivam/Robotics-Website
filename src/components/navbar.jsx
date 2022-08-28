@@ -39,16 +39,7 @@ class Navbar extends React.Component {
   render() {
     return (
       <>
-        <div
-          className={
-            this.state.width <= 1100
-              ? "main-nav win-resize"
-              : "main-nav"
-          }
-        >
-          {/* <div className="nav-logo">
-                        <a href="./index.html" className="scrollto"><img src="./img/logo-2.png"></a>
-                    </div> */}
+        <div className={this.state.width <= 1100 ? "main-nav win-resize" : "main-nav"}>
           <nav
             id='nav__nav'
             style={{ "padding-right": "1.8rem" }}
@@ -101,21 +92,32 @@ class Navbar extends React.Component {
                   <ul>
                     {navItems.map((item, index) => {
                       return (
-                        <li
-                          key={index}
-                          className={
-                            item.title.toLowerCase() ===
-                              this.state.page &&
-                            "nav-active"
-                          }
-                        >
-                          <Link
-                            className='LinkesNav'
-                            to={item.url}
-                          >
-                            {item.title}
-                          </Link>
-                        </li>
+                        (
+                          item.length < 2
+                        ) ? (
+                          <li key={index} className={ item[0].title.toLowerCase() === this.state.page && "nav-active" } >
+                            <Link className='LinkesNav' to={item[0].url} >
+                              {item[0].title}
+                            </Link>
+                          </li>
+                        ) : (
+                          <div>
+                            <li >
+                              <Link to={'#'} className='LinkesNavDropdown dropdown-toggle' id="dropdownMenuButton" data-toggle="dropdown">
+                                {item[0].title} <i class="bi bi-arrow-down"></i>
+                              </Link>
+                              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                {item.map((item, index) => {
+                                  return (
+                                    <>
+                                      <Link class="dropdown-item" to={item.url}>{item.title}</Link>
+                                    </>
+                                  )
+                                })}
+                              </div>
+                            </li>
+                          </div>
+                        )
                       );
                     })}
                   </ul>
