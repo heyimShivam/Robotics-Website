@@ -1,63 +1,105 @@
-export const images = [
-    {
+import IMG1 from './../images/gallery/1.jpg'
+import IMG2 from './../images/gallery/2.jpg'
+import IMG3 from './../images/gallery/3.jpg'
+import IMG4 from './../images/gallery/4.jpg'
+import IMG5 from './../images/gallery/5.jpg'
+import IMG6 from './../images/gallery/6.jpg'
+import IMG7 from './../images/gallery/7.jpg'
+import IMG8 from './../images/gallery/8.jpg'
+import IMG9 from './../images/gallery/9.jpg'
+import IMG10 from './../images/gallery/10.jpg'
+import IMG11 from './../images/gallery/11.jpg'
+import IMG12 from './../images/gallery/12.jpg'
+import IMG13 from './../images/gallery/13.jpg'
+import IMG14 from './../images/gallery/14.jpg'
+import IMG15 from './../images/gallery/15.jpg'
+import IMG16 from './../images/gallery/16.jpg'
+import IMG17 from './../images/gallery/17.jpg'
+import IMG18 from './../images/gallery/18.jpg'
+import IMG19 from './../images/gallery/19.jpg'
+import IMG20 from './../images/gallery/20.jpg'
 
-        path: "images/gallery/1.jpg"
+export const Images = [
+    {
+        path: IMG1,
+        tag : ['Roboweek','All','Nimbus']
     },
     {
-        path: "images/gallery/2.jpg"
+        path: IMG2,
+        tag : ['Roboweek','Farewell']
     },
     {
-        path: "images/gallery/3.jpg"
+        path: IMG3,
+        tag : ['Roboweek']
     },
     {
-        path: "images/gallery/4.jpg"
+        path: IMG4,
+        tag : ['Roboweek']
     },
     {
-        path: "images/gallery/5.jpg"
+        path: IMG5,
+        tag : ['Roboweek']
     },
     {
-        path: "images/gallery/6.jpg"
+        path: IMG6,
+        tag : ['Roboweek']
     },
     {
-        path: "images/gallery/7.jpg"
+        path: IMG7,
+        tag : ['Roboweek']
     },
     {
-        path: "images/gallery/8.jpg"
+        path: IMG8,
+        tag : ['Roboweek']
     },
     {
-        path: "images/gallery/9.jpg"
+        path: IMG9,
+        tag : ['Roboweek']
     },
     {
-        path: "images/gallery/10.jpg"
+        path: IMG10,
+        tag : ['Roboweek']
     },
     {
-        path: "images/gallery/11.jpg"
+        path: IMG11,
+        tag : ['Roboweek']
     },
     {
-        path: "images/gallery/12.jpg"
+        path: IMG12,
+        tag : ['Roboweek']
     },
     {
-        path: "images/gallery/13.jpg"
+        path: IMG13,
+        tag : ['Roboweek']
     },
     {
-        path: "images/gallery/14.jpg"
+        path: IMG14,
+        tag : ['Roboweek', 'Farewell']
     },
     {
-        path: "images/gallery/15.jpg"
+        path: IMG15,
+        tag : ['Roboweek', 'Farewell']
     },
     {
-        path: "images/gallery/16.jpg"
+        path: IMG16,
+        tag : ['Roboweek']
     },
     {
-        path: "images/gallery/17.jpg"
+        path: IMG17,
+        tag : ['Roboweek']
     },
     {
-        path: "images/gallery/18.jpg"
+        path: IMG18,
+        tag : ['Roboweek', 'Farewell']
     },
     {
-        path: "images/gallery/19.jpg"
+        path: IMG19,
+        tag : ['Roboweek']
     },
     {
-        path: "images/gallery/20.jpg"
+        path: IMG20,
+        tag : ['Roboweek']
     }
 ]
+
+

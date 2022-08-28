@@ -1,0 +1,26 @@
+.gallery__img {
+    width: 100%;
+    /* border: 2px #444 solid;
+    border-radius: 5px;*/
+}
+
+.img__container{
+    display: grid;
+    grid-template-columns: repeat(1fr, 3);
+    gap: 2rem;
+}
+.button__container {
+    display: flex;
+    justify-content: center;
+}
+
+.tag__button {
+    margin: 1rem 2rem;
+    padding: 0.5rem 1rem;
+    /* border-radius: 25px; */
+}
+
+.disable__img {
+    position: absolute;
+    display: none;
+}
