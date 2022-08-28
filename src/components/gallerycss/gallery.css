@@ -1,0 +1,31 @@
+.gallery__img {
+    width: 100%;
+    /* border: 2px #444 solid;
+    border-radius: 5px;*/
+}
+
+.button__container {
+    display: flex;
+    justify-content: center;
+}
+
+.tag__button {
+    margin: 1rem 2rem;
+    padding: 0.5rem 1rem;
+    /* border-radius: 25px; */
+}
+
+.disable__img {
+    position: relative;
+    top: 0;
+    display: none;
+}
+
+@media only screen and (max-width: 990px){
+    .button__container{
+        margin-top: 2rem;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+}
