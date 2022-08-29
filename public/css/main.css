@@ -395,6 +395,7 @@ textarea.input100 {
   }
   .input100 {
     width: 100%;
+
   }
 
   .contact100-form{
@@ -438,10 +439,12 @@ textarea.input100 {
   }
 }
 
-@media (max-width: 530px) {
+@media (max-width: 576px) {
   .contact100-form-title{
     text-align: center;
+    width: 100%;
   }
+}
   .wrap-contact100 {
     padding: 110px 15px 157px 15px;
   }
