@@ -9,7 +9,7 @@ import {
 function Members() {
     return (
         <>
-        <div style={{backgroundColor:"#341c1c"}}>
+        <div>
             <div className="container-members-heading d-flex justify-content-center">
                 <h1>Current Members</h1>
             </div>
@@ -53,7 +53,7 @@ function Members() {
 
             {/*  Codinators Memebers */}
 
-            <div className="d-flex text-light justify-content-center">
+            <div className="d-flex text-dark justify-content-center">
                 <h1 className="mb-5">Coordinate Members</h1>
             </div>
 
@@ -81,7 +81,7 @@ function Members() {
 
             {/*  Executive Memebers */}
 
-            <div className="d-flex text-light justify-content-center">
+            <div className="d-flex text-dark justify-content-center">
                 <h1 className="mb-5">Executive Members</h1>
             </div>
 
@@ -109,7 +109,7 @@ function Members() {
 
              {/* Volunteers Memebers */}
                 
-            {volunteersMemebersDetails.length > 0 ?<div className="d-flex text-light justify-content-center">
+            {volunteersMemebersDetails.length > 0 ?<div className="d-flex text-dark justify-content-center">
                 <h1 className="mb-5">Volunteer Members</h1>
             </div> : ''}
 

@@ -3,6 +3,8 @@
   font-size: 52px;
   text-decoration: bold;
   text-transform: lowercase;
+  padding-top: 3px;
+  padding-bottom: 3px;
 }
 
 .LinkesNavDropdown {
@@ -22,5 +24,8 @@
 
 .nav__button {
   position: relative;
-  bottom: 0.9rem;
+
+  bottom: 0.7rem;
+  padding-top: 3px;
+  padding-bottom: 3px;
 }

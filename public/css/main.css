@@ -395,6 +395,10 @@ textarea.input100 {
   }
   .input100 {
     width: 100%;
+<<<<<<< HEAD
+=======
+
+>>>>>>> upstream/develop
   }
 
   .contact100-form{
@@ -438,10 +442,19 @@ textarea.input100 {
   }
 }
 
+<<<<<<< HEAD
 @media (max-width: 530px) {
   .contact100-form-title{
     text-align: center;
   }
+=======
+@media (max-width: 576px) {
+  .contact100-form-title{
+    text-align: center;
+    width: 100%;
+  }
+}
+>>>>>>> upstream/develop
   .wrap-contact100 {
     padding: 110px 15px 157px 15px;
   }
