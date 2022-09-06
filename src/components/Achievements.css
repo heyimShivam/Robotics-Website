@@ -118,11 +118,18 @@
     bottom: -56px;
 }
 .main-timeline .circle .img{
-    bottom: 1.5rem;
-    right: 1rem;
     vertical-align: initial;
     border-radius: 50%;
 }
+@media (max-width: 540px) { 
+    .main-timeline .circle .img{
+        position: relative;
+        bottom: 1.5rem;
+        right: 1rem;
+        vertical-align: initial;
+        border-radius: 50%;
+    }
+ }
 .main-timeline .content{
     display: table;
     paddingRight: 40px;
