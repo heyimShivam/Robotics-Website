@@ -67,7 +67,7 @@ class Navbar extends React.Component {
                         </li>
                       ) : (
                         <div>
-                          <li>
+                          <li style={{padding: "0.5rem 0"}}>
                             <Link
                               to={"#"}
                               className='LinkesNavDropdownMobile dropdown-toggle'
@@ -80,7 +80,7 @@ class Navbar extends React.Component {
                               {item.map((item, index) => {
                                 return (
                                   <>
-                                    <Link class='dropdown-item' to={item.url}>
+                                    <Link class='dropdown-item'  to={item.url}>
                                       {item.title}
                                     </Link>
                                   </>
