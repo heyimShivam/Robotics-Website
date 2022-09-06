@@ -42,7 +42,7 @@ class Navbar extends React.Component {
         <div className={this.state.width <= 1100 ? "main-nav win-resize" : "main-nav"}>
           <nav
             id='nav__nav'
-            style={{ "padding-right": "1.8rem" }}
+            style={{ "paddingRight": "1.8rem" }}
           >
             {this.state.width <= 1100 ? (
               <>
@@ -87,13 +87,13 @@ class Navbar extends React.Component {
                           <div>
                             <li >
                               <Link to={'#'} className='LinkesNavDropdownMobile dropdown-toggle' id="dropdownMenuButton" data-toggle="dropdown">
-                                {item[0].title} <i class="bi bi-arrow-down"></i>
+                                {item[0].title} <i className="bi bi-arrow-down"></i>
                               </Link>
-                              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                              <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
                                 {item.map((item, index) => {
                                   return (
                                     <>
-                                      <Link class="dropdown-item" to={item.url}>{item.title}</Link>
+                                      <Link className="dropdown-item" to={item.url}>{item.title}</Link>
                                     </>
                                   )
                                 })}
@@ -125,13 +125,13 @@ class Navbar extends React.Component {
                           <div>
                             <li >
                               <Link to={'#'} className='LinkesNavDropdown dropdown-toggle' id="dropdownMenuButton" data-toggle="dropdown">
-                                {item[0].title} <i class="bi bi-arrow-down"></i>
+                                {item[0].title} <i className="bi bi-arrow-down"></i>
                               </Link>
-                              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                              <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
                                 {item.map((item, index) => {
                                   return (
                                     <>
-                                      <Link class="dropdown-item" to={item.url}>{item.title}</Link>
+                                      <Link className="dropdown-item" to={item.url}>{item.title}</Link>
                                     </>
                                   )
                                 })}

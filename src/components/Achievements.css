@@ -123,7 +123,7 @@
 }
 .main-timeline .content{
     display: table;
-    padding-right: 40px;
+    paddingRight: 40px;
     position: relative;
 }
 .main-timeline .year{

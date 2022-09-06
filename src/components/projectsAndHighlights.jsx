@@ -1,8 +1,8 @@
 function ProjectHighLights() {
   return (
     <>
-      <div class="project-head">
-        <h1 class="activity-head">Project Highlights</h1>
+      <div className="project-head">
+        <h1 className="activity-head">Project Highlights</h1>
       </div>
       <div className="container">
         <div>
