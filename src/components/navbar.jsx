@@ -40,6 +40,7 @@ class Navbar extends React.Component {
     return (
       <>
         <div className={this.state.width <= 1100 ? "main-nav win-resize" : "main-nav"}>
+
           <nav id='nav__nav' className="nav-scrolled" style={{ "padding-right": "1.8rem" }}>
             {this.state.width <= 1100 ? (
               <>
@@ -65,6 +66,7 @@ class Navbar extends React.Component {
                             {item[0].title}
                           </Link>
                         </li>
+
                       ) : (
                         <div>
                           <li>
