@@ -7,9 +7,9 @@ function ContactUs() {
 				</div>
 
 				<form className="contact100-form validate-form">
-					<span className="contact100-form-title">
+					<div className="contact100-form-title">
 						Get in touch
-					</span>
+					</div>
 
 					<div className="wrap-input100 validate-input" data-validate="Name is required">
 						<input className="input100" type="text" name="name" placeholder="Name" />

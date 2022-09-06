@@ -197,10 +197,11 @@ iframe {
 .contact100-form-title {
   display: block;
   font-family: Montserrat-ExtraBold;
+
   font-size: 24px;
   color: #333333;
   line-height: 1.2;
-  text-align: left;
+  text-align: center;
   padding-bottom: 36px;
 }
 
@@ -348,6 +349,9 @@ textarea.input100 {
 [ Responsive ]*/
 
 @media (max-width: 1200px) {
+  .contact100-form-title{
+    text-align: center;
+  }
   .contact100-pic {
     width: 33.5%;
   }
@@ -367,6 +371,14 @@ textarea.input100 {
   .contact100-form-btn{
     width: 40%;
   }
+  .wrap-input100{
+    display: flex;
+    justify-content: center;
+  }
+  .wrap-contact100{
+    display: flex;
+    justify-content: center;
+  }
 }
 
 @media (max-width: 992px) {
@@ -382,11 +394,12 @@ textarea.input100 {
     width: 55%;
   }
   .input100 {
-    width: 70%;
+    width: 100%;
+
   }
 
   .contact100-form{
-    width: 50%;
+    width: 100%;
     justify-content: flex-start;
   }
   .contact100-form-btn{
@@ -406,7 +419,7 @@ textarea.input100 {
     width: 100%;
   }
   .input100 {
-    width: 70%;
+    width: 100%;
   }
 
   .contact100-form{
@@ -422,13 +435,24 @@ textarea.input100 {
   }
 
   .contact100-form {
-    width: 70%;
+    width: 100%;
   }
 }
 
 @media (max-width: 576px) {
+  .contact100-form-title{
+    text-align: center;
+    width: 100%;
+  }
+}
   .wrap-contact100 {
     padding: 110px 15px 157px 15px;
+  }
+  .wrap-input100{
+    display: block;
+  }
+  .wrap-contact100{
+    display: block;
   }
 }
 
@@ -443,7 +467,7 @@ textarea.input100 {
 .alert-validate::before {
   content: attr(data-validate);
   position: absolute;
-  max-width: 70%;
+  max-width: 100%;
   background-color: white;
   border: 1px solid #c80000;
   border-radius: 13px;
