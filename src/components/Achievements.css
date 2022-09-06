@@ -118,6 +118,8 @@
     bottom: -56px;
 }
 .main-timeline .circle .img{
+    bottom: 1.5rem;
+    right: 1rem;
     vertical-align: initial;
     border-radius: 50%;
 }
