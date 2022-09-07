@@ -677,7 +677,7 @@ a:hover {
 }
 
 .blog-slider__content {
-  padding-right: 25px;
+  paddingRight: 25px;
 }
 
 @media screen and (max-width: 768px) {
