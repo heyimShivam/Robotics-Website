@@ -228,6 +228,20 @@ a:hover {
   position: relative;
 }
 
+@media only screen and (max-width : 1200px) {
+  .postcard .postcard__img {
+    position: relative;
+    width: 40%;
+  }
+}
+
+@media only screen and (max-width : 540px) {
+  .postcard .postcard__img {
+    position: relative;
+    width: 100%;
+  }
+}
+
 .postcard .postcard__img_link {
   display: contents;
 }
@@ -674,7 +688,7 @@ a:hover {
 }
 
 .blog-slider__content {
-  padding-right: 25px;
+  paddingRight: 25px;
 }
 
 @media screen and (max-width: 768px) {

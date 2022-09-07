@@ -13,11 +13,20 @@ class Navbar extends React.Component {
     this.state = {
       width: window.innerWidth,
       height: window.innerHeight,
-      activePage: 'Home'
+      activePage: 'Home',
+      scrollValue: 0,
     };
   }
 
-  handleResize = (e) => {
+
+  handleScroll = () => {
+    const position = window.pageYOffset;
+    this.setState({
+      scrollValue: position
+    })
+  };
+
+  handleResize = () => {
     this.setState({
       width: window.innerWidth,
       height: window.innerHeight
@@ -28,12 +37,14 @@ class Navbar extends React.Component {
     this.setState({
       activePage: pageName
     },
-    console.log(this.state.activePage)
     )
   }
 
+
+
   componentDidMount() {
     window.addEventListener("resize", this.handleResize);
+    window.addEventListener("scroll", this.handleScroll);
     Aos.init({
       duration: 500,
     });
@@ -43,12 +54,14 @@ class Navbar extends React.Component {
 
   componentWillUnmount() {
     window.addEventListener("resize", this.handleResize);
+    window.addEventListener("scroll", this.handleScroll);
   }
 
   render() {
+    console.log(this.props.loc)
     return (
       <>
-        <div className={`${this.state.width <= 1100 ? "main-nav win-resize" : "main-nav"} ${this.state.activePage === "Home" ? "" : this.state.activePage === "Gallery" ? '' : "nav-scrolled"}  `}>
+        <div className={`${this.state.width <= 1100 ? "main-nav win-resize" : "main-nav"} ${this.state.scrollValue >= 400 ? 'nav-scrolled' : ''} ${this.props.loc === "/" ? "" : this.props.loc === "/gallery" ? '' : "nav-scrolled"} ${this.state.activePage === "Home" ? "" : this.state.activePage === "Gallery" ? '' : "nav-scrolled"}  `}>
           <nav id='nav__nav'  style={{ "paddingRight": "1.8rem" }}>
             {this.state.width <= 1100 ? (
               <>
@@ -89,7 +102,7 @@ class Navbar extends React.Component {
                               {item.map((item, index) => {
                                 return (
                                   <>
-                                    <Link className='dropdown-item' to={item.url}  onClick={()=> this.changeActivePage(item[0].title)}>
+                                    <Link className='dropdown-item' to={item.url}  onClick={()=> this.changeActivePage(item.title)}>
                                       {item.title}
                                     </Link>
                                   </>
@@ -105,7 +118,7 @@ class Navbar extends React.Component {
               </>
             ) : (
               <>
-                <div id='addNavLogo'></div>
+                <div id='addNavLogo' className="text-light"></div>
                 <div className='nav-comps'>
                   <ul>
                     {navItems.map((item, index) => {
@@ -131,7 +144,7 @@ class Navbar extends React.Component {
                               {item.map((item, index) => {
                                 return (
                                   <>
-                                    <Link className='dropdown-item' to={item.url}  onClick={()=> this.changeActivePage(item[0].title)}>
+                                    <Link className='dropdown-item' to={item.url}  onClick={()=> this.changeActivePage(item.title)}>
                                       {item.title}
                                     </Link>
                                   </>
