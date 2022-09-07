@@ -40,7 +40,9 @@ class Navbar extends React.Component {
     return (
       <>
         <div className={this.state.width <= 1100 ? "main-nav win-resize" : "main-nav"}>
+
           <nav id='nav__nav' style={{ "padding-right": "1.8rem" }}>
+
             {this.state.width <= 1100 ? (
               <>
                 <button
@@ -120,6 +122,7 @@ class Navbar extends React.Component {
                               id='dropdownMenuButton'
                               data-toggle='dropdown'
                             >
+
                               {item[0].title} <i class='bi bi-arrow-down'></i>
                             </Link>
                             <div class='dropdown-menu' aria-labelledby='dropdownMenuButton'>
