@@ -4,9 +4,9 @@ import {alumni_members} from '../websiteUserData/members';
 function Alumni() {
     return(
         <>
-        <div style={{backgroundColor : "#341c1c"}}>
+        <div>
         <div className="container-members-heading d-flex justify-content-center" style={{backgroundColor : "#rgb(8 27 36)"}}>
-                <h1 style={{color : "#CBF1F5"}}>Alumni Members</h1>
+                <h1>Alumni Members</h1>
         </div>
 
         <div className="cards-list">

@@ -6,8 +6,17 @@ import Achievements from '../pages/achievements';
 import Alumni from '../pages/alumni';
 import Projects from '../components/projects/projects';
 import About from '../components/about';
+import { useLocation } from 'react-router-dom';
+import { useEffect } from 'react';
 
-function Routing() {
+function Routing(props) {
+  const location = useLocation();
+
+  useEffect(()=>{
+    props.changeloc(location);
+  },[])
+  // props.changeLocation(location)
+
     return (    
       <Routes>
         <Route exact path='/' element={< Home />}></Route>
