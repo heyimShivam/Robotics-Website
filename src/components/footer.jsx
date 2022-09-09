@@ -2,11 +2,11 @@ import "./footer.css";
 function Footer() {
   return (
     <>
-      <div class="footer-dark" style={{paddingTop:"0px",paddingBottom:"0px"}}>
+      <div className="footer-dark" style={{paddingTop:"0px",paddingBottom:"0px"}}>
         <footer style={{paddingTop:"1%",paddingBottom:"1%"}}>
-          <div class="container">
-            <div class="row">
-              <div class="col-sm-6 col-md-3 item">
+          <div className="container">
+            <div className="row">
+              <div className="col-sm-6 col-md-3 item">
                 <h3>Services</h3>
                 <ul>
                   <li>
@@ -20,7 +20,7 @@ function Footer() {
                   </li>
                 </ul>
               </div>
-              <div class="col-sm-6 col-md-3 item">
+              <div className="col-sm-6 col-md-3 item">
                 <h3>About</h3>
                 <ul>
                   <li>
@@ -34,7 +34,7 @@ function Footer() {
                   </li>
                 </ul>
               </div>
-              <div class="col-md-6 item text">
+              <div className="col-md-6 item text">
                 <h3>Robotics Society NIT Hamirpur</h3>
                 <p>
                   Build and sustain a culture to be self reliant to accomplish
@@ -42,19 +42,19 @@ function Footer() {
                   quality.
                 </p>
               </div>
-              <div class="col item social">
+              <div className="col item social">
                 <a href="https://www.facebook.com/robo.soc.nith">
-                  <i class="icon ion-social-facebook"></i>
+                  <i className="icon ion-social-facebook"></i>
                 </a>
                 <a href="#">
-                  <i class="icon ion-social-twitter"></i>
+                  <i className="icon ion-social-twitter"></i>
                 </a>
                 <a href="https://www.instagram.com/robosocnith/">
-                  <i class="icon ion-social-instagram"></i>
+                  <i className="icon ion-social-instagram"></i>
                 </a>
               </div>
             </div>
-            <p class="copyright">Robotics Society NIT Hamirpur © 2022</p>
+            <p className="copyright">Robotics Society NIT Hamirpur © 2022</p>
           </div>
         </footer>
       </div>

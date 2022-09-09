@@ -3,6 +3,8 @@
   font-size: 52px;
   text-decoration: bold;
   text-transform: lowercase;
+  padding-top: 3px;
+  padding-bottom: 3px;
 }
 
 .LinkesNavDropdown {
@@ -19,3 +21,9 @@
 .dropdown-menu .dropdown-item {
   color: black;
 }
+
+.nav__button {
+  position: relative;
+  bottom: 0.7rem;
+}
+

@@ -8,21 +8,21 @@ import { projectDetails } from '../websiteUserData/Activities and Highlights Dat
 function Highlights() {
   return (<>
     <div className="container">
-      <div class="cardsNew justify-content-around">
+      <div className="cardsNew justify-content-around">
         {projectDetails.map(data => (
-          <div class="d-flex justify-content-center" key={data.id}>
-            <a href={data.link} class="cardNew">
-              <img src={data.mainImage} class="card__image" alt="" />
-              <div class="card__overlay">
-                <div class="card__header">
-                  <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>
-                  <img class="card__thumb" src={data.image} alt="" />
-                  <div class="card__header-text">
-                    <h3 class="card__title">{data.title}</h3>
-                    <span class="card__status">{data.shortDetails}</span>
+          <div className="d-flex justify-content-center" key={data.id}>
+            <a href={data.link} className="cardNew">
+              <img src={data.mainImage} className="card__image" alt="" />
+              <div className="card__overlay">
+                <div className="card__header">
+                  <svg className="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>
+                  <img className="card__thumb" src={data.image} alt="" />
+                  <div className="card__header-text">
+                    <h3 className="card__title">{data.title}</h3>
+                    <span className="card__status">{data.shortDetails}</span>
                   </div>
                 </div>
-                <p class="card__description">{data.content}</p>
+                <p className="card__description">{data.content}</p>
               </div>
             </a>
           </div>
