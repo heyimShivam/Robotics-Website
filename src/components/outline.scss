@@ -20,7 +20,7 @@
   position: fixed;
   background: unset;
   width: 100%;
-  padding: 30px 8% 0;
+  // padding: 30px 8% 0;
   z-index: 1000;
   transition: 0.4s;
   top: 0;
@@ -32,9 +32,8 @@
 }
 
 .nav-scrolled {
+  // NavBar Color Code
   background: var(--winter-w2) !important;
-  padding-top: 3px;
-  padding-bottom: 3px;
   transition: 0.4s;
   box-shadow: 0px 2px 15px 0px rgba(118, 103, 103, 0.25);
 }
@@ -399,7 +398,6 @@ svg {
 }
 
 form {
-	min-width: 28rem;
 	
 	.title {
 		font-family: 'Pacifico', cursive;

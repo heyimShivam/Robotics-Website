@@ -1,7 +1,11 @@
 .gallery__img {
     width: 100%;
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
     /* border: 2px #444 solid;
-    border-radius: 5px;*/
+    border-radius: 5px; */
 }
 
 .button__container {
@@ -21,11 +25,24 @@
     display: none;
 }
 
+.gallery__img:hover {
+    -webkit-transform: scale(1.3);
+	transform: scale(1.2);
+}
+
+.img__container {
+    overflow: hidden;
+}
+
+.active__img {
+    width: 500%;
+    backdrop-filter: blur(25px);
+}
+
 @media only screen and (max-width: 990px){
     .button__container{
         margin-top: 2rem;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
-    
 }

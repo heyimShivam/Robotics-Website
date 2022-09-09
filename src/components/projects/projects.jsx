@@ -7,8 +7,8 @@ import { RoboconProjectsData } from '../../websiteUserData/projects'
 const Projects = () => {
   return (
     <>
-        <div class="project-head">
-        <h1 class="activity-head">Long Term Projects</h1>
+        <div className="project-head">
+        <h1 className="activity-head">Long Term Projects</h1>
       </div>
       <div className="container">
         <div>
@@ -44,8 +44,8 @@ const Projects = () => {
           </section>
         </div>
       </div>
-      <div class="project-head">
-        <h1 class="activity-head">Past Projects</h1>
+      <div className="project-head">
+        <h1 className="activity-head">Past Projects</h1>
       </div>
       <div className="container">
         <div>
@@ -81,8 +81,8 @@ const Projects = () => {
           </section>
         </div>
       </div>
-      <div class="project-head">
-        <h1 class="activity-head">ROBOCON Projects</h1>
+      <div className="project-head">
+        <h1 className="activity-head">ROBOCON Projects</h1>
       </div>
       <div className="container">
         <div>

@@ -1070,5 +1070,30 @@ a:focus {
 .headingText{
   color: #19f6e8;
   font-family: 'Russo One', sans-serif;
-  font-size: medium;
+  font-size: large;
+}
+
+.main__button {
+	font-family: 'Russo One', sans-serif;
+  margin-top: 7rem;
+  color: #060606;
+  background-color: #00FFFF;
+}
+
+@media only screen and (max-width: 1200px) {
+  .main__button {
+    margin-top: 5rem;
+  }
+}
+@media only screen and (max-width: 540px) {
+  .main__button {
+    margin-top: 3rem;
+  }
+}
+
+
+.main__button:hover {
+  background-color: transparent;
+  color: #00FFFF;
+  border: #00FFFF 2px solid;
 }
