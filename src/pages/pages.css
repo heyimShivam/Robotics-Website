@@ -19,7 +19,7 @@
   height: 100vh;
   opacity: 100;
   object-fit: cover;
-  background-image: url('../../public/illustration/slider-left-dec.jpg');
+  /* background-image: url('../../public/illustration/slider-left-dec.jpg'); */
 }
 
 .backshadow {
@@ -33,7 +33,7 @@
 
 .main-element {
   position: absolute;
-  top: 45%;
+  top: 25%;
   text-align: center;
   width: 100%;
 }
@@ -994,7 +994,7 @@ a:focus {
   height: 60px;
 	margin: 0 auto;
   position: relative;
-  top: 50%;
+  top: 250%;
   transform: translateY(-50%);
   width: 320px;
   overflow: hidden;
@@ -1041,9 +1041,10 @@ a:focus {
 } */
 
 .roboticsname {
-	/* font-family: 'Russo One', sans-serif; */
-	width: auto;
+	font-family: 'Russo One', sans-serif;
+	width: 100%;
   height: 60%;
+  margin-right: 0%;
 }
 .roboticsname text {
 	text-transform: uppercase;
@@ -1051,17 +1052,23 @@ a:focus {
 	stroke-width: 2;
 	stroke: #00FFFF;
   color: #00ffd5;
-	font-size: 140px;
+	font-size: 130px;
 }
-@keyframes stroke {
+@keyframes stroke {	
+  
 	0%   {
-		fill: rgba(72,138,20,0); stroke: rgba(54,95,160,1);
+		fill: rgba(25,246,232,0); stroke: rgba(25,246,232,1);
 		stroke-dashoffset: 25%; stroke-dasharray: 0 50%; stroke-width: 2;
 	}
-	70%  {fill: rgba(72,138,20,0); stroke: rgba(54,95,160,1); }
-	80%  {fill: rgba(72,138,20,0); stroke: rgba(54,95,160,1); stroke-width: 3; }
+	70%  {fill: rgba(25,246,232,0); stroke: rgba(25,246,232,1); }
+	80%  {fill: rgba(25,246,232,0); stroke: rgba(25,246,232,1); stroke-width: 3; }
 	100% {
-		fill: rgba(72,138,204,1); stroke: rgba(54,95,160,0); 
+		fill: rgba(25,246,232,1); stroke: rgba(54,95,160,0); 
 		stroke-dashoffset: -25%; stroke-dasharray: 50% 0; stroke-width: 0;
 	}
+}
+.headingText{
+  color: #19f6e8;
+  font-family: 'Russo One', sans-serif;
+  font-size: medium;
 }

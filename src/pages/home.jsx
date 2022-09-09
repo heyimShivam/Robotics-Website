@@ -34,15 +34,16 @@ function Home() {
             <div id="stars3" />
           </div>
         </div>
-        <div className="container-fluid main-element d-flex justify-content-center">
+        <div className="container-fluid main-element d-flex justify-content-center" >
           <div className="" style={{ color: '#fff', zIndex: '500' }}>
             {/* <h2 className="headingText " style={{ color: "white" }}>Robotics Society NITH</h2> */}
             <link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet" />
             <svg class="roboticsname" viewBox="0 0 1320 300">
-              <text x="50%" y="50%" dy=".35em" text-anchor="middle">
+              <text x="50%" y="50%" dy=".35em" text-anchor="middle" >
                 Robotics Society
               </text>
             </svg>
+            
             <p className="headingText" style={{ marginRight: "0px" }}>
               Why restrict yourself only to projects,<br /> when there is so much more to learn
               <br />
@@ -63,7 +64,7 @@ function Home() {
                   <svg height={60} width={320} xmlns="http://www.w3.org/2000/svg">
                     <rect className="shape" height={60} width={320} />
                   </svg>
-                  <div className="textofdiscordregister">Registdvcxcxvr</div>
+                  <div className="textofdiscordregister">Registvr</div>
                 </div>
               </div>
             </div>
