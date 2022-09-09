@@ -6,17 +6,22 @@ import ProjectHighLights from "../components/projectsAndHighlights";
 import ContactUs from "../components/contactUs";
 import Highlights from "../components/highlights";
 
+
 function RoboticsText() {
   const styles = useSpring({
     loop: true,
     to: [
-      { opacity: 1, color: '#ffaaee' },
-      { opacity: 0, color: 'rgb(14,26,19)' },
+      { opacity: 1, color: "#ffaaee" },
+      { opacity: 0, color: "rgb(14,26,19)" },
     ],
-    from: { opacity: 0, color: 'red' },
-  })
+    from: { opacity: 0, color: "red" },
+  });
   // ...
-  return <animated.div className="roboticsText" style={styles}>Hey Welcome to RoboSocs</animated.div>
+  return (
+    <animated.div className='roboticsText' style={styles}>
+      Hey Welcome to RoboSocs
+    </animated.div>
+  );
 }
 
 function Home() {
@@ -48,7 +53,7 @@ function Home() {
               and enjoy simultaneously!</p>
             {/* <a className="headingText" style={{ color: "white", zIndex: '500' }} href="/contact">Register</a>
             <a className="headingText" style={{ marginLeft: "2%", color: 'white', zIndex: '500' }} href="/contact">Discord</a> */}
-            <div class="row">
+            <div class="row mx-5">
               <div class="col-lg-6 col-md-6 col-sm-12">
                 {/* <div className="svg-wrapper">
                   <svg height={60} width={320} xmlns="http://www.w3.org/2000/svg">
@@ -56,7 +61,7 @@ function Home() {
                   </svg>
                   <div className="textofdiscordregister">Register</div>
                 </div> */}
-                <button className="main__button btn">Disabled</button>
+                <button className="main__button btn btn-large">Disabled</button>
               </div>
               <div class="col-lg-6 col-md-6 col-sm-12">
                 {/* <div className="svg-wrapper">
@@ -65,7 +70,7 @@ function Home() {
                   </svg>
                   <div className="textofdiscordregister">Registvr</div>
                 </div> */}
-                <button className="main__button btn">Disabled</button>
+                <button className="main__button btn btn-large">Disabled</button>
               </div>
             </div>
           </div>
@@ -77,7 +82,7 @@ function Home() {
       <div>
         <ProjectHighLights />
       </div>
-      <div className="">
+      <div>
         <Highlights />
       </div>
       <div >
