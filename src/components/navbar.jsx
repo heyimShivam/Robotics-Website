@@ -63,6 +63,7 @@ class Navbar extends React.Component {
       <>
         <div className={`${this.state.width <= 1100 ? "main-nav win-resize" : "main-nav"} ${this.state.scrollValue >= 400 ? 'nav-scrolled' : ''} ${this.props.loc === "/" ? "" : this.props.loc === "/gallery" ? '' : "nav-scrolled"} ${this.state.activePage === "Home" ? "" : this.state.activePage === "Gallery" ? '' : "nav-scrolled"}  `}>
           <nav id='nav__nav'  style={{ "paddingRight": "1.8rem" }}>
+
             {this.state.width <= 1100 ? (
               <>
                 <button
@@ -139,6 +140,7 @@ class Navbar extends React.Component {
                           <li>
                             <Link to={"#"} className='LinkesNavDropdown dropdown-toggle' id='dropdownMenuButton' data-toggle='dropdown'  onClick={()=> this.changeActivePage(item[0].title)}>
                               {item[0].title} <i className='bi bi-arrow-down'></i>
+
                             </Link>
                             <div className='dropdown-menu' aria-labelledby='dropdownMenuButton'>
                               {item.map((item, index) => {
