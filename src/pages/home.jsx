@@ -55,12 +55,12 @@ function Home() {
             <a className="headingText" style={{ marginLeft: "2%", color: 'white', zIndex: '500' }} href="/contact">Discord</a> */}
             <div class="row mx-5">
               <div class="col-lg-6 col-md-6 col-sm-12">
-                {/* <div className="svg-wrapper">
+                <div className="svg-wrapper">
                   <svg height={60} width={320} xmlns="http://www.w3.org/2000/svg">
                     <rect className="shape" height={60} width={320} />
                   </svg>
                   <div className="textofdiscordregister">Register</div>
-                </div> */}
+                </div>
                 <button className="main__button btn btn-large">Disabled</button>
               </div>
               <div class="col-lg-6 col-md-6 col-sm-12">
