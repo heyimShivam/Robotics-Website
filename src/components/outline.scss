@@ -28,7 +28,6 @@
 
 .win-resize {
   background: var(--winter-w2);
-  position: relative;
 }
 
 .nav-scrolled {
@@ -38,8 +37,12 @@
   box-shadow: 0px 2px 15px 0px rgba(118, 103, 103, 0.25);
 }
 
+.text__hide{
+  display: none;
+}
+
 .logo {
-  display: inline-block;
+  display: inline;
   margin-top: 16px;
   padding-left: 20px;
   float: left;
