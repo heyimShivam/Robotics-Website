@@ -128,7 +128,7 @@ class Navbar extends React.Component {
                           className={
                             item[0].title.toLowerCase() === this.state.page && "nav-active"
                           }
-                          style={{padding: "0.5rem"}}
+                          style={{padding: "0.2rem"}}
                         >
                           <Link className='LinkesNav' to={item[0].url} onClick={()=> this.changeActivePage(item[0].title)}>
                             {item[0].title}
