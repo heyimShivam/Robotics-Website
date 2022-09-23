@@ -13,30 +13,34 @@ class Navbar extends React.Component {
     this.state = {
       width: window.innerWidth,
       height: window.innerHeight,
-      activePage: "Home",
+      activePage: 'Home',
       scrollValue: 0,
     };
   }
 
+
   handleScroll = () => {
     const position = window.pageYOffset;
     this.setState({
-      scrollValue: position,
-    });
+      scrollValue: position
+    })
   };
 
   handleResize = () => {
     this.setState({
       width: window.innerWidth,
-      height: window.innerHeight,
+      height: window.innerHeight
     });
   };
 
   changeActivePage = (pageName) => {
     this.setState({
-      activePage: pageName,
-    });
-  };
+      activePage: pageName
+    },
+    )
+  }
+
+
 
   componentDidMount() {
     window.addEventListener("resize", this.handleResize);
@@ -54,15 +58,12 @@ class Navbar extends React.Component {
   }
 
   render() {
-    console.log(this.props.loc);
+    console.log(this.props.loc)
     return (
       <>
-        <div
-          className={`${this.state.width <= 1100 ? "main-nav win-resize" : "main-nav"} ${this.state.scrollValue >= 400 ? "nav-scrolled" : ""} ${
-            this.props.loc === "/" ? "" : this.props.loc === "/gallery" ? "" : "nav-scrolled"
-          } ${this.state.activePage === "Home" ? "" : this.state.activePage === "Gallery" ? "" : "nav-scrolled"}  `}
-        >
-          <nav id='nav__nav' style={{ paddingRight: "1.8rem" }}>
+        <div className={`${this.state.width <= 1100 ? "main-nav win-resize" : "main-nav"} ${this.state.scrollValue >= 400 ? 'nav-scrolled' : ''} ${this.props.loc === "/" ? "" : this.props.loc === "/gallery" ? '' : "nav-scrolled"} ${this.state.activePage === "Home" ? "" : this.state.activePage === "Gallery" ? '' : "nav-scrolled"}  `}>
+          <nav id='nav__nav'  style={{ "paddingRight": "1.8rem" }}>
+
             {this.state.width <= 1100 ? (
               <>
                 <button
@@ -83,21 +84,26 @@ class Navbar extends React.Component {
                     {navItems.map((item, index) => {
                       return item.length < 2 ? (
                         <li key={index} className='nav-item'>
-                          <Link className='nav-link' to={item[0].url} onClick={() => this.changeActivePage(item[0].title)}>
+                          <Link className='nav-link' to={item[0].url} onClick={()=> this.changeActivePage(item[0].title)}>
                             {item[0].title}
                           </Link>
                         </li>
                       ) : (
                         <div>
                           <li>
-                            <Link to={"#"} className='LinkesNavDropdownMobile dropdown-toggle' id='dropdownMenuButton' data-toggle='dropdown'>
+                            <Link
+                              to={"#"}
+                              className='LinkesNavDropdownMobile dropdown-toggle'
+                              id='dropdownMenuButton'
+                              data-toggle='dropdown'
+                            >
                               {item[0].title} <i className='bi bi-arrow-down'></i>
                             </Link>
                             <div className='dropdown-menu' aria-labelledby='dropdownMenuButton'>
                               {item.map((item, index) => {
                                 return (
                                   <>
-                                    <Link className='dropdown-item' to={item.url} onClick={() => this.changeActivePage(item.title)}>
+                                    <Link className='dropdown-item' to={item.url}  onClick={()=> this.changeActivePage(item.title)}>
                                       {item.title}
                                     </Link>
                                   </>
@@ -113,27 +119,34 @@ class Navbar extends React.Component {
               </>
             ) : (
               <>
-                <div id='addNavLogo' className='text-light'></div>
+                <div id='addNavLogo' className="text-light"></div>
                 <div className='nav-comps'>
                   <ul>
                     {navItems.map((item, index) => {
                       return item.length < 2 ? (
-                        <li key={index} className={item[0].title.toLowerCase() === this.state.page && "nav-active"} style={{ padding: "0.5rem" }}>
-                          <Link className='LinkesNav' to={item[0].url} onClick={() => this.changeActivePage(item[0].title)}>
+                        <li
+                          key={index}
+                          className={
+                            item[0].title.toLowerCase() === this.state.page && "nav-active"
+                          }
+                          style={{padding: "0.5rem"}}
+                        >
+                          <Link className='LinkesNav' to={item[0].url} onClick={()=> this.changeActivePage(item[0].title)}>
                             {item[0].title}
                           </Link>
                         </li>
                       ) : (
                         <div>
                           <li>
-                            <Link to={"#"} className='LinkesNavDropdown dropdown-toggle' id='dropdownMenuButton' data-toggle='dropdown' onClick={() => this.changeActivePage(item[0].title)}>
+                            <Link to={"#"} className='LinkesNavDropdown dropdown-toggle' id='dropdownMenuButton' data-toggle='dropdown'  onClick={()=> this.changeActivePage(item[0].title)}>
                               {item[0].title} <i className='bi bi-arrow-down'></i>
+
                             </Link>
                             <div className='dropdown-menu' aria-labelledby='dropdownMenuButton'>
                               {item.map((item, index) => {
                                 return (
                                   <>
-                                    <Link className='dropdown-item' to={item.url} onClick={() => this.changeActivePage(item.title)}>
+                                    <Link className='dropdown-item' to={item.url}  onClick={()=> this.changeActivePage(item.title)}>
                                       {item.title}
                                     </Link>
                                   </>
