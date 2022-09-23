@@ -44,8 +44,10 @@ function Home() {
         </div>
 
         {/* This Div block is for the text present on Home Page */}
-        <div className='container-fluid main-element d-flex justify-content-center'>
-          <div class='home-hero__socials'>
+        <div className="container-fluid main-element d-flex justify-content-center" >
+        <div className="roboticsname">
+
+        <div class='home-hero__socials'>
             <div class='home-hero__social'>
               <a href='https://www.linkedin.com/school/robotics-society-national-institute-of-technology-hamipur/about/' class='home-hero__social-icon-link'>
                 <img src={LOGO1} alt='icon' class='home-hero__social-icon' />
@@ -71,13 +73,42 @@ function Home() {
                 <img src={LOGO3} alt='icon' class='home-hero__social-icon' />
               </a>
             </div>
-          </div>
-          <svg class='roboticsname' viewBox='0 0 1320 300'>
-            <text x='50%' y='50%' dy='.35em' text-anchor='middle'>
-              Robotics Society
-            </text>
-          </svg>
         </div>
+
+          <div className="row">
+            <div className="col">
+            <svg width="100%" viewBox="0 0 1320 300">
+                <text x="50%" y="50%" dy=".35em" text-anchor="middle" >
+                  Robotics Society
+                </text>
+            </svg>
+            </div>
+
+            <div className="row text-light">
+              <div className="col robosoc-text-header">
+                To be a luminary of the indian society in the field of Robotics. 
+              </div>
+            </div>
+
+            <div className="row text-light">
+              <div className="col robosoc-text-header">
+                Build and sustain a culture to be self reliant to accomplish our vision, by emphasizing on the development of individual quality.
+              </div>
+            </div>
+
+            <div className="row robosoc-text-header-box">
+              <div className="col robosoc-text-header">
+                <button className="btn btn-secondary">Shivam</button>
+              </div>
+              <div className="col robosoc-text-header">
+                <button className="btn btn-secondary">Shivam</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+        
+
       </div>
       <div className='container'>
         <MainMembersHome />
@@ -90,6 +121,8 @@ function Home() {
       </div>
       <div>
         <ContactUs />
+        <br />
+        <br />
       </div>
     </>
   );
