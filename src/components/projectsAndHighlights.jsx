@@ -1,8 +1,11 @@
 function ProjectHighLights() {
   return (
     <>
-      <div className="project-head">
-        <h1 className="activity-head">Project Highlights</h1>
+
+      <div class="project-head">
+        <h1 class="activity-head">
+          Project Highlights
+        </h1>
       </div>
       <div className="container">
         <div>
@@ -71,7 +74,7 @@ function ProjectHighLights() {
                       <i className="fas fa-tag mr-2"></i>Learn More
                     </a>
                   </button>
-                  </div>
+                </div>
               </div>
             </article>
             <article className="postcard light green">
@@ -105,14 +108,13 @@ function ProjectHighLights() {
                       <i className="fas fa-tag mr-2"></i>Learn More
                     </a>
                   </button>
-                  </div>
+                </div>
               </div>
             </article>
           </section>
         </div>
       </div>
     </>
-  );
+  )
 }
-
 export default ProjectHighLights;
