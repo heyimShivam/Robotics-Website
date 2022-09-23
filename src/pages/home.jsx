@@ -1,11 +1,17 @@
+/** @format */
+
 import "./pages.css";
-import { MainBannerImagesData } from '../websiteUserData/imagesData';
-import { useSpring, animated } from '@react-spring/web'
+import { MainBannerImagesData } from "../websiteUserData/imagesData";
+import { useSpring, animated } from "@react-spring/web";
 import MainMembersHome from "../components/mainMembersHome";
 import ProjectHighLights from "../components/projectsAndHighlights";
 import ContactUs from "../components/contactUs";
 import Highlights from "../components/highlights";
-
+import LOGO1 from './../images/png/linkedin-ico.png';
+import LOGO2 from './../images/png/twitter-ico.png';
+import LOGO3 from './../images/png/insta-ico.png';
+import LOGO4 from './../images/png/insta-ico.png';
+import LOGO5 from './../images/png/yt-ico.png';
 
 function RoboticsText() {
   const styles = useSpring({
@@ -27,28 +33,53 @@ function RoboticsText() {
 function Home() {
   return (
     <>
-      <div id="home">
-        <div className='main-banner'>
-        </div>
-        <div className="backshadow">
-          <div class="frontlook">
-            <div id="stars" />
-            <div id="stars2" />
-            <div id="stars3" />
+      <div id='home'>
+        <div className='main-banner'></div>
+        <div className='backshadow'>
+          <div class='frontlook'>
+            <div id='stars' />
+            <div id='stars2' />
+            <div id='stars3' />
           </div>
         </div>
 
         {/* This Div block is for the text present on Home Page */}
-        <div className="container-fluid main-element d-flex justify-content-center" >
-          <svg class="roboticsname" viewBox="0 0 1320 300">
-              <text x="50%" y="50%" dy=".35em" text-anchor="middle" >
-                Robotics Society
-              </text>
+        <div className='container-fluid main-element d-flex justify-content-center'>
+          <div class='home-hero__socials'>
+            <div class='home-hero__social'>
+              <a href='#' class='home-hero__social-icon-link'>
+                <img src={LOGO1} alt='icon' class='home-hero__social-icon' />
+              </a>
+            </div>
+            <div class='home-hero__social'>
+              <a href='#' class='home-hero__social-icon-link'>
+                <img src={LOGO2} alt='icon' class='home-hero__social-icon' />
+              </a>
+            </div>
+            <div class='home-hero__social'>
+              <a href='#' class='home-hero__social-icon-link'>
+                <img src={LOGO4} alt='icon' class='home-hero__social-icon' />
+              </a>
+            </div>
+            <div class='home-hero__social'>
+              <a href='#' class='home-hero__social-icon-link'>
+                <img src={LOGO5} alt='icon' class='home-hero__social-icon' />
+              </a>
+            </div>
+            <div class='home-hero__social'>
+              <a href='#' class='home-hero__social-icon-link home-hero__social-icon-link--bd-none'>
+                <img src={LOGO3} alt='icon' class='home-hero__social-icon' />
+              </a>
+            </div>
+          </div>
+          <svg class='roboticsname' viewBox='0 0 1320 300'>
+            <text x='50%' y='50%' dy='.35em' text-anchor='middle'>
+              Robotics Society
+            </text>
           </svg>
         </div>
-
       </div>
-      <div className="container">
+      <div className='container'>
         <MainMembersHome />
       </div>
       <div>
@@ -57,7 +88,7 @@ function Home() {
       <div>
         <Highlights />
       </div>
-      <div >
+      <div>
         <ContactUs />
       </div>
     </>
