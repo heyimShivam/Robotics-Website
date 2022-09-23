@@ -40,12 +40,40 @@ function Home() {
 
         {/* This Div block is for the text present on Home Page */}
         <div className="container-fluid main-element d-flex justify-content-center" >
-          <svg class="roboticsname" viewBox="0 0 1320 300">
-              <text x="50%" y="50%" dy=".35em" text-anchor="middle" >
-                Robotics Society
-              </text>
-          </svg>
+        <div className="roboticsname">
+          <div className="row">
+            <div className="col">
+            <svg width="100%" viewBox="0 0 1320 300">
+                <text x="50%" y="50%" dy=".35em" text-anchor="middle" >
+                  Robotics Society
+                </text>
+            </svg>
+            </div>
+
+            <div className="row text-light">
+              <div className="col robosoc-text-header">
+                To be a luminary of the indian society in the field of Robotics. 
+              </div>
+            </div>
+
+            <div className="row text-light">
+              <div className="col robosoc-text-header">
+                Build and sustain a culture to be self reliant to accomplish our vision, by emphasizing on the development of individual quality.
+              </div>
+            </div>
+
+            <div className="row robosoc-text-header-box">
+              <div className="col robosoc-text-header">
+                <button className="btn btn-secondary">Shivam</button>
+              </div>
+              <div className="col robosoc-text-header">
+                <button className="btn btn-secondary">Shivam</button>
+              </div>
+            </div>
+          </div>
         </div>
+        </div>
+        
 
       </div>
       <div className="container">
@@ -59,6 +87,8 @@ function Home() {
       </div>
       <div >
         <ContactUs />
+        <br />
+        <br />
       </div>
     </>
   );

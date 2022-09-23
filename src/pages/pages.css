@@ -1,5 +1,14 @@
 /* Main Banner Css */
 
+.robosoc-text-header {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.robosoc-text-header-box {
+  margin-top: 60px;
+}
+
 .robosoc-main-block {
   border: 1px solid red;
 }
