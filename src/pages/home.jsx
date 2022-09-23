@@ -7,11 +7,11 @@ import MainMembersHome from "../components/mainMembersHome";
 import ProjectHighLights from "../components/projectsAndHighlights";
 import ContactUs from "../components/contactUs";
 import Highlights from "../components/highlights";
-import LOGO1 from './../images/png/linkedin-ico.png';
-import LOGO2 from './../images/png/fb-ico.png';
-import LOGO3 from './../images/png/github-ico.png';
-import LOGO4 from './../images/png/insta-ico.png';
-import LOGO5 from './../images/png/yt-ico.png';
+import LOGO1 from "./../images/png/linkedin-ico.png";
+import LOGO2 from "./../images/png/fb-ico.png";
+import LOGO3 from "./../images/png/github-ico.png";
+import LOGO4 from "./../images/png/insta-ico.png";
+import LOGO5 from "./../images/png/yt-ico.png";
 
 function RoboticsText() {
   const styles = useSpring({
@@ -77,6 +77,9 @@ function Home() {
               Robotics Society
             </text>
           </svg>
+          <div class='home-hero__mouse-scroll-cont'>
+            <div class='mouse'></div>
+          </div>
         </div>
       </div>
       <div className='container'>
