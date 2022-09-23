@@ -1367,9 +1367,9 @@ a:focus {
 
 .home-hero__mouse-scroll-cont {
   position: absolute;
-  top: calc(100vh - 50px);
+  top: calc(100% - 50px);
   left: 50%;
-  transform: translateX(-50%);
+  /* transform: translateX(-50%); */
 }
 @media only screen and (max-width: 37.5em) {
   .home-hero__mouse-scroll-cont {
