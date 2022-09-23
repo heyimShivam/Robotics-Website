@@ -8,8 +8,8 @@ import ProjectHighLights from "../components/projectsAndHighlights";
 import ContactUs from "../components/contactUs";
 import Highlights from "../components/highlights";
 import LOGO1 from './../images/png/linkedin-ico.png';
-import LOGO2 from './../images/png/twitter-ico.png';
-import LOGO3 from './../images/png/insta-ico.png';
+import LOGO2 from './../images/png/fb-ico.png';
+import LOGO3 from './../images/png/github-ico.png';
 import LOGO4 from './../images/png/insta-ico.png';
 import LOGO5 from './../images/png/yt-ico.png';
 
@@ -47,27 +47,27 @@ function Home() {
         <div className='container-fluid main-element d-flex justify-content-center'>
           <div class='home-hero__socials'>
             <div class='home-hero__social'>
-              <a href='#' class='home-hero__social-icon-link'>
+              <a href='https://www.linkedin.com/school/robotics-society-national-institute-of-technology-hamipur/about/' class='home-hero__social-icon-link'>
                 <img src={LOGO1} alt='icon' class='home-hero__social-icon' />
               </a>
             </div>
             <div class='home-hero__social'>
-              <a href='#' class='home-hero__social-icon-link'>
+              <a href='https://www.facebook.com/robo.soc.nith/' class='home-hero__social-icon-link text-light'>
                 <img src={LOGO2} alt='icon' class='home-hero__social-icon' />
               </a>
             </div>
             <div class='home-hero__social'>
-              <a href='#' class='home-hero__social-icon-link'>
+              <a href='https://www.instagram.com/robosocnith/?hl=en' class='home-hero__social-icon-link'>
                 <img src={LOGO4} alt='icon' class='home-hero__social-icon' />
               </a>
             </div>
             <div class='home-hero__social'>
-              <a href='#' class='home-hero__social-icon-link'>
+              <a href='https://www.youtube.com/channel/UCcNk3wOBYsFvdoYoHiyhtng' class='home-hero__social-icon-link'>
                 <img src={LOGO5} alt='icon' class='home-hero__social-icon' />
               </a>
             </div>
             <div class='home-hero__social'>
-              <a href='#' class='home-hero__social-icon-link home-hero__social-icon-link--bd-none'>
+              <a href='https://github.com/robosocnith/robosocnith.github.io' class='home-hero__social-icon-link home-hero__social-icon-link--bd-none'>
                 <img src={LOGO3} alt='icon' class='home-hero__social-icon' />
               </a>
             </div>
