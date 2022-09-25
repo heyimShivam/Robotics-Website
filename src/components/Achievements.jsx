@@ -4,7 +4,8 @@ import "./Achievements.css";
 import IMG1 from './../images/achievements/advita.jpg';
 import IMG2 from './../images/achievements/robocon17.jpg';
 import IMG3 from './../images/achievements/techkriti.png';
-import IMG4 from './../images/achievements/robot.jpg'
+import IMG4 from './../images/achievements/robot.jpg';
+import IMG5 from './../images/achievements/arm.jpg';
 
 function Achievements() {
   return (
@@ -56,7 +57,7 @@ function Achievements() {
                   <div className='timeline-content'>
                     <div className='circle'>
                       <span className='homebox'>
-                        <img src={IMG4} className='img achievement-img' />
+                        <img src={IMG5} className='img achievement-img' />
                       </span>
                     </div>
                     <div className='content'>
