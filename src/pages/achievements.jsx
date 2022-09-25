@@ -1,19 +1,14 @@
-import "./pages.css"
-import Achievements3 from "../components/Achievements";
+/** @format */
 
+import "./pages.css";
+import Achievements from "../components/Achievements";
 
-function Achievements()
- {
+function Achievement() {
   return (
     <>
-    
-
-<Achievements3/>
-
-  </>
+      <Achievements />
+    </>
   );
-    
-
 }
 
-export default Achievements;
+export default Achievement;
