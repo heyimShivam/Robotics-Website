@@ -90,35 +90,38 @@ function Home() {
               <div className='row text-light'>
                 <div className='col robosoc-text-header'>Build and sustain a culture to be self reliant to accomplish our vision, by emphasizing on the development of individual quality.</div>
               </div>
+            </div>
 
-              <div className='row robosoc-text-header-box'>
-                <div className='col robosoc-text-header'>
-                  <button className='btn btn-secondary'>Shivam</button>
-                </div>
-                <div className='col robosoc-text-header'>
-                  <button className='btn btn-secondary'>Shivam</button>
-                </div>
+            <div className="row robosoc-text-header-box">
+              <div className="col robosoc-text-header">
+                <button className="header-button btn btn-secondary">Shivam</button>
+              </div>
+              <div className="col robosoc-text-header">
+                <button className="header-button btn btn-secondary">Shivam</button>
               </div>
             </div>
           </div>
         </div>
+
         <div class='home-hero__mouse-scroll-cont'>
           <div class='mouse'></div>
         </div>
       </div>
-      <div className='container'>
+
+      <div className="container">
         <MainMembersHome />
       </div>
+
       <div>
         <ProjectHighLights />
       </div>
+
       <div>
         <Highlights />
       </div>
-      <div>
-        <ContactUs />
-        <br />
-        <br />
+
+      <div >
+        <ContactUs /> <br /> <br />
       </div>
     </>
   );
