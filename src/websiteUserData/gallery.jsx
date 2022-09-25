@@ -18,88 +18,235 @@ import IMG17 from './../images/gallery/17.jpg'
 import IMG18 from './../images/gallery/18.jpg'
 import IMG19 from './../images/gallery/19.jpg'
 import IMG20 from './../images/gallery/20.jpg'
+import IMG21 from './../images/gallery/21.jpg'
+import IMG22 from './../images/gallery/22.jpg'
+import IMG23 from './../images/gallery/23.jpg'
+import IMG24 from './../images/gallery/24.jpg'
+import IMG25 from './../images/gallery/25.jpg'
+import IMG26 from './../images/gallery/26.jpg'
+import IMG27 from './../images/gallery/27.jpg'
+import IMG28 from './../images/gallery/28.jpg'
+import IMG29 from './../images/gallery/29.jpg'
+import IMG30 from './../images/gallery/30.jpg'
+import IMG31 from './../images/gallery/31.jpg'
+import IMG32 from './../images/gallery/32.jpg'
+import IMG33 from './../images/gallery/33.jpg'
+import IMG34 from './../images/gallery/34.jpg'
+import IMG35 from './../images/gallery/35.jpg'
+import IMG36 from './../images/gallery/36.jpg'
+import IMG37 from './../images/gallery/37.jpg'
+import IMG38 from './../images/gallery/38.jpg'
+import IMG39 from './../images/gallery/39.jpg'
+import IMG40 from './../images/gallery/40.jpg'
+import IMG41 from './../images/gallery/41.jpg'
+import IMG42 from './../images/gallery/42.jpg'
+import IMG43 from './../images/gallery/43.jpg'
+import IMG44 from './../images/gallery/44.jpg'
+import IMG45 from './../images/gallery/45.jpg'
+import IMG46 from './../images/gallery/46.jpg'
+import IMG47 from './../images/gallery/47.jpg'
+import IMG48 from './../images/gallery/48.jpg'
+import IMG49 from './../images/gallery/49.jpg'
 
-export const TagsList = ["All", "Roboweek", "Nimbus", "Farewell"];
+
+
+export const TagsList = ["All", "Felicitation", "Nimbus", "Farewell"];
 export const Images = [
     {
         path: IMG1,
-        tag : ['All','Nimbus']
+        tag : ['All', 'Felicitation']
     },
     {
         path: IMG2,
-        tag : ['All', 'Roboweek','Farewell']
+        tag : ['All', 'Felicitation']
     },
     {
         path: IMG3,
-        tag : ['Roboweek']
+        tag : ['All', 'Felicitation']
     },
     {
         path: IMG4,
-        tag : ['Roboweek']
+        tag : ['All', 'Felicitation']
     },
     {
         path: IMG5,
-        tag : ['Roboweek']
+        tag : ['All', 'Felicitation']
     },
     {
         path: IMG6,
-        tag : ['All', 'Roboweek']
+        tag : ['All', 'Felicitation']
     },
     {
         path: IMG7,
-        tag : ['Roboweek']
+        tag : ['All', 'Felicitation']
     },
     {
         path: IMG8,
-        tag : ['Roboweek']
+        tag : ['All', 'Farewell']
     },
     {
         path: IMG9,
-        tag : ['Roboweek']
+        tag : ['All', 'Farewell']
     },
     {
         path: IMG10,
-        tag : ['Roboweek']
+        tag : ['All', 'Farewell']
     },
     {
         path: IMG11,
-        tag : ['Roboweek']
+        tag : ['All', 'Farewell']
     },
     {
         path: IMG12,
-        tag : ['Roboweek']
+        tag : ['All', 'Farewell']
     },
     {
         path: IMG13,
-        tag : ['Roboweek']
+        tag : ['All', 'Farewell']
     },
     {
         path: IMG14,
-        tag : ['Roboweek', 'Farewell']
+        tag : ['All', 'Farewell']
     },
     {
         path: IMG15,
-        tag : ['Roboweek', 'Farewell']
+        tag : ['All', 'Farewell']
     },
     {
         path: IMG16,
-        tag : ['Roboweek']
+        tag : ['All', 'Farewell']
     },
     {
         path: IMG17,
-        tag : ['Roboweek']
+        tag : ['All', 'Farewell']
     },
     {
         path: IMG18,
-        tag : ['Roboweek', 'Farewell']
-    },
-    {
-        path: IMG19,
-        tag : ['All', 'Roboweek']
+        tag : ['All', 'Farewell']
     },
     {
         path: IMG20,
-        tag : ['Roboweek']
+        tag : ['All', 'Nimbus']
+    },
+    {
+        path: IMG19,
+        tag : ['All', 'Nimbus']
+    },
+    {
+        path: IMG21,
+        tag : ['All', 'Nimbus']
+    },
+    {
+        path: IMG22,
+        tag : ['All', 'Nimbus']
+    },
+    {
+        path: IMG23,
+        tag : ['All', 'Nimbus']
+    },
+    {
+        path: IMG24,
+        tag : ['All', 'Nimbus']
+    },
+    {
+        path: IMG25,
+        tag : ['All', 'Nimbus']
+    },
+    {
+        path: IMG26,
+        tag : ['All', 'Nimbus']
+    },
+    {
+        path: IMG27,
+        tag : ['All', 'Nimbus']
+    },
+    {
+        path: IMG28,
+        tag : ['All', 'Nimbus']
+    },
+    {
+        path: IMG29,
+        tag : ['All', 'Nimbus']
+    },
+    {
+        path: IMG30,
+        tag : ['All', 'Nimbus']
+    },
+    {
+        path: IMG31,
+        tag : ['All', 'Nimbus']
+    },
+    {
+        path: IMG32,
+        tag : ['All', 'Nimbus']
+    },
+    {
+        path: IMG33,
+        tag : ['All', 'Nimbus']
+    },
+    {
+        path: IMG34,
+        tag : ['All', 'Nimbus']
+    },
+    {
+        path: IMG35,
+        tag : ['All', 'Nimbus']
+    },
+    {
+        path: IMG36,
+        tag : ['All', 'Nimbus']
+    },
+    {
+        path: IMG37,
+        tag : ['All', 'Nimbus']
+    },
+    {
+        path: IMG38,
+        tag : ['All', 'Nimbus']
+    },
+    {
+        path: IMG39,
+        tag : ['All', 'Nimbus']
+    },
+    {
+        path: IMG40,
+        tag : ['All', 'Nimbus']
+    },
+    {
+        path: IMG41,
+        tag : ['All', 'Nimbus']
+    },
+    {
+        path: IMG42,
+        tag : ['All', 'Nimbus']
+    },
+    {
+        path: IMG43,
+        tag : ['All', 'Nimbus']
+    },
+    {
+        path: IMG44,
+        tag : ['All', 'Nimbus']
+    },
+    {
+        path: IMG45,
+        tag : ['All', 'Nimbus']
+    },
+    {
+        path: IMG46,
+        tag : ['All', 'Nimbus']
+    },
+    {
+        path: IMG47,
+        tag : ['All', 'Nimbus']
+    },
+    {
+        path: IMG48,
+        tag : ['All', 'Nimbus']
+    },
+    {
+        path: IMG49,
+        tag : ['All', 'Nimbus']
     }
 ]
 
