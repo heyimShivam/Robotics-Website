@@ -11,6 +11,10 @@
 .robosoc-text-header {
   font-size: 20px;
   font-weight: 500;
+  color: #19f6e8;
+  font-family: 'Russo One', sans-serif;
+
+  
 }
 
 .robosoc-text-header-box {
@@ -1425,4 +1429,15 @@ a:focus {
   opacity: 1;
   animation: wheel 2.3s infinite;
   -webkit-animation: wheel 2.3s infinite;
+}
+.header-button{
+    transition-duration: 0.4s;
+    background-color:transparent ; 
+    color: #19f6e8;
+    font-size: 20px;
+}
+
+.header-button:hover {
+  background-color:#19f6e8; 
+  color: black;
 }
