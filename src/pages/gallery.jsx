@@ -11,23 +11,16 @@ function Gallery() {
   const [tag, setTag] = useState("All");
   const changeTag = (activeTag) => {
     setTag(activeTag);
-    console.log(tag, activeTag);
   };
-
   return (
     <>
-    <div className="gallery" >
+      <div className='gallery'>
         <Viewpager />
       </div>
       <div className='container'>
         <div className='container button__container'>
           {TagsList.map((newTag) => (
-            <button
-              className={`btn btn-${
-                tag === newTag ? "" : "outline-"
-              }dark tag__button `}
-              onClick={() => changeTag(newTag)}
-            >
+            <button className={`btn btn-${tag === newTag ? "" : "outline-"}dark tag__button `} onClick={() => changeTag(newTag)}>
               {newTag}
             </button>
           ))}
@@ -40,21 +33,19 @@ function Gallery() {
 
         <div className='container my-4'>
           <div className='row'>
-            {
-              Images.map((userData) => (
-                userData.tag.includes(tag) ? (
-                  <div className="col-lg-4 col-md-6 col-sm-12 my-2">
-                  {
-                    userData.tag.map((data) => (
-                      <div className={` ${ data === tag ? "img__container" : "disable__img" }`}>
-                        <img src={userData.path} alt='' className="gallery__img"/>
-                      </div>
-                    ))
-                  }
+            {Images.map((userData) =>
+              userData.tag.includes(tag) ? (
+                <div className='col-lg-4 col-md-6 col-sm-12 my-2'>
+                  {userData.tag.map((data) => (
+                    <div className={` ${data === tag ? "img__container" : "disable__img"}`}>
+                      <img src={userData.path} alt='' className='gallery__img' />
+                    </div>
+                  ))}
                 </div>
-                ): ''
-              ))
-            }
+              ) : (
+                ""
+              ),
+            )}
           </div>
         </div>
       </div>
