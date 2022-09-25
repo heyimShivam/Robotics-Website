@@ -25,6 +25,10 @@
   border: 1px solid red;
 }
 
+.robosoc-main-block {
+  border: 1px solid red;
+}
+
 .mainBanner {
   width: 100%;
   height: 100%;
@@ -1247,8 +1251,8 @@ a:focus {
 }
 
 .roboticsname {
-  font-family: 'Russo One', sans-serif;
-	width: 50%;
+  font-family: "Russo One", sans-serif;
+  width: 50%;
   height: 60%;
   margin-right: 0%;
 }
@@ -1378,6 +1382,53 @@ a:focus {
 }
 .home-hero__social-icon {
   width: 100%;
+}
+
+/* scroller */
+
+.home-hero__mouse-scroll-cont {
+  position: absolute;
+  top: calc(100% - 5rem);
+  left: calc(50% - 12.5px);
+  transform: translateX(-50%);
+}
+@media only screen and (max-width: 37.5em) {
+  .home-hero__mouse-scroll-cont {
+    display: none;
+  }
+}
+
+@keyframes wheel {
+  to {
+    opacity: 0;
+    top: 27px; } }
+
+@-webkit-keyframes wheel {
+  to {
+    opacity: 0;
+    top: 27px; } }
+
+.mouse {
+  width: 25px;
+  height: 40px;
+  border: 2px solid #eee;
+  border-radius: 60px;
+  position: relative;
+  overflow: hidden;
+}
+.mouse::before {
+  content: "";
+  width: 5px;
+  height: 5px;
+  position: absolute;
+  top: 5px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #eee;
+  border-radius: 50%;
+  opacity: 1;
+  animation: wheel 2.3s infinite;
+  -webkit-animation: wheel 2.3s infinite;
 }
 .header-button{
     transition-duration: 0.4s;
