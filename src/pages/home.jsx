@@ -350,29 +350,33 @@ function Home() {
                   <div className='row text-light'>
                     <div className='col robosoc-text-header'>To be a luminary of the indian society in the field of Robotics.</div>
                   </div>
-                </div>
-              </div>
+              
+
                 <div className='row text-light'>
                   <div className='col robosoc-text-header'>Build and sustain a culture to be self reliant to accomplish our vision, by emphasizing on the development of individual quality.</div>
                   {/* home page hovering robot  */}
           
                 </div>
 
-                <div className='row robosoc-text-header-box'>
-                  <div className='col robosoc-text-header'>
-                    <button className='header-button btn btn-secondary'>Shivam</button>
-                  </div>
-                  <div className='col robosoc-text-header'>
-                    <button className='header-button btn btn-secondary'>Shivam</button>
-                  </div>
-                </div>
+             
+
+            </div>
+
+            <div className="row robosoc-text-header-box">
+              <div className="col robosoc-text-header">
+                <button className="header-button btn btn-secondary">Shivam</button>
+              </div>
+              <div className="col robosoc-text-header">
+                <button className="header-button btn btn-secondary">Shivam</button>
+                
+
               </div>
             </div>
            
         </div>
         
         </div>
-
+</div>
         
           <div class='home-hero__mouse-scroll-cont'>
             <div class='mouse'></div>
@@ -394,6 +398,9 @@ function Home() {
         </div>
       </>
       );
+
+
+
 }
 
       export default Home;
