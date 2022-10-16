@@ -1308,6 +1308,13 @@ a:focus {
   .main__button {
     margin: 5rem 5rem;
   }
+  .main-element {
+    position: absolute;
+    top: 10%;
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+  }
 }
 
 @media only screen and (max-width: 540px) {
@@ -1316,7 +1323,7 @@ a:focus {
   }
   .main-element {
     position: absolute;
-    top: 15%;
+    top: 10%;
     text-align: center;
     width: 100%;
     justify-content: center;
@@ -1574,10 +1581,10 @@ a:focus {
 
 .robo__animation {
   position: relative;
-  left: 42vw;
-  bottom: 60vh;
+  left: 50vw;
+  bottom: 50vh;
   height: 30vh;
-  width: 30vw;
+  width: 23vw;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -1592,7 +1599,7 @@ a:focus {
     left: 0;
   }
   .robosoc-text-header{
-    font-size: 2.5rem;
+    font-size: 1.5rem;
   }
   .robo__animation{
     display: none;
@@ -1602,6 +1609,13 @@ a:focus {
   }
   .roboticsname{
     width: 80vw;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .header-button{
+    font-size: 1.5rem;
   }
 }
 @media only screen and (max-width: 540px) {
@@ -1610,6 +1624,7 @@ a:focus {
   }
   .header-button{
     margin-bottom: 1rem;
+    font-size: 1rem;
   }
   .robo__animation{
     bottom: 50vh;
