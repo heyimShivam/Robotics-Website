@@ -1,3 +1,5 @@
+/** @format */
+
 export const coreMemebersDetails = [
     {
         name: 'Ujjwal Chaudhary',
@@ -464,6 +466,4 @@ export const alumni_members = [
     }
 ]
 
-export const volunteersMemebersDetails = [
-    
-]
+export const volunteersMemebersDetails = [];
