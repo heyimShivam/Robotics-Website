@@ -1,6 +1,7 @@
 export const coreMemebersDetails = [
     {
         name: 'Ujjwal Chaudhary',
+        role:'President',
      image: 'members/coordinator/Ujjwal Chaudhary.jpeg',
      linkedin: 'https://www.linkedin.com/in/ujjwal-chaudhary-4436701aa/',
      github: 'https://github.com/UJJWAL2001',
@@ -8,6 +9,7 @@ export const coreMemebersDetails = [
  },
  {
      name: 'Samyak Jain',
+     role:'Vice President',
      image: 'members/coordinator/Samyak Jain.jpg',
      linkedin: 'https://www.linkedin.com/in/baibhav-mishra-90211a197/',
      github: 'https://github.com/SamyakJain2002',
@@ -15,6 +17,7 @@ export const coreMemebersDetails = [
  },
  {
      name: 'Baibhav',
+     role:'General Secretary',
      image: 'members/coordinator/Baibhav.jpeg',
      linkedin: 'https://www.linkedin.com/in/baibhav-mishra-90211a197/',
      github: 'https://github.com/baibhav3211',
@@ -22,6 +25,7 @@ export const coreMemebersDetails = [
  },
  {
      name: 'Ansh Jain',
+     role:'Treasurer',
      image: 'members/coordinator/ansh jain.jpeg',
      linkedin: 'https://www.linkedin.com/in/ansh-jain-9331061b4',
      github: '#',
@@ -29,6 +33,7 @@ export const coreMemebersDetails = [
  },
  {
      name: 'Ankita Jaiswal',
+     role:'Technical Head-Programming',
      image: 'members/coordinator/Ankita.jpeg',
      linkedin: 'https://www.linkedin.com/in/ankita-jaiswal-4840611ab',
      github: '#',
@@ -36,6 +41,7 @@ export const coreMemebersDetails = [
  },
  {
      name: 'Ishan Agarwal',
+     role:'Technical Head-Electronics',
      image: 'members/coordinator/Ishan Agarwal.png',
      linkedin: 'https://www.linkedin.com/in/ishan-agarwal-2001/',
      github: 'https://github.com/ishanagg2001',
@@ -43,6 +49,7 @@ export const coreMemebersDetails = [
  },
  {
      name: 'Pratham Tripathi',
+     role:'Technical Head-Mechanical',
      image: 'members/coordinator/Pratham Tripathi.jpg',
      linkedin: 'https://www.linkedin.com/in/pratham-t-89336b120/',
      github: 'https://github.com/pratham0203',
@@ -50,6 +57,7 @@ export const coreMemebersDetails = [
  },
  {
      name: 'Nitin bansal',
+     role:'Secretary of External Affairs',
      image: 'members/coordinator/Nitin Bansal.jpg',
      linkedin: 'https://www.linkedin.com/in/nitin-bansal-796042195',
      github: 'https://github.com/nitin-bansal46',
@@ -57,6 +65,7 @@ export const coreMemebersDetails = [
  },
  {
      name: 'Prateek Gupta',
+     role:'PR Head',
      image: 'members/coordinator/Prateek Gupta.jpg',
      linkedin: 'https://www.linkedin.com/in/prateek-gupta-664b8812a',
      github: 'http://github.com/Prateekgupta07',
@@ -64,6 +73,7 @@ export const coreMemebersDetails = [
  },
  {
      name: 'Ritika Lohia',
+     role:'Creative Head',
      image: 'members/coordinator/Ritika.jpeg',
      linkedin: 'https://www.linkedin.com/in/ritika-lohia-731972195/',
      github: 'https://github.com/ritikalohia',
@@ -73,6 +83,7 @@ export const coreMemebersDetails = [
 
  {
      name: 'Shubahm Goyal',
+     role:'Core-Coordinator',
      image: 'members/coordinator/Shubham Goyal.jpg',
      linkedin: 'https://www.linkedin.com/in/shubham-goyal-476126197/',
      github: '#',
@@ -80,6 +91,7 @@ export const coreMemebersDetails = [
  },
  {
      name: 'Hardik Gupta',
+     role:'Core-Coordinator',
      image: 'members/coordinator/Hardik Gupta.jpg',
      linkedin: 'https://www.linkedin.com/in/hardik-gupta-b65409202/',
      github: '#',
@@ -87,6 +99,7 @@ export const coreMemebersDetails = [
  },
  {
      name: 'Kratika Mittal',
+     role:'Core-Coordinator',
      image: 'members/coordinator/Kratika Mittal.jpg',
      linkedin: 'http://linkedin.com/in/kratika-mittal-1423a2197/',
      github: 'http://github.com/kratika19',
@@ -95,6 +108,7 @@ export const coreMemebersDetails = [
 
  {
      name: 'Dibakar Chaudhary',
+     role:'Core-Coordinator',
      image: 'members/coordinator/Dibakar Chaudhary.jpg',
      linkedin: 'https://www.linkedin.com/in/dibakar-chaudhary-684228196/',
      github: '#',
@@ -110,6 +124,7 @@ export const coreMemebersDetails = [
 
  {
      name: 'Arihant Raj Siddharth',
+     role:'Core-Coordinator',
      image: 'members/coordinator/Arihant raj siddharth.jpg',
      linkedin: 'https://www.linkedin.com/in/arihant-raj-siddharth-816148197/',
      github: '#',
@@ -119,6 +134,7 @@ export const coreMemebersDetails = [
 
  {
      name: 'Navdeep Singh Rathore',
+     role:'Core-Coordinator',
      image: 'members/coordinator/Navdeep Rathore.jpg',
      linkedin: 'https://www.linkedin.com/in/navdeep-singh-rathore-869245196/',
      github: '#',
@@ -126,6 +142,7 @@ export const coreMemebersDetails = [
  },
  {
      name: 'Mohd Nomaan',
+     role:'Core-Coordinator',
      image: 'members/coordinator/Mohd Nomaan.jpg',
      linkedin: 'https://www.linkedin.com/in/mohd-nomaan-092231196',
      github: '#',
@@ -134,6 +151,7 @@ export const coreMemebersDetails = [
 
  {
      name: 'Ritesh Kumar',
+     role:'Core-Coordinator',
      image: 'members/coordinator/Ritesh Kumar.jpg',
      linkedin: 'https://www.linkedin.com/in/ritcode',
      github: 'https://github.com/ritcode',
@@ -159,7 +177,7 @@ export const executiveMemebersDetails = [
     },
     {
         name: 'Aakash Tiwari',
-        image: 'members/Executives/akash.jpg',
+        image: 'members/Executives/aakash.jpg',
         linkedin: 'https://www.linkedin.com/in/aakash07122003',
         github: 'https://github.com/Aakash872',
         field: ['Python, ROS and Mechanical Designing'],
@@ -196,7 +214,7 @@ export const executiveMemebersDetails = [
     },
     {
         name: 'Varun jain',
-        image: 'members/Executives/varun.png',
+        image: 'members/Executives/varun.jpg',
         linkedin: 'https://www.linkedin.com/in/varun-jain-9280a122a',
         github: 'https://github.com/varunnitian',
         field: ['Blockchain Technology,DevOps'],
@@ -270,21 +288,21 @@ export const codinatorsMemebersDetails = [
     },
     {
         name: 'Priya',
-        image: 'members/executive/priya.bmp',
+        image: 'members/executive/priya.jpg',
         linkedin: 'https://www.linkedin.com/in/priya-sharma-802869205/',
         github: 'https://github.com/Priya7876',
         field: ['Android Development,CP.'],
     },
     {
         name: 'Abhishek kumar',
-        image: 'members/executive/abhishek.bmp',
+        image: 'members/executive/abhishek.png',
         linkedin: 'https://www.linkedin.com/in/abhishek-kumar-0b9b22211/',
         github: 'https://www.linkedin.com/in/heyimshivam/',
         field: ['c/c++ and onshape '],
     },
     {
         name: 'Manan Sharma',
-        image: 'members/executive/manan.bmp',
+        image: 'members/executive/manan.jpg',
         linkedin: 'https://www.linkedin.com/in/manan-sharma-1a5202207/',
         github: 'https://github.com/manan-shxrma',
         field: ['Web Development '],
@@ -298,7 +316,7 @@ export const codinatorsMemebersDetails = [
     },
     {
         name: 'PARINAY RANA',
-        image: 'members/executive/parinay.bmp',
+        image: 'members/executive/Parinay Rana.jpg',
         linkedin: 'https://www.linkedin.com/in/parinay-rana-3b5048207/',
         github: 'https://www.linkedin.com/in/heyimshivam/',
         field: ['VIDEO EDITING AND CONTENT WRITING'],
@@ -321,7 +339,7 @@ export const codinatorsMemebersDetails = [
     },
     {
         name: 'Mridul Sharma',
-        image: 'members/executive/mridul.bmp',
+        image: 'members/executive/mridul.jpg',
         linkedin: 'https://www.linkedin.com/in/mridul-sharma-5a8520221 ',
         github: 'https://www.linkedin.com/in/heyimshivam/',
         field: ['Web development (MERN Stack), Data-Structures. '],
@@ -358,6 +376,7 @@ export const codinatorsMemebersDetails = [
 ]
 
 export const alumni_members = [
+    //2022 members
     {
         name: 'Swayam Kaul',
         role: 'Ex-President',
@@ -461,9 +480,88 @@ export const alumni_members = [
         linkedin: 'https://www.linkedin.com/in/uttkarsh-chaurasia-7a31b4171/',
         github: 'https://github.com/chaurasiauttkarsh',
         field: ['Augumented and Virtual Reality','IoT, BCI, AI'],
-    }
+    },
+   
 ]
 
 export const volunteersMemebersDetails = [
     
+]
+export const alumni_members2 = [
+   
+     //2021 members
+    
+     {
+        name: 'Sumit Kumar Verma',
+        role: 'Ex-President',
+        image: 'members/alumni/sumit.jpeg',
+        linkedin: 'https://www.linkedin.com/in/wablesanket',
+        github: 'https://github.com/sanketwable',
+        field: ['Mobile Robotics, Bio-Inspired Robotics, IOT, App Development'],
+    },
+    {
+        name: 'Utkarsh Tiwari',
+        role: 'Ex-General Secretary',
+        image: 'members/alumni/utkarsh.jpeg',
+        linkedin: 'https://www.linkedin.com/in/wablesanket',
+        github: 'https://github.com/sanketwable',
+        field: ['Computer Vision, Machine Learning '],
+    },
+    {
+        name: 'Sagar Singh',
+        role: 'Ex-Treasurer',
+        image: 'members/alumni/sagar.jpeg',
+        linkedin: 'https://www.linkedin.com/in/wablesanket',
+        github: 'https://github.com/sanketwable',
+        field: ['Autonomous car, Designing, Manufacturing of parts'],
+    },
+    {
+        name: 'Vineet Sharma',
+        role: 'Ex-Secretary of External Affairs',
+        image: 'members/alumni/vineet.jpeg',
+        linkedin: 'https://www.linkedin.com/in/wablesanket',
+        github: 'https://github.com/sanketwable',
+        field: ['Deep Learning, Web Development'],
+    },
+    {
+        name: 'Amit Kumar Nirala',
+        role: 'Ex-Core Coordiantor',
+        image: 'members/alumni/nirala.jpeg',
+        linkedin: 'https://www.linkedin.com/in/wablesanket',
+        github: 'https://github.com/sanketwable',
+        field: ['Mechanical design'],
+    },
+    {
+        name: 'Suyash Tripathi',
+        role: 'Ex-Core Coordiantor',
+        image: 'members/alumni/Suyash Tripathi.jpg',
+        linkedin: 'https://www.linkedin.com/in/wablesanket',
+        github: 'https://github.com/sanketwable',
+        field: ['Management, Mechanical, Design'],
+    },
+    {
+        name: 'Pragay',
+        role: 'Ex-Core Coordiantor',
+        image: 'members/alumni/pragay.jpeg',
+        linkedin: 'https://www.linkedin.com/in/wablesanket',
+        github: 'https://github.com/sanketwable',
+        field: ['Graphic designing, video editor'],
+    },
+    {
+        name: 'Pradyuman',
+        role: 'Ex-Core Coordiantor',
+        image: 'members/alumni/Pradyuman.jpg',
+        linkedin: 'https://www.linkedin.com/in/wablesanket',
+        github: 'https://github.com/sanketwable',
+        field: ['BackeMobile and Web Application Developmentnd'],
+    },
+    {
+        name: 'Pranjal Agarwal',
+        role: 'Ex-Core Coordiantor',
+        image: 'members/alumni/pranjal.jpeg',
+        linkedin: 'https://www.linkedin.com/in/wablesanket',
+        github: 'https://github.com/sanketwable',
+        field: ['Web Development, Machine Learning, Coding'],
+    }
+   
 ]
