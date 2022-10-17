@@ -1,3 +1,5 @@
+/** @format */
+
 export const coreMemebersDetails = [
     {
         name: 'Ujjwal Chaudhary',
