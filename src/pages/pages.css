@@ -9,7 +9,7 @@
 }
 
 .robosoc-text-header {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 500;
   color: #19f6e8;
   font-family: 'Russo One', sans-serif;
@@ -1438,7 +1438,7 @@ a:focus {
 }
 
 .robosoc-text-header {
-  padding-top: 4rem;
+  padding-top: 3rem;
 }
 
 
@@ -1587,7 +1587,7 @@ a:focus {
   width: 23vw;
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1500px) {
   .robosoc-text-header{
     position: relative;
     z-index: 1;
@@ -1618,7 +1618,7 @@ a:focus {
     font-size: 1.5rem;
   }
 }
-@media only screen and (max-width: 540px) {
+@media only screen and (max-width: 1200px) {
   .robosoc-text-header{
     font-size: 1rem;
   }
@@ -1632,6 +1632,6 @@ a:focus {
 
   }
   .roboticsname{
-    width: 80vw;
+    width: 90vw;
   }
 }
