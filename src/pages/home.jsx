@@ -1,7 +1,6 @@
 /** @format */
 
 import "./pages.css";
-import { MainBannerImagesData } from "../websiteUserData/imagesData";
 import { useSpring, animated } from "@react-spring/web";
 import MainMembersHome from "../components/mainMembersHome";
 import ProjectHighLights from "../components/projectsAndHighlights";
@@ -13,22 +12,22 @@ import LOGO3 from "./../images/png/github-ico.png";
 import LOGO4 from "./../images/png/insta-ico.png";
 import LOGO5 from "./../images/png/yt-ico.png";
 
-function RoboticsText() {
-  const styles = useSpring({
-    loop: true,
-    to: [
-      { opacity: 1, color: "#ffaaee" },
-      { opacity: 0, color: "rgb(14,26,19)" },
-    ],
-    from: { opacity: 0, color: "red" },
-  });
-  // ...
-  return (
-    <animated.div className='roboticsText' style={styles}>
-      Hey Welcome to RoboSoc
-    </animated.div>
-  );
-}
+// function RoboticsText() {
+//   const styles = useSpring({
+//     loop: true,
+//     to: [
+//       { opacity: 1, color: "#ffaaee" },
+//       { opacity: 0, color: "rgb(14,26,19)" },
+//     ],
+//     from: { opacity: 0, color: "red" },
+//   });
+//   // ...
+//   return (
+//     <animated.div className='roboticsText' style={styles}>
+//       Hey Welcome to RoboSoc
+//     </animated.div>
+//   );
+// }
 
 function Home() {
   return (
@@ -91,10 +90,10 @@ function Home() {
 
             <div className='row robosoc-text-header-box'>
               <div className='col robosoc-text-header'>
-                <button className='header-button btn btn-secondary'>Shivam</button>
+                <button className='header-button btn btn-secondary'>RoboWeek 3.0</button>
               </div>
               <div className='col robosoc-text-header'>
-                <button className='header-button btn btn-secondary'>Shivam</button>
+                <button className='header-button btn btn-secondary'></button>
               </div>
             </div>
             <div className='robo__animation'>
