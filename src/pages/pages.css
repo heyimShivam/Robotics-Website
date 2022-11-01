@@ -1258,7 +1258,7 @@ a:focus {
   stroke-width: 2;
   stroke: #00ffff;
   color: #00ffd5;
-  font-size: 130px;
+  font-size: 142px;
 }
 @keyframes stroke {
   0% {
@@ -1438,7 +1438,7 @@ a:focus {
 }
 
 .robosoc-text-header {
-  padding-top: 2rem;
+  padding-top: 4rem;
 }
 
 
@@ -1582,7 +1582,7 @@ a:focus {
 .robo__animation {
   position: relative;
   left: 50vw;
-  bottom: 50vh;
+  bottom: 35vh;
   height: 30vh;
   width: 23vw;
 }
