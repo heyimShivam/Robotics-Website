@@ -1,10 +1,3 @@
-
-
-
-
-/*//////////////////////////////////////////////////////////////////
-[ FONT ]*/
-
 @font-face {
   font-family: Montserrat-Regular;
   src: url('../fonts/montserrat/Montserrat-Regular.ttf'); 
@@ -72,7 +65,7 @@ p {
 	font-family: Montserrat-Regular;
 	font-size: 14px;
 	line-height: 1.7;
-	color: #666666;
+	/* color: #666666; */
 	margin: 0px;
 }
 
@@ -147,7 +140,6 @@ iframe {
 
 .container-contact100 {
   width: 100%;  
-  min-height: 80vh;
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
@@ -197,10 +189,11 @@ iframe {
 .contact100-form-title {
   display: block;
   font-family: Montserrat-ExtraBold;
+
   font-size: 24px;
   color: #333333;
   line-height: 1.2;
-  text-align: left;
+  text-align: center;
   padding-bottom: 36px;
 }
 
@@ -382,7 +375,7 @@ textarea.input100 {
 
 @media (max-width: 992px) {
   .wrap-contact100 {
-    padding: 110px 80px 157px 90px;
+    padding: 50px auto;
   }
 
   .contact100-pic {
@@ -393,11 +386,11 @@ textarea.input100 {
     width: 55%;
   }
   .input100 {
-    width: 70%;
+    width: 100%;
   }
 
   .contact100-form{
-    width: 50%;
+    width: 100%;
     justify-content: flex-start;
   }
   .contact100-form-btn{
@@ -407,17 +400,16 @@ textarea.input100 {
 
 @media (max-width: 768px) {
   .wrap-contact100 {
-    padding: 110px 80px 157px 80px;
+    padding: 50px auto;
   }
   .container-contact100 {
     justify-content: flex-start;
   }
-  
   .wrap-contact100{
     width: 100%;
   }
   .input100 {
-    width: 70%;
+    width: 100%;
   }
 
   .contact100-form{
@@ -433,16 +425,17 @@ textarea.input100 {
   }
 
   .contact100-form {
-    width: 70%;
+    width: 100%;
   }
 }
 
 @media (max-width: 576px) {
   .contact100-form-title{
-    text-align: left;
+    text-align: center;
+    width: 100%;
   }
   .wrap-contact100 {
-    padding: 110px 15px 157px 15px;
+    padding: 50px auto;
   }
   .wrap-input100{
     display: block;
@@ -463,7 +456,7 @@ textarea.input100 {
 .alert-validate::before {
   content: attr(data-validate);
   position: absolute;
-  max-width: 70%;
+  max-width: 100%;
   background-color: white;
   border: 1px solid #c80000;
   border-radius: 13px;

@@ -3,6 +3,8 @@
   font-size: 52px;
   text-decoration: bold;
   text-transform: lowercase;
+  padding-top: 3px;
+  padding-bottom: 3px;
 }
 
 .LinkesNavDropdown {
@@ -18,4 +20,98 @@
 
 .dropdown-menu .dropdown-item {
   color: black;
+}
+
+.nav__button {
+  padding: 1rem 2rem;
+}
+
+@media only screen and (max-width: 540px) {
+  .nav__button{
+    padding: 0.5rem 1rem;
+  }
+  .nav-item{
+    padding-left: 1rem;
+  }
+  .LinkesNavDropdownMobile{
+    padding-left: 1rem;
+  }
+}
+
+@media only screen and (max-width:1200px) {
+  .nav-item{
+    padding-left: 2rem;
+  }
+  .LinkesNavDropdownMobile{
+    padding: 0.5rem 0 0.5rem 2rem;
+  }
+  #addNavLogo {
+    position: unset;
+  }
+}
+
+#addNavLogo {
+  position: absolute;
+  top: 1.5rem;
+  left: 2rem;
+}
+
+@media only screen and (max-width: 540px) {
+  .nav__button{
+    padding: 0.5rem 1rem;
+  }
+  .nav-item{
+    padding-left: 1rem;
+  }
+  .LinkesNavDropdownMobile{
+    padding-left: 1rem;
+  }
+}
+
+@media only screen and (max-width:1200px) {
+  .nav-item{
+    padding-left: 2rem;
+  }
+  .LinkesNavDropdownMobile{
+    padding: 0.5rem 0 0.5rem 2rem;
+  }
+  #addNavLogo {
+    position: unset;
+  }
+}
+
+#addNavLogo {
+  position: absolute;
+  top: 1.5rem;
+  left: 2rem;
+}
+
+@media only screen and (max-width: 540px) {
+  .nav__button{
+    padding: 0.5rem 1rem;
+  }
+  .nav-item{
+    padding-left: 1rem;
+  }
+  .LinkesNavDropdownMobile{
+    padding-left: 1rem;
+  }
+}
+
+@media only screen and (max-width:1200px) {
+  .nav-item{
+    padding-left: 2rem;
+  }
+  .LinkesNavDropdownMobile{
+    padding: 0.5rem 0 0.5rem 2rem;
+  }
+  #addNavLogo {
+    position: unset;
+  }
+}
+
+#addNavLogo {
+  position: absolute;
+  top: 1.5rem;
+  left: 2rem;
 }

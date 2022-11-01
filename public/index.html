@@ -1,3 +1,5 @@
+<!-- @format -->
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -13,7 +15,9 @@
     <link rel="stylesheet" type="text/css" href="css/main.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"/>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+  
     <title>Robotics Website</title>
   </head>
   <body style="padding: 0; margin: 0;">
@@ -30,13 +34,14 @@
     <script src="assets/js/timeline.js"></script>
     <script>
       $(window).scroll(function () {
-        $(".main-nav").toggleClass("nav-scrolled", $(this).scrollTop() > 50);
+        // $(".main-nav").toggleClass("nav-scrolled", $(this).scrollTop() > 100);
         $(".nav-comps").toggleClass("comp-scrolled", $(this).scrollTop() > 400);
+        $("#addNavLogo").toggleClass("text__hide", $(this).scrollTop() < 100)
         if ($(this).scrollTop() > 400) {
           $("#addNavLogo").html(
-            `<div class="nav-logo">
-                  <p class="scrollto logo">RoboSoc NIT-H</p>
-            </div>`
+            `<div className="nav-logo">
+              <p className="logo text-light">RoboSoc NIT-H</p>
+            </div>`,
           );
         } else {
           $(".nav-logo").remove();
@@ -48,22 +53,22 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <script type="module">
-      import Swiper from 'https://unpkg.com/swiper@7/swiper-bundle.esm.browser.min.js'
-    
-      var swiper = new Swiper('.blog-slider', {
-      spaceBetween: 30,
-  direction: 'vertical',
-      effect: 'fade',
-      loop: true,
-      mousewheel: {
-        invert: false,
-      },
-      // autoHeight: true,
-      pagination: {
-        el: '.blog-slider__pagination',
-        clickable: true,
-      }
-    });
+      import Swiper from "https://unpkg.com/swiper@7/swiper-bundle.esm.browser.min.js";
+
+      var swiper = new Swiper(".blog-slider", {
+        spaceBetween: 30,
+        direction: "vertical",
+        effect: "fade",
+        loop: true,
+        mousewheel: {
+          invert: false,
+        },
+        // autoHeight: true,
+        pagination: {
+          el: ".blog-slider__pagination",
+          clickable: true,
+        },
+      });
     </script>
   </body>
   <!-- <img src="./logo/robosoc-122x90.png" width="2px"> -->

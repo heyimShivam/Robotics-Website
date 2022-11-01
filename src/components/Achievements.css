@@ -121,6 +121,7 @@
     vertical-align: initial;
     border-radius: 50%;
 }
+
 .main-timeline .content{
     display: table;
     padding-right: 40px;
@@ -337,4 +338,10 @@
     .main-timeline .description{
         text-align: center;
     }
+}
+
+
+.achievement-img {
+    width: 100%;
+    aspect-ratio: 1/1;
 }
