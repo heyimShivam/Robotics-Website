@@ -6,7 +6,6 @@ import Aos from "aos";
 import "./outline.scss";
 import "./Navbar.css";
 import { navItems } from "../websiteUserData/navBar";
-import { transform } from "lodash";
 
 class Navbar extends React.Component {
   constructor(props) {
@@ -42,16 +41,9 @@ class Navbar extends React.Component {
     this.setState({
       activePage: pageName,
     });
-    pageName === "Home" ?
-    this.setState({
-      button: true
-    }):
-    this.setState({
-      button: false
-    })
   };
 
-  handleNav = () =>{
+  handleNav = () => {
     this.setState({
       activeNav: false
     })
@@ -77,20 +69,25 @@ class Navbar extends React.Component {
   }
 
   buttonClick = () => {
-    this.setState({
-      activeNav: true
-    })
-    this.state.button ==false ?
-      this.setState({
-      button : true 
-    }) :
-    this.setState({
-      button :false
-    })
+    this.setState({activeNav: true})
+    // this.state.activePage === "Home" ?
+    // this.state.button === true ?
+    // this.setState({button: false}) :
+    // this.setState({button: true}) :
+    // this.setState({button: false})
+    // this.state.button ==false ?
+    //   this.setState({
+    //   button : true 
+    // }) :
+    // this.setState({
+    //   button :false
+    // })
   }
 
   render() {
-    console.log(this.state.activeNav)
+    console.log(this.state.activePage)
+    console.log(this.state.button)
+    // console.log(this.state.activeNav)
     return (
       <>
         <div
@@ -102,20 +99,20 @@ class Navbar extends React.Component {
             {this.state.width <= 1100 ? (
               <>
                 <button
-                  className={`${ this.state.activeNav === true ? 'navbar-toggler nav__button toggler-example': 'navbar-toggler collapsed nav__button toggler-example'}`}
+                  className={`${ this.state.activeNav === true ? 'navbar-toggler nav__button toggler-example': 'navbar-toggler nav__button collapsed toggler-example'}`}
                   type='button'
                   onClick={this.buttonClick}
                   data-toggle='collapse'
                   data-target='#navbarSupportedContent1'
                   aria-controls='navbarSupportedContent1'
-                  aria-expanded='false'
+                  aria-expanded={this.state.button}
                   aria-label='Toggle navigation'
                 >
                   <span className='hamburger-icon'>
                     <i className='fa fa-bars' aria-hidden='true'></i>
                   </span>
                 </button>
-                <div className={`${this.state.activeNav === true ? 'navbar-collapse collapse collapsing show' : 'navbar-collapse collapse'}`} id='navbarSupportedContent1'>
+                <div className={`${this.state.activeNav === true ? 'navbar-collapse collapse show' : 'navbar-collapse collapse'}`} id='navbarSupportedContent1'>
                   <ul className='navbar-nav mr-auto'>
                     {navItems.map((item, index) => {
                       return item.length < 2 ? (

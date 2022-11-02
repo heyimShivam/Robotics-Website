@@ -76,7 +76,7 @@ function Home() {
             <div className='row'>
               <div className='col main__page__heading'>
                 <svg viewBox='0 0 1260 300'>
-                  <text text-anchor="middle" x='630' y='150' width='100%'>
+                  <text text-anchor="middle" x='630' y='270' width='100%'>
                     Robotics Society
                   </text>
                 </svg>
@@ -90,10 +90,10 @@ function Home() {
 
             <div className='row robosoc-text-header-box'>
               <div className='col robosoc-text-header'>
-                <button className='header-button btn btn-secondary'>RoboWeek 3.0</button>
+                <button className='header-button btn btn-secondary'>Shivam</button>
               </div>
               <div className='col robosoc-text-header'>
-                <button className='header-button btn btn-secondary'></button>
+                <button className='header-button btn btn-secondary'>Shivam</button>
               </div>
             </div>
             <div className='robo__animation'>
