@@ -11,7 +11,7 @@ function Achievements() {
   return (
     <>
       <section>
-        <div className='container py-5'>
+        <div className='container py-5 my-5'>
           <div className='row'>
             <div className='col-md-12'>
               <div className='main-timeline'>
@@ -38,7 +38,7 @@ function Achievements() {
                   <div className='timeline-content'>
                     <div className='circle'>
                       <span className='homebox'>
-                        <img src={IMG2} className='img achievement-img' />
+                        <img src={IMG2} alt=" " className='img achievement-img' />
                       </span>
                     </div>
                     <div className='content'>
@@ -57,7 +57,7 @@ function Achievements() {
                   <div className='timeline-content'>
                     <div className='circle'>
                       <span className='homebox'>
-                        <img src={IMG5} className='img achievement-img' />
+                        <img src={IMG5} alt=" " className='img achievement-img' />
                       </span>
                     </div>
                     <div className='content'>
@@ -77,7 +77,7 @@ function Achievements() {
                   <div className='timeline-content'>
                     <div className='circle'>
                       <span className='homebox'>
-                        <img src={IMG3} className='img achievement-img' />
+                        <img src={IMG3} alt=" " className='img achievement-img' />
                       </span>
                     </div>
                     <div className='content'>
@@ -97,7 +97,7 @@ function Achievements() {
                   <div className='timeline-content'>
                     <div className='circle'>
                       <span className='homebox'>
-                        <img src={IMG1} className='img achievement-img' />
+                        <img src={IMG1} alt=" " className='img achievement-img' />
                       </span>
                     </div>
                     <div className='content'>
