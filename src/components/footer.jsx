@@ -7,7 +7,7 @@ function Footer() {
           <div className="container">
             <div className="row">
               <div className="col-sm-6 col-md-3 item">
-                <h3>Services</h3>
+                <h3>Work</h3>
                 <ul>
                   <li>
                     <a href="#">Web design</a>
@@ -16,7 +16,7 @@ function Footer() {
                     <a href="#">Development</a>
                   </li>
                   <li>
-                    <a href="#">Hosting</a>
+                    <a href="#">Project</a>
                   </li>
                 </ul>
               </div>
