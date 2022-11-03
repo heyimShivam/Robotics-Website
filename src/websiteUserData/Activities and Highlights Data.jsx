@@ -26,4 +26,24 @@ export const projectDetails = [
         mainImage: 'Images/nimbusmain.jpg',
         content: 'Nimbus is the annual technical fest of NIT Hamirpur. In 2k18, we showcased the following projects : Brain Controlled Wheelchair, Aim and Shoot, Self Balancing Robot, Humanoid.'    
     }
+    ,
+    {
+        id: 3,
+        title: 'Quiz conducted',
+        link: '#',
+        shortDetails: '',
+        image: 'Images/DSC_0477.jpg',
+        mainImage: 'Images/DSC_0510-2.jpg',
+        content: ' An exciting quiz was organised by Robotics Society'    
+    }
+    ,
+    {
+        id: 3,
+        title: 'Workshop conduted in government high school',
+        link: '#',
+        shortDetails: '',
+        image: 'Images/20220928_122407.jpg',
+        mainImage: 'Images/20220928_122407.jpg',
+        content: 'To increase the awareness about the Robotics domain and technology among young folks (high-school students), a workshop in a government school was organised and several bots were demonstrated successfully conducted'    
+    }
 ]
