@@ -16,7 +16,6 @@ body {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 25px;
-  margin: 4rem 5vw;
   padding: 0;
   justify-content: center;
   list-style-type: none;
@@ -124,7 +123,7 @@ body {
   font-family: 'Russo One', sans-serif;  
   display: -webkit-box;
   -webkit-box-orient: vertical;
-  -webkit-line-clamp: 3;
+  /* -webkit-line-clamp: 3; */
   overflow: hidden;
 }    
 

@@ -9,7 +9,7 @@
 }
 
 .robosoc-text-header {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 500;
   color: #19f6e8;
   font-family: 'Russo One', sans-serif;
@@ -35,6 +35,16 @@
   display: block;
   overflow: hidden;
   width: 100%;
+}
+
+.robo__animation_main_header {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: 999;
 }
 
 .main-banner {
@@ -1258,8 +1268,9 @@ a:focus {
   stroke-width: 2;
   stroke: #00ffff;
   color: #00ffd5;
-  font-size: 130px;
+  font-size: 195px;
 }
+
 @keyframes stroke {
   0% {
     fill: rgba(25, 246, 232, 0);
@@ -1339,7 +1350,7 @@ a:focus {
 /* social icons  */
 .home-hero__socials {
   position: absolute;
-  top: 42.5%;
+  top: 50%;
   right: calc(100% - 68px);
   transform: translateY(-50%);
 }
@@ -1438,7 +1449,7 @@ a:focus {
 }
 
 .robosoc-text-header {
-  padding-top: 2rem;
+  padding-top: 3rem;
 }
 
 
@@ -1576,15 +1587,26 @@ a:focus {
   animation-play-state: paused;
 }
 
+.shivam_dogra_new {
+  margin-top: 40px;
+  font-size: 10px;
+}
+
+.shivam_dogra_new2 {
+  margin-top: 20px;
+}
+
+.main__page__heading {
+  width: 100%;
+}
 
 /* div containing the robot */
 
 .robo__animation {
-  position: relative;
-  left: 50vw;
-  bottom: 50vh;
-  height: 30vh;
-  width: 23vw;
+  position: absolute;
+  right: 25px;
+  bottom: -50px;
+  width: 19vw;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -1592,16 +1614,10 @@ a:focus {
     position: relative;
     z-index: 1;
   }
-  .robo__animation {
-    position: relative;
-    width: 50vw;
-    height: 50vh;
-    left: 0;
-  }
   .robosoc-text-header{
     font-size: 1.5rem;
   }
-  .robo__animation{
+  .robo__animation {
     display: none;
     bottom: 50vh;
     width: 80vw;
@@ -1618,7 +1634,7 @@ a:focus {
     font-size: 1.5rem;
   }
 }
-@media only screen and (max-width: 540px) {
+@media only screen and (max-width: 1200px) {
   .robosoc-text-header{
     font-size: 1rem;
   }
@@ -1626,12 +1642,11 @@ a:focus {
     margin-bottom: 1rem;
     font-size: 1rem;
   }
-  .robo__animation{
+  .robo__animation {
     bottom: 50vh;
     width: 80vw;
-
   }
   .roboticsname{
-    width: 80vw;
+    width: 90vw;
   }
 }
