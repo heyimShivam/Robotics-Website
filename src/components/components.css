@@ -6,6 +6,11 @@
   margin: 0 auto;
 }
 
+.cardsNew{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
 .cardMain {
   position: relative;
   margin-bottom: 15px;
