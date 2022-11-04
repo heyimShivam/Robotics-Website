@@ -295,11 +295,11 @@ function Home() {
         <MainMembersHome />
       </div>
 
-      <div>
+      <div style={{margin: "5rerm"}}>
         <ProjectHighLights />
       </div>
 
-      <div>
+      <div style={{margin: "5rerm"}}>
         <Highlights />
       </div>
 
