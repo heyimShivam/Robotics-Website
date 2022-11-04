@@ -10,7 +10,7 @@ function Highlights() {
     <div className="container my-5 py-5">
       <div className="cardsNew justify-content-around py-5">
         {projectDetails.map(data => (
-          <div className="d-flex justify-content-center" key={data.id}>
+          <div className="d-flex justify-content-center " key={data.id}>
             <a href={data.link} className="cardNew">
               <img src={data.mainImage} className="card__image" alt="" />
               <div className="card__overlay">
