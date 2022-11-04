@@ -5,7 +5,7 @@ import "./components.css";
 function MainMembersHome() {
   return (
     <>
-      <div className='row'>
+      <div className='row my-5'>
         <div className='col-lg-4 col-md-12 my-4'>
           <div className='cardMain'>
             <div className='imgBx'>

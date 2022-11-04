@@ -2,14 +2,14 @@ function ProjectHighLights() {
   return (
     <>
 
-      <div class="project-head">
-        <h1 class="activity-head">
+      <div class="project-head my-5">
+        <h1 class="activity-head my-5">
           Project Highlights
         </h1>
       </div>
       <div className="container">
         <div>
-          <section className="light">
+          <section>
             <article className="postcard light blue">
               <a className="postcard__img_link" href="#empty">
                 <img
@@ -20,7 +20,7 @@ function ProjectHighLights() {
               </a>
               <div className="postcard__text t-dark">
                 <h1 className="postcard__title blue">
-                  <a href="https://robosocnith.com/index.html">
+                  <a href="https://robosocnith.com/index.html" className="text-large ">
                     Humanoid Robot
                   </a>
                 </h1>

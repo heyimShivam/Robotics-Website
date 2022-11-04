@@ -95,7 +95,7 @@ class Navbar extends React.Component {
           className={`${this.state.width <= 1100 ? "main-nav win-resize" : "main-nav"} ${this.state.scrollValue >= 400 ? "nav-scrolled" : ""} ${
           this.props.loc === "/" ? "" : this.props.loc === "/gallery" ? "" : "nav-scrolled"} ${this.state.activePage === "Home" ? "" : this.state.activePage === "Gallery" ? "" : "nav-scrolled"}  `}
         >
-          <nav id='nav__nav' style={{ paddingRight: "1.8rem" }}>
+          <nav id='nav__nav'>
             {this.state.width <= 1100 ? (
               <>
                 <button

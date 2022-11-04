@@ -235,9 +235,7 @@ function Home() {
         </div>
 
         {/* This Div block is for the text present on Home Page */}
-        <div className='container-fluid main-element d-flex justify-content-center'>
-          <div className='roboticsname'>
-            <div class='home-hero__socials'>
+        <div class='home-hero__socials'>
               <div class='home-hero__social'>
                 <a href='https://www.linkedin.com/school/robotics-society-national-institute-of-technology-hamipur/about/' class='home-hero__social-icon-link'>
                   <img src={LOGO1} alt='icon' class='home-hero__social-icon' />
@@ -264,6 +262,10 @@ function Home() {
                 </a>
               </div>
             </div>
+            
+        <div className='container-fluid main-element d-flex justify-content-center'>
+          <div className='roboticsname'>
+            
 
             <div className='row'>
               <div className='col main__page__heading'>
@@ -280,14 +282,14 @@ function Home() {
               <div className='col-12 robosoc-text-header'>Build and sustain a culture to be self reliant to accomplish our vision, by emphasizing on the development of individual quality.</div>
             </div>
 
-            <div className='row robosoc-text-header-box shivam_dogra_new2'>
+            {/* <div className='row robosoc-text-header-box shivam_dogra_new2'>
               <div className='col robosoc-text-header'>
                 <button className='header-button btn btn-secondary'>Shivam</button>
               </div>
               <div className='col robosoc-text-header'>
                 <button className='header-button btn btn-secondary'>Shivam</button>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
 
@@ -300,11 +302,11 @@ function Home() {
         <MainMembersHome />
       </div>
 
-      <div>
+      <div style={{margin: "5rerm"}}>
         <ProjectHighLights />
       </div>
 
-      <div>
+      <div style={{margin: "5rerm"}}>
         <Highlights />
       </div>
 

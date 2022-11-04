@@ -1,5 +1,6 @@
 function ContactUs() {
-	return (<><div className="bg-contact100" >
+	return (<>
+	<div className="bg-contact100 my-5">
 		<div className="container-contact100">
 			<div className="wrap-contact100">
 				<div className="contact100-pic js-tilt" data-tilt>
