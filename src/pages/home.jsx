@@ -278,8 +278,8 @@ function Home() {
             </div>
 
             <div className='row text-light py-5 shivam_dogra_new'>
-              <div className='col-12 robosoc-text-header'>To be a luminary of the indian society in the field of Robotics.</div>
-              <div className='col-12 robosoc-text-header'>Build and sustain a culture to be self reliant to accomplish our vision, by emphasizing on the development of individual quality.</div>
+              <div className='col-12 robosoc-text-header'>Vision :- To be a luminary of the indian society in the field of Robotics.</div>
+              <div className='col-12 robosoc-text-header'>Mission :- Build and sustain a culture to be self reliant to accomplish our vision, by emphasizing on the development of individual quality.</div>
             </div>
 
             {/* <div className='row robosoc-text-header-box shivam_dogra_new2'>
