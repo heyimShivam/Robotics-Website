@@ -1350,6 +1350,7 @@ a:focus {
 /* social icons  */
 .home-hero__socials {
   position: absolute;
+  z-index: 2000;
   top: 50%;
   right: calc(100% - 68px);
   transform: translateY(-50%);
@@ -1375,6 +1376,8 @@ a:focus {
   width: 4rem;
 }
 .home-hero__social-icon-link {
+  position: relative;
+  z-index: 2000;
   width: 100%;
   display: block;
   padding: 1.2rem;
