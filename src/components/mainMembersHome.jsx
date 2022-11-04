@@ -26,7 +26,7 @@ function MainMembersHome() {
         <div className='col-lg-4 col-md-6 my-4'>
           <div className='cardMain'>
             <div className='imgBx'>
-              <img alt=" " src='members\kashish sir.jpeg' />
+              <img alt=" " src='members\kashish sir.jpg' />
             </div>
             <div className='details'>
               <h2>
@@ -41,7 +41,7 @@ function MainMembersHome() {
         <div className='col-lg-4 col-md-6 my-4'>
           <div className='cardMain'>
             <div className='imgBx'>
-              <img alt=" " src='members\lamy sir.jpeg' />
+              <img alt=" " src='members\lamy sir.jpg' />
             </div>
             <div className='details'>
               <h2>
