@@ -20,7 +20,7 @@ function ProjectHighLights() {
               </a>
               <div className="postcard__text t-dark">
                 <h1 className="postcard__title blue">
-                  <a href="https://robosocnith.com/index.html">
+                  <a href="https://robosocnith.com/index.html" className="text-large ">
                     Humanoid Robot
                   </a>
                 </h1>
