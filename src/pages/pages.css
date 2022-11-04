@@ -1582,12 +1582,12 @@ a:focus {
 .robo__animation {
   position: relative;
   left: 50vw;
-  bottom: 35vh;
+  bottom: 15vh;
   height: 30vh;
   width: 23vw;
 }
 
-@media only screen and (max-width: 1500px) {
+@media only screen and (max-width: 1200px) {
   .robosoc-text-header{
     position: relative;
     z-index: 1;
