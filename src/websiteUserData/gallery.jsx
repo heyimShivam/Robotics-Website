@@ -110,7 +110,7 @@ import quiz25 from './../images/quiz/quiz25.jpg'
 import quiz26 from './../images/quiz/quiz26.jpg'
 
 
-export const TagsList = ["All", "Felicitation", "Nimbus", "Farewell","School_Workshop","Robosoc Quiz"];
+export const TagsList = ["All", "Felicitation", "Nimbus", "Farewell","School Workshop","Robosoc Quiz"];
 export const Images = [
   
     {
