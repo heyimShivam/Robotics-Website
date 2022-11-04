@@ -69,37 +69,37 @@ class Navbar extends React.Component {
   }
 
   buttonClick = () => {
-    this.setState({activeNav: true})
-    // this.state.activePage === "Home" ?
-    // this.state.button === true ?
-    // this.setState({button: false}) :
-    // this.setState({button: true}) :
-    // this.setState({button: false})
-    // this.state.button ==false ?
-    //   this.setState({
-    //   button : true 
-    // }) :
-    // this.setState({
-    //   button :false
-    // })
+    // this.setState({activeNav: true});
+    this.state.activePage === "Home" ?
+    this.state.button === true ?
+    this.setState({button: false}) :
+    this.setState({button: true}) :
+    this.setState({button: false})
+    this.state.button ==false ?
+      this.setState({
+      button : true 
+    }) :
+    this.setState({
+      button :false
+    })
   }
 
   render() {
-    console.log(this.state.activePage)
-    console.log(this.state.button)
-    // console.log(this.state.activeNav)
+    // console.log(this.state.activePage);
+    // console.log(this.state.button);
+    console.log(this.state.activeNav);
     return (
       <>
         <div
-          style={{background: `${this.state.button === true ? '' : this.state.activePage === "Home" ? "transparent" : ''}`}} 
+          style={{background: `${this.state.button === true ? '' : this.state.activePage === "Home" && this.state.button === false ? "transparent" : ''}`}} 
           className={`${this.state.width <= 1100 ? "main-nav win-resize" : "main-nav"} ${this.state.scrollValue >= 400 ? "nav-scrolled" : ""} ${
-            this.props.loc === "/" ? "" : this.props.loc === "/gallery" ? "" : "nav-scrolled"} ${this.state.activePage === "Home" ? "" : this.state.activePage === "Gallery" ? "" : "nav-scrolled"}  `}
+          this.props.loc === "/" ? "" : this.props.loc === "/gallery" ? "" : "nav-scrolled"} ${this.state.activePage === "Home" ? "" : this.state.activePage === "Gallery" ? "" : "nav-scrolled"}  `}
         >
           <nav id='nav__nav' style={{ paddingRight: "1.8rem" }}>
             {this.state.width <= 1100 ? (
               <>
                 <button
-                  className={`${ this.state.activeNav === true ? 'navbar-toggler nav__button toggler-example': 'navbar-toggler nav__button collapsed toggler-example'}`}
+                  className='navbar-toggler nav__button collapsed toggler-example'
                   type='button'
                   onClick={this.buttonClick}
                   data-toggle='collapse'
@@ -112,7 +112,8 @@ class Navbar extends React.Component {
                     <i className='fa fa-bars' aria-hidden='true'></i>
                   </span>
                 </button>
-                <div className={`${this.state.activeNav === true ? 'navbar-collapse collapse show' : 'navbar-collapse collapse'}`} id='navbarSupportedContent1'>
+                <div className='navbar-collapse collapse'
+                  id='navbarSupportedContent1'>
                   <ul className='navbar-nav mr-auto'>
                     {navItems.map((item, index) => {
                       return item.length < 2 ? (
