@@ -7,7 +7,7 @@
 }
 
 .project__img{
-    width: fit-content;
+    width: 20vw;
     aspect-ratio: 1/1;
     overflow: hidden;
 }

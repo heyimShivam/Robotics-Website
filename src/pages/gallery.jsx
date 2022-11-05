@@ -4,7 +4,7 @@ import "./../components/gallerycss/gallery.css";
 // import Viewpager from "../components/mainSlidingBanner";
 // import MainBannerCard from "../components/mainBanner";
 import { Images, TagsList } from "./../websiteUserData/gallery";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Viewpager from "../components/mainSlidingBanner";
 
 function Gallery() {
@@ -12,13 +12,25 @@ function Gallery() {
   const changeTag = (activeTag) => {
     setTag(activeTag);
   };
+
+  const [width, setWidth] = useState(1000);
+
+  const handleResize = () => {
+    setWidth(window.screen.availWidth);
+  }
+
+  useEffect(() => {
+    setWidth(window.screen.availWidth);
+    window.addEventListener("resize", handleResize);
+  }, []);
+
   return (
     <>
-      <div className='gallery'>
+      <div className='gallery' style={{display : `${width<540?'none':''}`}}>
         <Viewpager />
       </div>
       <div className='container'>
-        <div className='container button__container'>
+        <div className='button__container container'>
           {TagsList.map((newTag) => (
             <button className={`btn btn-${tag === newTag ? "" : "outline-"}dark tag__button `} onClick={() => changeTag(newTag)}>
               {newTag}

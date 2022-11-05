@@ -48,10 +48,253 @@ import IMG47 from './../images/gallery/47.jpg'
 import IMG48 from './../images/gallery/48.jpg'
 import IMG49 from './../images/gallery/49.jpg'
 
+//images for school workshop and robotics quiz added
+
+// import workshop1 from './../images/school/workshop1.heic'
+// import workshop2 from './../images/school/workshop2.heic'
+import workshop3 from './../images/school/workshop3.jpg'
+import workshop4 from './../images/school/workshop4.jpg'
+import workshop5 from './../images/school/workshop5.jpg'
+import workshop6 from './../images/school/workshop6.jpg'
+// import workshop7 from './../images/school/workshop7.jpg'
+import workshop8 from './../images/school/workshop8.jpg'
+import workshop9 from './../images/school/workshop9.jpg'
+import workshop10 from './../images/school/workshop10.jpg'
+import workshop11 from './../images/school/workshop11.heic'
+import workshop12 from './../images/school/workshop12.jpg'
+import workshop13 from './../images/school/workshop13.jpg'
+import workshop14 from './../images/school/workshop14.jpg'
+import workshop15 from './../images/school/workshop15.jpg'
+import workshop16 from './../images/school/workshop16.jpg'
+import workshop17 from './../images/school/workshop17.jpg'
+// import workshop18 from './../images/school/workshop18.heic'
+// import workshop19 from './../images/school/workshop19.heic'
+// import workshop20 from './../images/school/workshop20.heic'
+// import workshop21 from './../images/school/workshop21.jpg'
+import workshop22 from './../images/school/workshop22.jpg'
+import workshop23 from './../images/school/workshop23.jpg'
+import workshop24 from './../images/school/workshop24.jpg'
+// import workshop25 from './../images/school/workshop25.jpg'
+import workshop26 from './../images/school/workshop26.jpg'
+import workshop27 from './../images/school/workshop27.jpg'
+import workshop28 from './../images/school/workshop28.jpg'
+import workshop29 from './../images/school/workshop29.jpg'
 
 
-export const TagsList = ["All", "Felicitation", "Nimbus", "Farewell"];
+//images of quiz added
+import quiz1 from './../images/quiz/quiz1.jpg'
+import quiz2 from './../images/quiz/quiz2.jpg'
+import quiz3 from './../images/quiz/quiz3.jpg'
+import quiz4 from './../images/quiz/quiz4.jpg'
+import quiz5 from './../images/quiz/quiz5.jpg'
+// import quiz6 from './../images/quiz/quiz6.jpg'
+// import quiz7 from './../images/quiz/quiz7.jpg'
+import quiz8 from './../images/quiz/quiz8.jpg'
+import quiz9 from './../images/quiz/quiz9.jpg'
+import quiz10 from './../images/quiz/quiz10.jpg'
+import quiz11 from './../images/quiz/quiz11.jpg'
+import quiz12 from './../images/quiz/quiz12.jpg'
+import quiz13 from './../images/quiz/quiz13.jpg'
+import quiz14 from './../images/quiz/quiz14.jpg'
+import quiz15 from './../images/quiz/quiz15.jpg'
+import quiz16 from './../images/quiz/quiz16.jpg'
+import quiz17 from './../images/quiz/quiz17.jpg'
+import quiz18 from './../images/quiz/quiz18.jpg'
+import quiz19 from './../images/quiz/quiz19.jpg'
+import quiz20 from './../images/quiz/quiz20.jpg'
+import quiz21 from './../images/quiz/quiz21.jpg'
+import quiz22 from './../images/quiz/quiz22.jpg'
+import quiz23 from './../images/quiz/quiz23.jpg'
+import quiz24 from './../images/quiz/quiz24.jpg'
+import quiz25 from './../images/quiz/quiz25.jpg'
+import quiz26 from './../images/quiz/quiz26.jpg'
+
+
+export const TagsList = ["All", "Felicitation", "Nimbus", "Farewell","School Workshop","Robosoc Quiz"];
 export const Images = [
+  
+    {
+        path: workshop3,
+        tag : ['All', 'School_Workshop']
+    },
+    {
+        path: workshop4,
+        tag : ['All', 'School_Workshop']
+    },
+    {
+        path: workshop5,
+        tag : ['All', 'School_Workshop']
+    },
+    {
+        path: workshop6,
+        tag : ['All', 'School_Workshop']
+    },
+
+    {
+        path: workshop8,
+        tag : ['All', 'School_Workshop']
+    },
+    {
+        path: workshop9,
+        tag : ['All', 'School_Workshop']
+    },
+    {
+        path: workshop10,
+        tag : ['All', 'School_Workshop']
+    },
+
+    {
+        path: workshop12,
+        tag : ['All', 'School_Workshop']
+    },
+    {
+        path: workshop13,
+        tag : ['All', 'School_Workshop']
+    },
+    {
+        path: workshop14,
+        tag : ['All', 'School_Workshop']
+    },
+    {
+        path: workshop15,
+        tag : ['All', 'School_Workshop']
+    },
+    {
+        path: workshop16,
+        tag : ['All', 'School_Workshop']
+    },
+    {
+        path: workshop17,
+        tag : ['All', 'School_Workshop']
+    },
+ 
+    {
+        path: workshop22,
+        tag : ['All', 'School_Workshop']
+    },
+    {
+        path: workshop23,
+        tag : ['All', 'School_Workshop']
+    },
+    {
+        path: workshop24,
+        tag : ['All', 'School_Workshop']
+    },
+    {
+        path: workshop26,
+        tag : ['All', 'School_Workshop']
+    },
+    {
+        path: workshop27,
+        tag : ['All', 'School_Workshop']
+    },
+    {
+        path: workshop28,
+        tag : ['All', 'School_Workshop']
+    },
+    {
+        path: workshop29,
+        tag : ['All', 'School_Workshop']
+    },
+    {
+        path: quiz1,
+        tag : ['All', 'Robosoc Quiz']
+    },
+    {
+        path: quiz2,
+        tag : ['All', 'Robosoc Quiz']
+    },
+    {
+        path: quiz3,
+        tag : ['All', 'Robosoc Quiz']
+    },
+    {
+        path: quiz4,
+        tag : ['All', 'Robosoc Quiz']
+    },
+    {
+        path: quiz5,
+        tag : ['All', 'Robosoc Quiz']
+    },
+
+  
+    {
+        path: quiz8,
+        tag : ['All', 'Robosoc Quiz']
+    },
+    {
+        path: quiz9,
+        tag : ['All', 'Robosoc Quiz']
+    },
+    {
+        path: quiz10,
+        tag : ['All', 'Robosoc Quiz']
+    },
+    {
+        path: quiz11,
+        tag : ['All', 'Robosoc Quiz']
+    },
+    {
+        path: quiz12,
+        tag : ['All', 'Robosoc Quiz']
+    },
+    {
+        path: quiz13,
+        tag : ['All', 'Robosoc Quiz']
+    },
+    {
+        path: quiz14,
+        tag : ['All', 'Robosoc Quiz']
+    },
+    {
+        path: quiz15,
+        tag : ['All', 'Robosoc Quiz']
+    },
+    {
+        path: quiz16,
+        tag : ['All', 'Robosoc Quiz']
+    },
+    {
+        path: quiz17,
+        tag : ['All', 'Robosoc Quiz']
+    },
+    {
+        path: quiz18,
+        tag : ['All', 'Robosoc Quiz']
+    },
+    {
+        path: quiz19,
+        tag : ['All', 'Robosoc Quiz']
+    },
+    {
+        path: quiz20,
+        tag : ['All', 'Robosoc Quiz']
+    },
+    {
+        path: quiz21,
+        tag : ['All', 'Robosoc Quiz']
+    },
+    {
+        path: quiz22,
+        tag : ['All', 'Robosoc Quiz']
+    },
+    {
+        path: quiz23,
+        tag : ['All', 'Robosoc Quiz']
+    },
+    {
+        path: quiz24,
+        tag : ['All', 'Robosoc Quiz']
+    },
+    {
+        path: quiz25,
+        tag : ['All', 'Robosoc Quiz']
+    },
+    {
+        path: quiz26,
+        tag : ['All', 'Robosoc Quiz']
+    },
+
     {
         path: IMG1,
         tag : ['All', 'Felicitation']
