@@ -21,6 +21,28 @@ body {
   list-style-type: none;
 }
 
+@media only screen and (max-width: 1200px) {
+  .cardsNew {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(300px, 1fr));
+    gap: 25px;
+    padding: 0;
+    justify-content: center;
+    list-style-type: none;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .cardsNew {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(300px, 1fr));
+    gap: 25px;
+    padding: 0;
+    justify-content: center;
+    list-style-type: none;
+  }
+}
+
 .cardNew {
   position: relative;
   display: block;
