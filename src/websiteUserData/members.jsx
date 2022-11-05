@@ -106,23 +106,6 @@ export const coreMemebersDetails = [
     github: "http://github.com/kratika19",
     field: ["IoT and Healthcare", "Full Stack Development"],
   },
-
-  {
-    name: "Dibakar Chaudhary",
-    role: "Core-Coordinator",
-    image: "members/coordinator/Dibakar Chaudhary.jpg",
-    linkedin: "https://www.linkedin.com/in/dibakar-chaudhary-684228196/",
-    github: "#",
-    field: ["Mechanical Designing", "Simulations, 3D Modelling"],
-  },
-  // {
-  //     name: 'Aryan Verma',
-  //     image: 'members/coordinator/ARYAN.jpg',
-  //     linkedin: 'https://www.linkedin.com/in/infoaryan',
-  //     github: 'https://github.com/infoaryan',
-  //     field: ['Computer Vision, R&D','Android Development, Deep Learning'],
-  // },
-
   {
     name: "Arihant Raj Siddharth",
     role: "Core-Coordinator",
@@ -131,15 +114,6 @@ export const coreMemebersDetails = [
     github: "#",
     field: ["Error Control in Digital Communication", "."],
   },
-
-  {
-    name: "Navdeep Singh Rathore",
-    role: "Core-Coordinator",
-    image: "members/coordinator/Navdeep Rathore.jpg",
-    linkedin: "https://www.linkedin.com/in/navdeep-singh-rathore-869245196/",
-    github: "#",
-    field: ["Web development, Programming", "."],
-  },
   {
     name: "Mohd Nomaan",
     role: "Core-Coordinator",
@@ -147,15 +121,6 @@ export const coreMemebersDetails = [
     linkedin: "https://www.linkedin.com/in/mohd-nomaan-092231196",
     github: "#",
     field: ["IOT, Machine Learning, ", "C++ & Python Programming"],
-  },
-
-  {
-    name: "Ritesh Kumar",
-    role: "Core-Coordinator",
-    image: "members/coordinator/Ritesh Kumar.jpg",
-    linkedin: "https://www.linkedin.com/in/ritcode",
-    github: "https://github.com/ritcode",
-    field: ["Web, Blockchain, Cloud", "."],
   },
 ];
 

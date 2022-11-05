@@ -149,7 +149,7 @@ class Navbar extends React.Component {
                             <Link to={"#"} className='nav-link LinkesNavDropdown dropdown-toggle' id='dropdownMenuButton' data-toggle='dropdown' onClick={() => this.changeActivePage(item[0].title)}>
                               {item[0].title} <i className='bi bi-arrow-down'></i>
                             </Link>
-                            <div className='dropdown-menu' aria-labelledby='dropdownMenuButton'>
+                            <div className='dropdown-menu' aria-labelledby='dropdownMenuButton' >
                               {item.map((item, index) => {
                                 return (
                                   <>

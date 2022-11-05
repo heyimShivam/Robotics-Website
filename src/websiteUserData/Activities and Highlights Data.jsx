@@ -29,17 +29,17 @@ export const projectDetails = [
     ,
     {
         id: 3,
-        title: 'Quiz conducted',
+        title: 'Quiz',
         link: '#',
         shortDetails: '',
         image: 'Images/DSC_0477.jpg',
         mainImage: 'Images/DSC_0510-2.jpg',
-        content: ' An exciting quiz was organised by Robotics Society'    
+        content: ' An exciting quiz was organised by Robotics Society in NITH'    
     }
     ,
     {
         id: 3,
-        title: 'Workshop conduted in government high school',
+        title: 'School Workshop',
         link: '#',
         shortDetails: '',
         image: 'Images/20220928_122407.jpg',
