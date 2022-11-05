@@ -39,7 +39,7 @@ export const projectDetails = [
     ,
     {
         id: 3,
-        title: 'Workshop conduted in government high school',
+        title: 'Workshop held  in government high school',
         link: '#',
         shortDetails: '',
         image: 'Images/20220928_122407.jpg',

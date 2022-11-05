@@ -37,8 +37,8 @@ function Home() {
         <div className="robo__animation_main_header">
         <div className='robo__animation'>
               <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 197.60004 221.93357'>
-                <g class='robot'>
-                  <g class='gear-1'>
+                <g className='robot'>
+                  <g className='gear-1'>
                     <path
                       d='M162.9862,84.78638a7.36535,7.36535,0,1,1,10.021-2.7967A7.37337,7.37337,0,0,1,162.9862,84.78638Zm11.579-.19189,3.612,1.76629,1.903-3.3758-3.64-2.2958a9.87743,9.87743,0,0,0,.205-1.1781,10.00941,10.00941,0,0,0-.004-2.3148l4.187-1.5249-1.11-3.7117-4.507,1.1079a10.40821,10.40821,0,0,0-.611-.8863,10.1675,10.1675,0,0,0-1.276-1.3682l1.939-3.9657-3.376-1.9022-2.359,3.7396a10.07277,10.07277,0,0,0-3.626-.4089l-1.61-4.2918-3.701,1.1475,1.122,4.3765a10.00989,10.00989,0,0,0-2.647,2.1031l-4.027-2.014-1.902,3.3758,3.784,2.4354a10.12108,10.12108,0,0,0-.412,3.7136l-4.201,1.52931,1.11,3.7127,4.344-1.06831a10.33607,10.33607,0,0,0,.828,1.2547,10.19119,10.19119,0,0,0,.956,1.0709l-1.945,3.89011,3.375,1.90219,2.257-3.5073a10.08846,10.08846,0,0,0,4.233.5359l1.466,3.9207,3.692-1.1772-1.029-4.02779a10.114,10.114,0,0,0,1.185-.78721A10.00883,10.00883,0,0,0,174.56521,84.59449Z'
                       transform='translate(-12.7582 -15.21742)'
@@ -46,7 +46,7 @@ function Home() {
                     />
                     <path d='M170.6332,80.54779a4.58939,4.58939,0,1,1-1.744-6.25171A4.589,4.589,0,0,1,170.6332,80.54779Z' transform='translate(-12.7582 -15.21742)' fill='#5b6470' />
                   </g>
-                  <g class='robot-arm-right'>
+                  <g className='robot-arm-right'>
                     <path
                       d='M159.88421,96.92578q-.13351.47416-.287.9664c-.171.5449-.36,1.10521-.574,1.6735q-.1785.4863-.383.9817c-.323.7854-.688,1.58161-1.101,2.3778q-.243.46755-.508.935c-.385.67641-.808,1.351-1.271,2.013-.219.3143-.448.6278-.687.93581a22.3563,22.3563,0,0,1-2.163,2.42369c-.293.2856-.598.5639-.912.8359a20.94321,20.94321,0,0,1-2.87,2.0842q-.5625.34035-1.159.6521c-.133.0702-.269.1396-.405.2071a23.03833,23.03833,0,0,1-12.172,2.1971l.481-5.6962a17.60358,17.60358,0,0,0,7.301-.8458c.304-.1054.602-.2189.898-.34219q.483-.20145.953-.43331a15.11255,15.11255,0,0,0,1.717-.997c.267-.1775.526-.363.775-.55389a15.94551,15.94551,0,0,0,2.096-1.92571c.217-.2351.423-.4756.623-.7206a18.65109,18.65109,0,0,0,1.48-2.08869c.173-.27831.336-.56021.492-.843.342-.62059.648-1.2474.921-1.868q.201-.45675.376-.9088c.247-.6278.462-1.2448.648-1.84189q.156-.504.287-.98631a26.94922,26.94922,0,0,0,.919-5.23019l5.71.24139A32.22983,32.22983,0,0,1,159.88421,96.92578Z'
                       transform='translate(-12.7582 -15.21742)'
@@ -73,7 +73,7 @@ function Home() {
                       fill='#34345b'
                     />
                   </g>
-                  <g class='gear'>
+                  <g className='gear'>
                     <path
                       d='M162.9862,84.78638a7.36535,7.36535,0,1,1,10.021-2.7967A7.37337,7.37337,0,0,1,162.9862,84.78638Zm11.579-.19189,3.612,1.76629,1.903-3.3758-3.64-2.2958a9.87743,9.87743,0,0,0,.205-1.1781,10.00941,10.00941,0,0,0-.004-2.3148l4.187-1.5249-1.11-3.7117-4.507,1.1079a10.40821,10.40821,0,0,0-.611-.8863,10.1675,10.1675,0,0,0-1.276-1.3682l1.939-3.9657-3.376-1.9022-2.359,3.7396a10.07277,10.07277,0,0,0-3.626-.4089l-1.61-4.2918-3.701,1.1475,1.122,4.3765a10.00989,10.00989,0,0,0-2.647,2.1031l-4.027-2.014-1.902,3.3758,3.784,2.4354a10.12108,10.12108,0,0,0-.412,3.7136l-4.201,1.52931,1.11,3.7127,4.344-1.06831a10.33607,10.33607,0,0,0,.828,1.2547,10.19119,10.19119,0,0,0,.956,1.0709l-1.945,3.89011,3.375,1.90219,2.257-3.5073a10.08846,10.08846,0,0,0,4.233.5359l1.466,3.9207,3.692-1.1772-1.029-4.02779a10.114,10.114,0,0,0,1.185-.78721A10.00883,10.00883,0,0,0,174.56521,84.59449Z'
                       transform='translate(-12.7582 -15.21742)'
@@ -81,8 +81,8 @@ function Home() {
                     />
                     <path d='M170.6332,80.54779a4.58939,4.58939,0,1,1-1.744-6.25171A4.589,4.589,0,0,1,170.6332,80.54779Z' transform='translate(-12.7582 -15.21742)' fill='#5b6470' />
                   </g>
-                  <g class='robot-arm-left'>
-                    <g id='Wrench' class='wrench'>
+                  <g className='robot-arm-left'>
+                    <g id='Wrench' className='wrench'>
                       <path
                         d='M71.9535,157.57408a.777.777,0,0,1-1.0583.061,17.93905,17.93905,0,0,0-2.2013-1.557c-1.7608-1.055-3.0158-1.807-4.4105-1.454a4.144,4.144,0,0,0-1.8499,1.18,5.29878,5.29878,0,0,0-1.7742,3.031,5.0635,5.0635,0,0,0,.7381,3.385,6.80511,6.80511,0,0,0,5.1222,2.898.77779.77779,0,0,1,.6206,1.072l-.0054.013a.77886.77886,0,0,1-.3837.402,8.991,8.991,0,0,1-5.8761.657,8.814,8.814,0,0,1-6.0204-5.062c-.8562-2.066.0536-2.511-.6324-4.801-.7933-2.648-2.6638-4.237-6.1424-7.193a61.58062,61.58062,0,0,1-5.6653-5.467c-.6648-.732-1.4796-1.667-1.24-2.572.2588-.977,1.6593-1.584,2.7662-1.679,2.2979-.197,3.2911,1.815,7.9156,5.475,4.9296,3.9,6.8639,4.037,7.8938,3.969,1.1938-.079,1.431-.451,3.0467-.516a9.72954,9.72954,0,0,1,5.653,1.295,9.03715,9.03715,0,0,1,3.7397,6.172.7767.7767,0,0,1-.2063.659Z'
                         transform='translate(-12.7582 -15.21742)'
@@ -120,7 +120,7 @@ function Home() {
                       fill='#34345b'
                     />
                   </g>
-                  <g class='robot-body'>
+                  <g className='robot-body'>
                     <path
                       d='M77.6062,123.24708a6.81106,6.81106,0,0,1-6.2553,2.162,5.664,5.664,0,0,1-.7259-.204c-.0802-.028-.1594-.058-.2387-.09a6.05227,6.05227,0,0,1-1.5132-.88,6.6618,6.6618,0,0,1-.8133-.763,3.94461,3.94461,0,0,0,2.7255-.324c.8061-.452,1.1889-1.136,1.9212-2.487a20.78435,20.78435,0,0,0,1.7905-5.039,26.16773,26.16773,0,0,0,.9611-4.5708,20.831,20.831,0,0,0,.0774-3.0813c3.628,1.0754,5.7365,5.5077,4.7448,10.1661A10.36654,10.36654,0,0,1,77.6062,123.24708Z'
                       transform='translate(-12.7582 -15.21742)'
@@ -153,8 +153,8 @@ function Home() {
                     />
                     <path d='M110.0281,119.42708a1.0808,1.0808,0,1,1-1.0808-1.081A1.07987,1.07987,0,0,1,110.0281,119.42708Z' transform='translate(-12.7582 -15.21742)' fill='#a2f9f4' />
                   </g>
-                  <g class='robot-head'>
-                    <g class='robot-antenna'>
+                  <g className='robot-head'>
+                    <g className='robot-antenna'>
                       <path d='M119.6762,25.81128a1.8565,1.8565,0,1,0-2.303,1.8014l-.289,22.7315h1.406l-.289-22.7153A1.857,1.857,0,0,0,119.6762,25.81128Z' transform='translate(-12.7582 -15.21742)' />
                       <path
                         d='M127.4112,43.90428a4.18571,4.18571,0,0,1-4.174,4.1738H112.3447a4.16752,4.16752,0,0,1-3.1335-6.9236c.0595-.0676.1216-.1342.1856-.1982a4.16164,4.16164,0,0,1,2.9479-1.2258h10.8925a4.18535,4.18535,0,0,1,4.154,3.764C127.4042,43.62958,127.4112,43.76648,127.4112,43.90428Z'
@@ -165,7 +165,7 @@ function Home() {
                         d='M127.4112,43.90428a4.18571,4.18571,0,0,1-4.174,4.1738H112.3447a4.16848,4.16848,0,0,1-3.1335-6.9236,1.787,1.787,0,0,0,.2765,1.2636c.399.5405,1.098.6332,2.5219.7206,2.4376.1495,4.0356.1009,6.1246.0901,3.212-.0163,4.819-.0244,4.954,0a1.90305,1.90305,0,0,0,.72,0,2.56146,2.56146,0,0,0,1.351-.9007,2.73937,2.73937,0,0,0,.486-1.8284A4.17742,4.17742,0,0,1,127.4112,43.90428Z'
                         transform='translate(-12.7582 -15.21742)'
                         fill='#34345b'
-                        fill-opacity='0.6'
+                        fillOpacity='0.6'
                       />
                       <path
                         d='M127.4112,43.90428a4.18571,4.18571,0,0,1-4.174,4.1738H112.3447a4.17441,4.17441,0,0,1-4.1242-4.816c1.0186.0504,2.2355.1036,3.609.1468.553.0171,2.1787.0666,4.5037.0901,2.024.0207,3.225.0081,5.224,0,1.45-.0063,3.43-.0108,5.834-.0045C127.4042,43.62958,127.4112,43.76648,127.4112,43.90428Z'
@@ -213,7 +213,7 @@ function Home() {
                       transform='translate(-12.7582 -15.21742)'
                       fill='#c0c0c7'
                     />
-                    <g class='robot-eyes'>
+                    <g className='robot-eyes'>
                       <rect x='68' y='51' width='45px' height='20px' fill='#34345B' rx='10px'></rect>
                       <circle cx='79' cy='61.15167' r='3' fill='#6bd9c8' />
                       <circle cx='102' cy='61.15167' r='3' fill='#6bd9c8' />
@@ -227,7 +227,7 @@ function Home() {
         <div className='main-banner'>
         </div>
         <div className='backshadow'>
-          <div class='frontlook'>
+          <div className='frontlook'>
             <div id='stars' />
             <div id='stars2' />
             <div id='stars3' />
@@ -237,30 +237,30 @@ function Home() {
         {/* This Div block is for the text present on Home Page */}
         <div className='container-fluid main-element d-flex justify-content-center'>
           <div className='roboticsname'>
-            <div class='home-hero__socials'>
-              <div class='home-hero__social'>
-                <a href='https://www.linkedin.com/school/robotics-society-national-institute-of-technology-hamipur/about/' class='home-hero__social-icon-link'>
-                  <img src={LOGO1} alt='icon' class='home-hero__social-icon' />
+            <div className='home-hero__socials'>
+              <div className='home-hero__social'>
+                <a href='https://www.linkedin.com/school/robotics-society-national-institute-of-technology-hamipur/about/' className='home-hero__social-icon-link'>
+                  <img src={LOGO1} alt='icon' className='home-hero__social-icon' />
                 </a>
               </div>
-              <div class='home-hero__social'>
-                <a href='https://www.facebook.com/robo.soc.nith/' class='home-hero__social-icon-link text-light'>
-                  <img src={LOGO2} alt='icon' class='home-hero__social-icon' />
+              <div className='home-hero__social'>
+                <a href='https://www.facebook.com/robo.soc.nith/' className='home-hero__social-icon-link text-light'>
+                  <img src={LOGO2} alt='icon' className='home-hero__social-icon' />
                 </a>
               </div>
-              <div class='home-hero__social'>
-                <a href='https://www.instagram.com/robosocnith/?hl=en' class='home-hero__social-icon-link'>
-                  <img src={LOGO4} alt='icon' class='home-hero__social-icon' />
+              <div className='home-hero__social'>
+                <a href='https://www.instagram.com/robosocnith/?hl=en' className='home-hero__social-icon-link'>
+                  <img src={LOGO4} alt='icon' className='home-hero__social-icon' />
                 </a>
               </div>
-              <div class='home-hero__social'>
-                <a href='https://www.youtube.com/channel/UCcNk3wOBYsFvdoYoHiyhtng' class='home-hero__social-icon-link'>
-                  <img src={LOGO5} alt='icon' class='home-hero__social-icon' />
+              <div className='home-hero__social'>
+                <a href='https://www.youtube.com/channel/UCcNk3wOBYsFvdoYoHiyhtng' className='home-hero__social-icon-link'>
+                  <img src={LOGO5} alt='icon' className='home-hero__social-icon' />
                 </a>
               </div>
-              <div class='home-hero__social'>
-                <a href='https://github.com/robosocnith/robosocnith.github.io' class='home-hero__social-icon-link home-hero__social-icon-link--bd-none'>
-                  <img src={LOGO3} alt='icon' class='home-hero__social-icon' />
+              <div className='home-hero__social'>
+                <a href='https://github.com/robosocnith/robosocnith.github.io' className='home-hero__social-icon-link home-hero__social-icon-link--bd-none'>
+                  <img src={LOGO3} alt='icon' className='home-hero__social-icon' />
                 </a>
               </div>
             </div>
@@ -268,7 +268,7 @@ function Home() {
             <div className='row'>
               <div className='col main__page__heading'>
                 <svg viewBox='0 0 1760 450'>
-                  <text text-anchor="middle" x='880' y='420' width='100%'>
+                  <text textAnchor="middle" x='880' y='420' width='100%'>
                     Robotics Society
                   </text>
                 </svg>
@@ -291,8 +291,8 @@ function Home() {
           </div>
         </div>
 
-        <div class='home-hero__mouse-scroll-cont'>
-          <div class='mouse'></div>
+        <div className='home-hero__mouse-scroll-cont'>
+          <div className='mouse'></div>
         </div>
       </div>
 
