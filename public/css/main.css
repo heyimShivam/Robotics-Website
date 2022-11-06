@@ -31,12 +31,14 @@
 
 body, html {
 	height: 100%;
-	font-family: Montserrat-Regular, sans-serif;
+	/*font-family: Montserrat-Regular, sans-serif;*/
+  font-family: system-ui;
 }
 
 /*---------------------------------------------*/
 a {
-	font-family: Montserrat-Regular;
+	/*font-family: Montserrat-Regular;*/
+  font-family: system-ui;
 	line-height: 1.7;
 	color: #666666;
 	margin: 0px;
@@ -61,7 +63,8 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 p {
-	font-family: Montserrat-Regular;
+	/*font-family: Montserrat-Regular;*/
+  font-family: system-ui;
 	font-size: 14px;
 	line-height: 1.7;
 	/* color: #666666; */
@@ -187,7 +190,8 @@ iframe {
 
 .contact100-form-title {
   display: block;
-  font-family: Montserrat-ExtraBold;
+  /*font-family: Montserrat-ExtraBold;*/
+  font-family: system-ui;
 
   font-size: 24px;
   color: #333333;
@@ -224,7 +228,8 @@ textarea.input100 {
   display: block;
   width: 100%;
   background: #e6e6e6;
-  font-family: Montserrat-Bold;
+  /*font-family: Montserrat-Bold;*/
+  font-family: system-ui;
   font-size: 15px;
   line-height: 1.5;
   color: #666666;
@@ -313,7 +318,8 @@ textarea.input100 {
   height: 50px;
   border-radius: 25px;
   background: #e6e6e6;
-  font-family: Montserrat-Bold;
+  /*font-family: Montserrat-Bold;*/
+  font-family: system-ui;
   font-size: 15px;
   line-height: 1.5;
   color: #b0b2b2;
@@ -469,7 +475,8 @@ textarea.input100 {
   right: 8px;
   pointer-events: none;
 
-  font-family: Montserrat-Medium;
+  /*font-family: Montserrat-Medium;*/
+  font-family: system-ui;
   color: #c80000;
   font-size: 13px;
   line-height: 1.4;
@@ -486,7 +493,8 @@ textarea.input100 {
 
 .alert-validate::after {
   content: "\f06a";
-  font-family: FontAwesome;
+  /*font-family: FontAwesome;*/
+  font-family: system-ui;
   display: block;
   position: absolute;
   color: #c80000;

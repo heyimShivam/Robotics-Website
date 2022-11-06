@@ -137,7 +137,7 @@ export const executiveMemebersDetails = [
     image: "members/Executives/vanshika.jpeg",
     linkedin: "https://www.linkedin.com/in/vanshika-gyanchandani-16216422a",
     github: "https://github.com/Vanshi2504ka",
-    field: ["Web development,Photoshop,C,Arduino"],
+    field: ["Web development","Photoshop,C,arduino","Competitive Programming(C++)"],
   },
   {
     name: "Aakash Tiwari",

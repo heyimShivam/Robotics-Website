@@ -8,7 +8,8 @@
 }
 
 body {
-  font-family: 'Noto Sans JP', sans-serif;
+  /*font-family: 'Noto Sans JP', sans-serif;*/
+  font-family: system-ui;
   background-color: #fef8f8;
 }
 
@@ -127,7 +128,8 @@ body {
 .card__tagline {
   display: block;
   margin: 1em 0;
-  font-family: "MockFlowFont";  
+  /*font-family: "MockFlowFont";*/
+  font-family: system-ui;  
   font-size: .8em; 
   color: black; 
    
@@ -142,7 +144,8 @@ body {
   padding: 0 2em 2em;
   margin: 0;
   color: black;
-  font-family: 'Russo One', sans-serif;  
+  /*font-family: 'Russo One', sans-serif;  */
+  font-family:system-ui;
   display: -webkit-box;
   -webkit-box-orient: vertical;
   /* -webkit-line-clamp: 3; */
