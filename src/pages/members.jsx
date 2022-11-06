@@ -11,7 +11,7 @@ function Members() {
         <>
         <div>
             <div className="container-members-heading d-flex justify-content-center">
-                <h1>Current Members</h1>
+                <h1>Faculty Coordinator</h1>
             </div>
 
             <div className="cards-list">
@@ -49,7 +49,7 @@ function Members() {
                                     </li>
                                 ))}
                             </div>
-                            <a href="/" className="bn5"><img src="logo/linkedin.svg" alt="Linked In" style={{width : "20px", color : "white"}} /></a><a href="/" className="bn5"><img src="logo/github.svg" alt="Github" style={{width : "25px", color : "white"}} /></a>
+                            <a href={userData.linkedin} className="bn5"><img src="logo/linkedin.svg" alt="Linked In" style={{width : "20px", color : "white"}} /></a><a href={userData.github} className="bn5"><img src="logo/github.svg" alt="Github" style={{width : "25px", color : "white"}} /></a>
                         </div>
                     </div>
                 </label>
@@ -77,7 +77,7 @@ function Members() {
                                     </li>
                                 ))}
                             </div>
-                            <a href="/" className="bn5"><img src="logo/linkedin.svg" alt="Linked In" style={{width : "20px", color : "white"}} /></a><a href="/" className="bn5"><img src="logo/github.svg" alt="Github" style={{width : "25px", color : "white"}} /></a>
+                            <a href={userData.linkedin} className="bn5"><img src="logo/linkedin.svg" alt="Linked In" style={{width : "20px", color : "white"}} /></a><a href={userData.github} className="bn5"><img src="logo/github.svg" alt="Github" style={{width : "25px", color : "white"}} /></a>
                         </div>
                     </div>
                 </label>
@@ -105,7 +105,7 @@ function Members() {
                                     </li>
                                 ))}
                             </div>
-                            <a href="/" className="bn5"><img src="logo/linkedin.svg" alt="Linked In" style={{width : "20px", color : "white"}} /></a><a href="/" className="bn5"><img src="logo/github.svg" alt="Github" style={{width : "25px", color : "white"}} /></a>
+                            <a href={userData.linkedin} className="bn5"><img src="logo/linkedin.svg" alt="Linked In" style={{width : "20px", color : "white"}} /></a><a href={userData.github} className="bn5"><img src="logo/github.svg" alt="Github" style={{width : "25px", color : "white"}} /></a>
                         </div>
                     </div>
                 </label>
@@ -133,7 +133,7 @@ function Members() {
                                     </li>
                                 ))}
                             </div>
-                            <a href="/" className="bn5"><img src="logo/linkedin.svg" alt="Linked In" style={{width : "20px", color : "white"}} /></a><a href="/" className="bn5"><img src="logo/github.svg" alt="Github" style={{width : "25px", color : "white"}} /></a>
+                            <a href={userData.linkedin} className="bn5"><img src="logo/linkedin.svg" alt="Linked In" style={{width : "20px", color : "white"}} /></a><a href={userData.github} className="bn5"><img src="logo/github.svg" alt="Github" style={{width : "25px", color : "white"}} /></a>
                         </div>
                     </div>
                 </label>

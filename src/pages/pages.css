@@ -12,7 +12,8 @@
   font-size: 18px;
   font-weight: 500;
   color: #19f6e8;
-  font-family: 'Russo One', sans-serif;
+ /* font-family: 'Russo One', sans-serif;*/
+ font-family:system-ui;
 
   
 }
@@ -238,7 +239,8 @@ li {
   text-align: center;
   color: darkgray;
   border-radius: 10px;
-  font-family: "Raleway", sans-serif;
+  /*font-family: "Raleway", sans-serif;*/
+  font-family: system-ui;
   font-weight: 600;
 }
 
@@ -300,7 +302,8 @@ input:checked + .card {
 }
 
 #customers-testimonials .shadow-effect p {
-  font-family: inherit;
+  /*font-family: inherit;*/
+  font-family: system-ui;
   font-size: 17px;
   line-height: 1.5;
   margin: 0 0 17px 0;
@@ -423,7 +426,8 @@ div,
 input,
 p,
 a {
-  font-family: "Roboto", sans-serif;
+  /*font-family: "Roboto", sans-serif;*/
+  font-family: system-ui;
   margin: 0px;
 }
 
@@ -1229,7 +1233,8 @@ a:focus {
 }
 
 .textofdiscordregister {
-  font-family: "Roboto Condensed";
+  /*font-family: "Roboto Condensed";*/
+  font-family: system-ui;
   font-size: 22px;
   letter-spacing: 8px;
   line-height: 32px;
@@ -1256,7 +1261,8 @@ a:focus {
 }
 
 .roboticsname {
-  font-family: "Russo One", sans-serif;
+  /*font-family: "Russo One", sans-serif;*/
+  font-family: system-ui;
   width: 50%;
   height: 60%;
   margin-right: 0%;
@@ -1298,7 +1304,8 @@ a:focus {
 }
 .headingText {
   color: #19f6e8;
-  font-family: "Russo One", sans-serif;
+  /*font-family: "Russo One", sans-serif;*/
+  font-family: system-ui;
   font-size: large;
 }
 
@@ -1308,7 +1315,8 @@ a:focus {
 }
 
 .main__button {
-  font-family: "Russo One", sans-serif;
+  /*font-family: "Russo One", sans-serif;*/
+  font-family: system-ui;
   margin: 5rem 7rem;
   color: #060606;
   background-color: #00ffff;
