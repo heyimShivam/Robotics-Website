@@ -311,7 +311,8 @@ nav {
 }
 
 .f-bottom-left p {
-  font-family: 'Poppins';
+  /*font-family: 'Poppins';*/
+  font-family: system-ui;
   font-size: 18px;
   font-weight: 600;
   color: rgba(0, 0, 0, .54);
@@ -400,7 +401,8 @@ nav {
 form {
 	
 	.title {
-		font-family: 'Pacifico', cursive;
+		/*font-family: 'Pacifico', cursive;*/
+    font-family: system-ui;
 		color: #212529;
 		font-size: 2.5rem;
 	}
@@ -429,7 +431,8 @@ form {
 	}
 	
   ::placeholder {
-    font-family: 'Quicksand', sans-serif;
+    /*font-family: 'Quicksand', sans-serif;*/
+    font-family: system-ui;
 		font-weight: 600;
     font-size: 1.1rem;
     color: #838788;
@@ -438,7 +441,8 @@ form {
   }
 	
   input, textarea {
-		font-family: 'Quicksand', sans-serif;
+		/*font-family: 'Quicksand', sans-serif;*/
+    font-family: system-ui;
     color: #212529;
     font-size: 1.1rem;
   }

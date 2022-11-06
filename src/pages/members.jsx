@@ -11,7 +11,7 @@ function Members() {
         <>
         <div>
             <div className="container-members-heading d-flex justify-content-center">
-                <h1>Current Members</h1>
+                <h1>Faculty Coordinator</h1>
             </div>
 
             <div className="cards-list">
