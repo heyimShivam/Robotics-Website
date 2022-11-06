@@ -63,10 +63,10 @@ function Alumni() {
                       <li>{data}</li>
                     ))}
                   </div>
-                  <a href='/' className='bn5 align-self-end'>
+                  <a href={userData.linkedin} className='bn5 align-self-end'>
                     <img src='logo/linkedin.svg' alt='Linked In' style={{ width: "20px", color: "white" }} />
                   </a>
-                  <a href='/' className='bn5 align-self-end'>
+                  <a href={userData.github} className='bn5 align-self-end'>
                     <img src='logo/github.svg' alt='Github' style={{ width: "25px", color: "white" }} />
                   </a>
                 </div>
@@ -94,10 +94,10 @@ function Alumni() {
                       <li>{data}</li>
                     ))}
                   </div>
-                  <a href='/' className='bn5 align-self-end'>
+                  <a href={userData.linkedin} className='bn5 align-self-end'>
                     <img src='logo/linkedin.svg' alt='Linked In' style={{ width: "20px", color: "white" }} />
                   </a>
-                  <a href='/' className='bn5 align-self-end'>
+                  <a href={userData.github} className='bn5 align-self-end'>
                     <img src='logo/github.svg' alt='Github' style={{ width: "25px", color: "white" }} />
                   </a>
                 </div>
