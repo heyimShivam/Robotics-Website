@@ -257,7 +257,7 @@ function Home() {
                 </a>
               </div>
               <div class='home-hero__social'>
-                <a href='https://github.com/robosocnith/robosocnith.github.io' class='home-hero__social-icon-link home-hero__social-icon-link--bd-none'>
+                <a href='https://github.com/robosocnith' class='home-hero__social-icon-link home-hero__social-icon-link--bd-none'>
                   <img src={LOGO3} alt='icon' class='home-hero__social-icon' />
                 </a>
               </div>
