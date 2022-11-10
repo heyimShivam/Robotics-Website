@@ -115,86 +115,86 @@ export const Images = [
   
     {
         path: workshop3,
-        tag : ['All', 'School_Workshop']
+        tag : ['All', 'School Workshop']
     },
     {
         path: workshop4,
-        tag : ['All', 'School_Workshop']
+        tag : ['All', 'School Workshop']
     },
     {
         path: workshop5,
-        tag : ['All', 'School_Workshop']
+        tag : ['All', 'School Workshop']
     },
     {
         path: workshop6,
-        tag : ['All', 'School_Workshop']
+        tag : ['All', 'School Workshop']
     },
 
     {
         path: workshop8,
-        tag : ['All', 'School_Workshop']
+        tag : ['All', 'School Workshop']
     },
     {
         path: workshop9,
-        tag : ['All', 'School_Workshop']
+        tag : ['All', 'School Workshop']
     },
     {
         path: workshop10,
-        tag : ['All', 'School_Workshop']
+        tag : ['All', 'School Workshop']
     },
 
     {
         path: workshop12,
-        tag : ['All', 'School_Workshop']
+        tag : ['All', 'School Workshop']
     },
     {
         path: workshop13,
-        tag : ['All', 'School_Workshop']
+        tag : ['All', 'School Workshop']
     },
     {
         path: workshop14,
-        tag : ['All', 'School_Workshop']
+        tag : ['All', 'School Workshop']
     },
     {
         path: workshop15,
-        tag : ['All', 'School_Workshop']
+        tag : ['All', 'School Workshop']
     },
     {
         path: workshop16,
-        tag : ['All', 'School_Workshop']
+        tag : ['All', 'School Workshop']
     },
     {
         path: workshop17,
-        tag : ['All', 'School_Workshop']
+        tag : ['All', 'School Workshop']
     },
  
     {
         path: workshop22,
-        tag : ['All', 'School_Workshop']
+        tag : ['All', 'School Workshop']
     },
     {
         path: workshop23,
-        tag : ['All', 'School_Workshop']
+        tag : ['All', 'School Workshop']
     },
     {
         path: workshop24,
-        tag : ['All', 'School_Workshop']
+        tag : ['All', 'School Workshop']
     },
     {
         path: workshop26,
-        tag : ['All', 'School_Workshop']
+        tag : ['All', 'School Workshop']
     },
     {
         path: workshop27,
-        tag : ['All', 'School_Workshop']
+        tag : ['All', 'School Workshop']
     },
     {
         path: workshop28,
-        tag : ['All', 'School_Workshop']
+        tag : ['All', 'School Workshop']
     },
     {
         path: workshop29,
-        tag : ['All', 'School_Workshop']
+        tag : ['All', 'School Workshop']
     },
     {
         path: quiz1,
