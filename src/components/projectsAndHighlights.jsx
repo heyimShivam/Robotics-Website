@@ -33,13 +33,13 @@ function ProjectHighLights() {
                   environments, for experimental purposes, such as the study of
                   bipedal locomotion or for other purposes
                 </div>
-                <div>
+                {/* <div>
                   <button className="btn btn-outline-dark btn-small">
                     <a href="https://robosocnith.com/index.html">
                       <i className="fas fa-tag mr-2"></i>Learn More
                     </a>
                   </button>
-                </div>
+                </div> */}
               </div>
             </article>
             <article className="postcard light red">
@@ -68,13 +68,13 @@ function ProjectHighLights() {
                   detect user’s thought process, interpret it and control
                   wheelchair movements.
                 </div>
-                <div>
+                {/* <div>
                   <button className="btn btn-outline-dark btn-small">
                     <a href="https://robosocnith.com/index.html">
                       <i className="fas fa-tag mr-2"></i>Learn More
                     </a>
                   </button>
-                </div>
+                </div> */}
               </div>
             </article>
             <article className="postcard light green">
@@ -102,13 +102,13 @@ function ProjectHighLights() {
                   to correct for an induced lean angle by moving forward or
                   backward and the goal is to return itself to vertical.
                 </div>
-                <div>
+                {/* <div>
                   <button className="btn btn-outline-dark btn-small">
                     <a href="https://robosocnith.com/index.html">
                       <i className="fas fa-tag mr-2"></i>Learn More
                     </a>
                   </button>
-                </div>
+                </div> */}
               </div>
             </article>
           </section>

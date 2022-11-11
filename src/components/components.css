@@ -523,7 +523,8 @@ a:hover {
 .activity-head {
   font-weight: 400;
   font-size: 3.5rem;
-  font-family: 'Roboto', sans-serif;
+  /*font-family: 'Roboto', sans-serif;*/
+  font-family: system-ui;
 }
 
 .blog-slider {
@@ -694,7 +695,7 @@ a:hover {
 }
 
 .blog-slider__content {
-  paddingRight: 25px;
+  padding-right: 25px;
 }
 
 @media screen and (max-width: 768px) {

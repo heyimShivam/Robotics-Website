@@ -237,7 +237,7 @@ function Home() {
         {/* This Div block is for the text present on Home Page */}
         <div class='home-hero__socials'>
               <div class='home-hero__social'>
-                <a href='https://www.linkedin.com/school/robotics-society-national-institute-of-technology-hamipur/about/' class='home-hero__social-icon-link'>
+                <a href='https://www.linkedin.com/company/robosocnith/mycompany/' class='home-hero__social-icon-link'>
                   <img src={LOGO1} alt='icon' class='home-hero__social-icon' />
                 </a>
               </div>
@@ -256,9 +256,11 @@ function Home() {
                   <img src={LOGO5} alt='icon' className='home-hero__social-icon' />
                 </a>
               </div>
+
               <div className='home-hero__social'>
                 <a href='https://github.com/robosocnith/robosocnith.github.io' className='home-hero__social-icon-link home-hero__social-icon-link--bd-none'>
                   <img src={LOGO3} alt='icon' className='home-hero__social-icon' />
+
                 </a>
               </div>
             </div>
@@ -278,8 +280,8 @@ function Home() {
             </div>
 
             <div className='row text-light py-5 shivam_dogra_new'>
-              <div className='col-12 robosoc-text-header'>To be a luminary of the indian society in the field of Robotics.</div>
-              <div className='col-12 robosoc-text-header'>Build and sustain a culture to be self reliant to accomplish our vision, by emphasizing on the development of individual quality.</div>
+              <div className='col-12 robosoc-text-header'>Vision :- To be a luminary of the indian society in the field of Robotics.</div>
+              <div className='col-12 robosoc-text-header'>Mission :- Build and sustain a culture to be self reliant to accomplish our vision, by emphasizing on the development of individual quality.</div>
             </div>
 
             {/* <div className='row robosoc-text-header-box shivam_dogra_new2'>
