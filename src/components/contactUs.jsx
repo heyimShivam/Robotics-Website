@@ -8,7 +8,7 @@ export const ContactUs = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 	
-	emailjs.sendForm('service_7txak3b', 'template_r1r645n', form.current, 'vBhQA7R5VatlSKSwi')
+	emailjs.sendForm('service_d67fqdp', 'template_pu5s7ie', form.current, 'kRHXXlvor-vZq3rTy')
       .then((result) => {
           console.log(result.text);
       }, (error) => {
@@ -40,7 +40,7 @@ export const ContactUs = () => {
 				</div>
 
 				<div className="wrap-input100 validate-input" data-validate="Valid email is required: ex@abc.xyz">
-					<input className="input100" type="text" name="user_email" placeholder="Email" />
+					<input className="input100" type="email" name="user_email" placeholder="Email" />
 					<span className="focus-input100"></span>
 					<span className="symbol-input100">
 						<i className="fa fa-envelope" aria-hidden="true"></i>

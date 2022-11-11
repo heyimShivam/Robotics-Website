@@ -1,11 +1,9 @@
 const MainBannerImagesData = {
   links: [
-    'Images/dsc-28-2000x1333.jpg',
+    'Images/quiz14.jpg',
     'Images/dsc-19-2000x1333.jpg',
-    'Images/dsc-19-2000x1333.jpg',
-    'Images/dsc-19-2000x1333.jpg',
-    'Images/dsc-19-2000x1333.jpg',
-    'Images/dsc-28-2000x1333.jpg',
+    'Images/workshop17.jpg',
+    'Images/quiz22.jpg',
   ],
   landingPage : 'Banner/Robotics-cuate.svg'
 };

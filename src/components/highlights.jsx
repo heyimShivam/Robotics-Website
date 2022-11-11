@@ -7,8 +7,8 @@ import { projectDetails } from '../websiteUserData/Activities and Highlights Dat
 
 function Highlights() {
   return (<>
-    <div className="container">
-      <div className="cardsNew justify-content-around">
+    <div className="container highlights__container my-5 py-5 ">
+      <div className="cardsNew justify-content-around py-5">
         {projectDetails.map(data => (
           <div className="d-flex justify-content-center " key={data.id}>
             <a href={data.link} className="cardNew">
