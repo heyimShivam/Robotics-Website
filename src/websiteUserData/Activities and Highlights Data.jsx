@@ -39,6 +39,7 @@ export const projectDetails = [
     ,
     {
         id: 3,
+
         title: 'School Workshop',
         link: '#',
         shortDetails: '',

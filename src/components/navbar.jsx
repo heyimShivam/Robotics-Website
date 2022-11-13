@@ -105,7 +105,7 @@ class Navbar extends React.Component {
                   <ul className='navbar-nav mr-auto'>
                     {navItems.map((item, index) => {
                       return item.length < 2 ? (
-                        <li key={index} className='nav-item'>
+                        <li key={item.id} className='nav-item'>
                           <Link className='nav-link' to={item[0].url} onClick={() => this.changeActivePage(item[0].title)}>
                             {item[0].title}
                           </Link>
@@ -119,7 +119,7 @@ class Navbar extends React.Component {
                               {item.map((item, index) => {
                                 return (
                                   <>
-                                    <Link className='dropdown-item' to={item.url} onClick={() => this.changeActivePage(item.title)}>
+                                    <Link  key={item.id} className='dropdown-item' to={item.url} onClick={() => this.changeActivePage(item.title)}>
                                       {item.title}
                                     </Link>
                                   </>
@@ -139,7 +139,7 @@ class Navbar extends React.Component {
                   <ul>
                     {navItems.map((item, index) => {
                       return item.length < 2 ? (
-                        <li key={index} className={item[0].title.toLowerCase() === this.state.page && "nav-active"} style={{ padding: "0.5rem" }}>
+                        <li key={item.id} className={item[0].title.toLowerCase() === this.state.page && "nav-active"} style={{ padding: "0.5rem" }}>
                           <Link className='LinkesNav' to={item[0].url} onClick={() => this.changeActivePage(item[0].title)}>
                             {item[0].title}
                           </Link>
@@ -153,7 +153,7 @@ class Navbar extends React.Component {
                               {item.map((item, index) => {
                                 return (
                                   <>
-                                    <Link className='dropdown-item' to={item.url} onClick={() => this.changeActivePage(item.title)}>
+                                    <Link  key={item.id} className='dropdown-item' to={item.url} onClick={() => this.changeActivePage(item.title)}>
                                       {item.title}
                                     </Link>
                                   </>

@@ -152,7 +152,7 @@ export const executiveMemebersDetails = [
     linkedin: "https://www.linkedin.com/in/mahima-gaur-b862b122a",
 
     github: "https://github.com/Mahima0111",
-    field: ["WebD backend , python "],
+    field: ["Flutter Developer ,Arduino Uno , python ,C++ "],
   },
   {
     name: "Akanksha Sharma ",

@@ -36,7 +36,7 @@ function Members() {
 
             <div className="cards-list">
                 {coreMemebersDetails.map(userData => (
-                    <label className="card-wrap">
+                    <label className="card-wrap" key={userData.id}>
                     <div className="profile-card-4 text-center"><img alt="" src={userData.image} style={{width: '200px',height: '300px'}} className="card-photo img img-responsive" />
                         <div className="profile-content">
                             <div className="profile-name">{userData.name}
@@ -44,7 +44,7 @@ function Members() {
                             </div>
                             <div className="profile-description">
                                 {userData.field.map(data => (
-                                    <li>
+                                    <li  key={data}>
                                         {data}
                                     </li>
                                 ))}
@@ -64,7 +64,7 @@ function Members() {
 
             <div className="cards-list">
                 {codinatorsMemebersDetails.map(userData => (
-                    <label className="card-wrap">
+                    <label className="card-wrap" key={userData.id}>
                     <div className="profile-card-4 text-center"><img alt="" src={userData.image} style={{width: '200px',height: '300px'}} className="card-photo img img-responsive" />
                         <div className="profile-content">
                             <div className="profile-name">{userData.name}
@@ -72,7 +72,7 @@ function Members() {
                             </div>
                             <div className="profile-description">
                                 {userData.field.map(data => (
-                                    <li>
+                                    <li  key={data}>
                                         {data}
                                     </li>
                                 ))}
@@ -92,7 +92,7 @@ function Members() {
 
             <div className="cards-list">
                 {executiveMemebersDetails.map(userData => (
-                    <label className="card-wrap">
+                    <label className="card-wrap"  key={userData.id}>
                     <div className="profile-card-4 text-center"><img alt="" src={userData.image} style={{width: '200px',height: '300px'}} className="card-photo img img-responsive" />
                         <div className="profile-content">
                             <div className="profile-name">{userData.name}
@@ -100,7 +100,7 @@ function Members() {
                             </div>
                             <div className="profile-description">
                                 {userData.field.map(data => (
-                                    <li>
+                                    <li  key={data}>
                                         {data}
                                     </li>
                                 ))}
@@ -128,7 +128,7 @@ function Members() {
                             </div>
                             <div className="profile-description">
                                 {userData.field.map(data => (
-                                    <li>
+                                    <li  key={data}>
                                         {data}
                                     </li>
                                 ))}
