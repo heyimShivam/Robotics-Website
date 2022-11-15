@@ -203,6 +203,11 @@ body {
   .footer-dark .item.text p {
     opacity:0.6;
     margin-bottom:0;
+    text-align: center;
+  }
+  .robosoc-footer-heading{
+    text-align: center;
+
   }
   
   .footer-dark .item.social {
