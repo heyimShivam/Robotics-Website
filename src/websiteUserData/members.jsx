@@ -81,6 +81,14 @@ export const coreMemebersDetails = [
     github: "https://github.com/ritikalohia",
     field: ["Web Developement", "."],
   },
+  {
+    name: "Dhruv Aggarwal",
+    role: "Core-Coordinator",
+    image: "members/coordinator/dhruv aggarwal.jpg",
+    linkedin: "https://www.linkedin.com/in/dhruv-aggarwal-",
+    github: "https://github.com/dag2104e",
+    field: ["ML Full Stack App Development,Problem Solving Electronics"],
+  },
 
   {
     name: "Shubahm Goyal",
@@ -140,6 +148,21 @@ export const executiveMemebersDetails = [
     field: ["Web development","Photoshop,C,arduino","Competitive Programming(C++)"],
   },
   {
+    name: "Milind Gupta",
+    image: "members/Executives/Milind Gupta.jpg",
+    linkedin: "https://www.linkedin.com/in/milind2370",
+    github: "https://github.com/Milind2370",
+    field: ["front-end web developer,Arduino,IOT"],
+  },
+
+  {
+    name: "Shreyansh Singh Chauhan",
+    image: "members/Executives/shreyansh.jpg",
+    linkedin: "https://www.linkedin.com/in/shraiyansh-chauhan-b47769166",
+    github: "",
+    field: ["Python, CPP, Arduino and Raspberry pi, PCB designing, Machine learning"],
+  },
+  {
     name: "Aakash Tiwari",
     image: "members/Executives/aakash.jpg",
     linkedin: "https://www.linkedin.com/in/aakash07122003",
@@ -183,13 +206,13 @@ export const executiveMemebersDetails = [
     github: "https://github.com/varunnitian",
     field: ["Blockchain Technology,DevOps"],
   },
-  {
-    name: "Priya Sharma ",
-    image: "members/Executives/priya.jpg",
-    linkedin: "https://www.linkedin.com/in/priya-sharma-a56006230",
-    github: "https://github.com/futurecodersilicon44",
-    field: ["Web development"],
-  },
+  // {
+  //   name: "Priya Sharma ",
+  //   image: "members/Executives/priya.jpg",
+  //   linkedin: "https://www.linkedin.com/in/priya-sharma-a56006230",
+  //   github: "https://github.com/futurecodersilicon44",
+  //   field: ["Web development"],
+  // },
   {
     name: "Mridul verma",
     image: "members/Executives/mridul.jpeg",
@@ -232,13 +255,7 @@ export const executiveMemebersDetails = [
     github: "",
     field: ["C/C++ programming "],
   },
-  {
-    name: "Shreyansh Singh Chauhan",
-    image: "members/Executives/shreyansh.jpg",
-    linkedin: "https://www.linkedin.com/in/shraiyansh-chauhan-b47769166",
-    github: "",
-    field: ["Robotics Projects"],
-  },
+
 ];
 
 export const codinatorsMemebersDetails = [

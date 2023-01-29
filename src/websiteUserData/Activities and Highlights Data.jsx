@@ -40,7 +40,9 @@ export const projectDetails = [
     {
         id: 3,
 
+
         title: 'School Workshop',
+
         link: '#',
         shortDetails: '',
         image: 'Images/20220928_122407.jpg',

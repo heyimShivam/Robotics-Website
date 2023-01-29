@@ -36,7 +36,7 @@
       $(window).scroll(function () {
         // $(".main-nav").toggleClass("nav-scrolled", $(this).scrollTop() > 100);
         $(".nav-comps").toggleClass("comp-scrolled", $(this).scrollTop() > 400);
-        $("#addNavLogo").toggleClass("text__hide", $(this).scrollTop() < 100)
+        $("#addNavLogo").toggleClass("text__hide", $(this).scrollTop() < 400)
         if ($(this).scrollTop() > 400) {
           $("#addNavLogo").html(
             `<div className="nav-logo">
