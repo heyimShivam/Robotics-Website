@@ -11,7 +11,7 @@ function Highlights() {
       <div className="cardsNew justify-content-around py-5">
         {projectDetails.map(data => (
           <div className="d-flex justify-content-center " key={data.id}>
-            <a href={data.link} className="cardNew">
+            <div className="cardNew">
               <img src={data.mainImage} className="card__image" alt="" />
               <div className="card__overlay">
                 <div className="card__header">
@@ -24,7 +24,7 @@ function Highlights() {
                 </div>
                 <p className="card__description">{data.content}</p>
               </div>
-            </a>
+            </div>
           </div>
         ))}
       </div>
