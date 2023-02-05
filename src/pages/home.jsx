@@ -11,6 +11,7 @@ import LOGO2 from "./../images/png/fb-ico.png";
 import LOGO3 from "./../images/png/github-ico.png";
 import LOGO4 from "./../images/png/insta-ico.png";
 import LOGO5 from "./../images/png/yt-ico.png";
+import React from "react";
 
 // function RoboticsText() {
 //   const styles = useSpring({
@@ -30,6 +31,10 @@ import LOGO5 from "./../images/png/yt-ico.png";
 // }
 
 function Home() {
+  React.useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <>
       <div id='home'>

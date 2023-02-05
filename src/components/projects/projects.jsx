@@ -7,6 +7,10 @@ import { PastProjectsData } from "../../websiteUserData/projects";
 import { RoboconProjectsData } from "../../websiteUserData/projects";
 
 const Projects = () => {
+  React.useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <>
       <div className='project-head'>

@@ -1,4 +1,5 @@
-import "./pages.css"
+import "./pages.css";
+import React from "react";
 import {
     executiveMemebersDetails,
     volunteersMemebersDetails,
@@ -7,6 +8,11 @@ import {
 } from '../websiteUserData/members';
 
 function Members() {
+    React.useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
+
+
     return (
         <>
         <div>
@@ -16,13 +22,13 @@ function Members() {
 
             <div className="cards-list">
                 <label className="card-wrap">
-                    <div className="profile-card-4 text-center"><img alt="" src="members/sant ram sir.jpeg" className="card-photo img img-responsive" />
+                    <div className="profile-card-4 text-center"><img alt="" src="../members/sant ram sir.jpeg" className="card-photo img img-responsive" />
                         <div className="profile-content">
                                 <div className="profile-name">Sant Ram Chauhan
                                     <p className="profile-position">Faculty Coordinator</p>
                                 </div>
                             <div className="profile-description">HOD MED, NITH</div>
-                            <a href="https://in.linkedin.com/in/sant-chauhan-5223025b" className="bn5"><img src="logo/linkedin.svg" alt="Linked In" style={{width : "20px", color : "white"}} /></a><a href="/" className="bn5"><img src="logo/github.svg" alt="Github" style={{width : "25px", color : "white"}} /></a>
+                            <a href="https://in.linkedin.com/in/sant-chauhan-5223025b" className="bn5"><img src="../logo/linkedin.svg" alt="Linked In" style={{width : "20px", color : "white"}} /></a><a href="/" className="bn5"><img src="../logo/github.svg" alt="Github" style={{width : "25px", color : "white"}} /></a>
                         </div>
                     </div>
                 </label>
@@ -49,7 +55,7 @@ function Members() {
                                     </li>
                                 ))}
                             </div>
-                            <a href={userData.linkedin} className="bn5"><img src="logo/linkedin.svg" alt="Linked In" style={{width : "20px", color : "white"}} /></a><a href={userData.github} className="bn5"><img src="logo/github.svg" alt="Github" style={{width : "25px", color : "white"}} /></a>
+                            <a href={userData.linkedin} className="bn5"><img src="../logo/linkedin.svg" alt="Linked In" style={{width : "20px", color : "white"}} /></a><a href={userData.github} className="bn5"><img src="../logo/github.svg" alt="Github" style={{width : "25px", color : "white"}} /></a>
                         </div>
                     </div>
                 </label>
@@ -77,7 +83,7 @@ function Members() {
                                     </li>
                                 ))}
                             </div>
-                            <a href={userData.linkedin} className="bn5"><img src="logo/linkedin.svg" alt="Linked In" style={{width : "20px", color : "white"}} /></a><a href={userData.github} className="bn5"><img src="logo/github.svg" alt="Github" style={{width : "25px", color : "white"}} /></a>
+                            <a href={userData.linkedin} className="bn5"><img src="../logo/linkedin.svg" alt="Linked In" style={{width : "20px", color : "white"}} /></a><a href={userData.github} className="bn5"><img src="../logo/github.svg" alt="Github" style={{width : "25px", color : "white"}} /></a>
                         </div>
                     </div>
                 </label>
@@ -105,7 +111,7 @@ function Members() {
                                     </li>
                                 ))}
                             </div>
-                            <a href={userData.linkedin} className="bn5"><img src="logo/linkedin.svg" alt="Linked In" style={{width : "20px", color : "white"}} /></a><a href={userData.github} className="bn5"><img src="logo/github.svg" alt="Github" style={{width : "25px", color : "white"}} /></a>
+                            <a href={userData.linkedin} className="bn5"><img src="../logo/linkedin.svg" alt="Linked In" style={{width : "20px", color : "white"}} /></a><a href={userData.github} className="bn5"><img src="../logo/github.svg" alt="Github" style={{width : "25px", color : "white"}} /></a>
                         </div>
                     </div>
                 </label>
@@ -133,7 +139,7 @@ function Members() {
                                     </li>
                                 ))}
                             </div>
-                            <a href={userData.linkedin} className="bn5"><img src="logo/linkedin.svg" alt="Linked In" style={{width : "20px", color : "white"}} /></a><a href={userData.github} className="bn5"><img src="logo/github.svg" alt="Github" style={{width : "25px", color : "white"}} /></a>
+                            <a href={userData.linkedin} className="bn5"><img src="../logo/linkedin.svg" alt="Linked In" style={{width : "20px", color : "white"}} /></a><a href={userData.github} className="bn5"><img src="../logo/github.svg" alt="Github" style={{width : "25px", color : "white"}} /></a>
                         </div>
                     </div>
                 </label>

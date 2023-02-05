@@ -1358,7 +1358,7 @@ a:focus {
 /* social icons  */
 .home-hero__socials {
   position: absolute;
-  z-index: 2000;
+  z-index: 500;
   top: 50%;
   right: calc(100% - 68px);
   transform: translateY(-50%);

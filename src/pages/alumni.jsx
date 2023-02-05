@@ -2,8 +2,13 @@
 
 import "./pages.css";
 import { alumni_members,alumni_members2 } from "../websiteUserData/members";
+import React from "react";
 
 function Alumni() {
+  React.useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <>
       <div>
