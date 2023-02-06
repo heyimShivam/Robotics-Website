@@ -4,6 +4,17 @@
  * @format
  */
 
+ .main-three-bar-button {
+  padding-top: 25px;
+  padding-bottom: 20px;
+  padding-left: 35px;
+ }
+
+ .dropdown-menu.show {
+   width: 100%;
+   text-align: center;
+ }
+
 .robosoc-main-block {
   border: 1px solid red;
 }
@@ -45,7 +56,7 @@
   width: 100%;
   height: 100%;
   overflow: hidden;
-  z-index: 999;
+  z-index: 400;
 }
 
 .main-banner {
@@ -62,7 +73,6 @@
 .backshadow {
   position: absolute;
   top: 0;
-
   background-color: rgba(0, 0, 0, 0.419);
   width: 100%;
   height: 100%;
@@ -1358,7 +1368,7 @@ a:focus {
 /* social icons  */
 .home-hero__socials {
   position: absolute;
-  z-index: 2000;
+  z-index: 800;
   top: 50%;
   right: calc(100% - 68px);
   transform: translateY(-50%);
@@ -1372,6 +1382,7 @@ a:focus {
 
 .home-hero__socials {
   border: 2px solid #eee;
+  z-index: 800;
   border-left: 2px solid #eee;
   transform: translateY(-50%);
 }

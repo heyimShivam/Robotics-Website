@@ -8,6 +8,10 @@ import React, { useState, useEffect } from "react";
 import Viewpager from "../components/mainSlidingBanner";
 
 function Gallery() {
+  React.useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   const [tag, setTag] = useState("All");
   const changeTag = (activeTag) => {
     setTag(activeTag);
