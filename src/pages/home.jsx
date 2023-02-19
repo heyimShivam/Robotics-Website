@@ -40,6 +40,10 @@ function Home() {
       <div id='home'>
         {/* Robo Aniimation Code */}
         <div className="robo__animation_main_header">
+          
+        </div>
+
+        <div className='main-banner'>
           <div className='robo__animation'>
             <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 197.60004 221.93357'>
               <g className='robot'>
@@ -228,9 +232,6 @@ function Home() {
             </svg>
           </div>
         </div>
-
-        <div className='main-banner'>
-        </div>
         <div className='backshadow'>
           <div className='frontlook'>
             <div id='stars' />
@@ -286,8 +287,8 @@ function Home() {
             </div>
 
             <div className='row text-light py-5 shivam_dogra_new'>
-              <div className='col-12 robosoc-text-header'>Vision :- To be a luminary of the indian society in the field of Robotics.</div>
-              <div className='col-12 robosoc-text-header'>Mission :- Build and sustain a culture to be self reliant to accomplish our vision, by emphasizing on the development of individual quality.</div>
+              <div style={{color: "#FFF5EE"}} className='col-12 robosoc-text-header'>Vision: <span>To be a luminary of the indian society in the field of Robotics.</span></div>
+              <div style={{color: "#FFF5EE"}} className='col-12 robosoc-text-header'>Mission: Build and sustain a culture to be self reliant to accomplish our vision, by emphasizing on the development of individual quality.</div>
             </div>
 
             {/* <div className='row robosoc-text-header-box shivam_dogra_new2'>

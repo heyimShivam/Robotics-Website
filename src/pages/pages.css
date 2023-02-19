@@ -1625,6 +1625,7 @@ a:focus {
 /* div containing the robot */
 
 .robo__animation {
+  z-index: 999;
   position: absolute;
   right: 25px;
   bottom: -50px;
@@ -1643,7 +1644,6 @@ a:focus {
     display: none;
     bottom: 50vh;
     width: 80vw;
-
   }
   .roboticsname{
     width: 80vw;
@@ -1664,6 +1664,7 @@ a:focus {
     margin-bottom: 1rem;
     font-size: 1rem;
   }
+
   .robo__animation {
     bottom: 50vh;
     width: 80vw;
