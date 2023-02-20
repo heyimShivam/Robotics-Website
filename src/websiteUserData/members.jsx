@@ -93,7 +93,7 @@ export const coreMemebersDetails = [
   {
     name: "Shubahm Goyal",
     role: "Core-Coordinator",
-    image: "../members/coordinator/Shubham Goyal.jpg",
+    image: "../members/coordinator/Shubham Goyal.jpeg",
     linkedin: "https://www.linkedin.com/in/shubham-goyal-476126197/",
     github: "#",
     field: ["ML, DL, OpenCv", "."],
@@ -109,7 +109,7 @@ export const coreMemebersDetails = [
   {
     name: "Kratika Mittal",
     role: "Core-Coordinator",
-    image: "../members/coordinator/Kratika Mittal.jpg",
+    image: "../members/coordinator/Kratika Mittal.jpeg",
     linkedin: "http://linkedin.com/in/kratika-mittal-1423a2197/",
     github: "http://github.com/kratika19",
     field: ["IoT and Healthcare", "Full Stack Development"],
