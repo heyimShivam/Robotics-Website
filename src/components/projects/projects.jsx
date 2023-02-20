@@ -7,6 +7,10 @@ import { PastProjectsData } from "../../websiteUserData/projects";
 import { RoboconProjectsData } from "../../websiteUserData/projects";
 
 const Projects = () => {
+  React.useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <>
       <div className='project-head'>
@@ -18,7 +22,7 @@ const Projects = () => {
             {/* blue red green */}
 
             {LongProjectsData.map((Data) => (
-              <article className='postcard light blue'>
+              <article className='postcard light blue' key={Data.id}>
                 <a className='postcard__img_link' href='#empty'>
                   <img className='postcard__img' src={Data.img} alt='pic Title' />
                 </a>
@@ -42,7 +46,7 @@ const Projects = () => {
             {/* blue red green */}
 
             {PastProjectsData.map((Data) => (
-              <article className='postcard light blue'>
+              <article className='postcard light blue' key={Data.id}>
                 <a className='postcard__img_link' href='#empty'>
                   <img className='postcard__img' src={Data.img} alt='pic Title' />
                 </a>
@@ -66,7 +70,7 @@ const Projects = () => {
             {/* blue red green */}
 
             {RoboconProjectsData.map((Data) => (
-              <article className='postcard light blue'>
+              <article className='postcard light blue' key={Data.id}>
                 <a className='postcard__img_link' href='#empty'>
                   <img className='postcard__img' src={Data.img} alt='pic Title' />
                 </a>

@@ -8,6 +8,10 @@ import React, { useState, useEffect } from "react";
 import Viewpager from "../components/mainSlidingBanner";
 
 function Gallery() {
+  React.useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   const [tag, setTag] = useState("All");
   const changeTag = (activeTag) => {
     setTag(activeTag);
@@ -31,8 +35,8 @@ function Gallery() {
       </div>
       <div className='container'>
         <div className='button__container container'>
-          {TagsList.map((newTag) => (
-            <button className={`btn btn-${tag === newTag ? "" : "outline-"}dark tag__button `} onClick={() => changeTag(newTag)}>
+          {TagsList.map((newTag,index) => (
+            <button className={`btn btn-${tag === newTag ? "" : "outline-"}dark tag__button `} onClick={() => changeTag(newTag)}  key={index}>
               {newTag}
             </button>
           ))}
@@ -45,11 +49,11 @@ function Gallery() {
 
         <div className='container my-4'>
           <div className='row'>
-            {Images.map((userData) =>
+            {Images.map((userData,index) =>
               userData.tag.includes(tag) ? (
-                <div className='col-lg-4 col-md-6 col-sm-12 my-2'>
-                  {userData.tag.map((data) => (
-                    <div className={` ${data === tag ? "img__container" : "disable__img"}`}>
+                <div className='col-lg-4 col-md-6 col-sm-12 my-2'  key={index}>
+                  {userData.tag.map((data,index) => (
+                    <div className={` ${data === tag ? "img__container" : "disable__img"}`} key={index}>
                       <img src={userData.path} alt='' className='gallery__img' />
                     </div>
                   ))}

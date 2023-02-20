@@ -2,8 +2,13 @@
 
 import "./pages.css";
 import { alumni_members,alumni_members2 } from "../websiteUserData/members";
+import React from "react";
 
 function Alumni() {
+  React.useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <>
       <div>
@@ -50,7 +55,7 @@ function Alumni() {
 
         <div className='cards-list'>
           {alumni_members.map((userData) => (
-            <label className='card-wrap'>
+            <label className='card-wrap' key={userData.id}>
               <div className='profile-card-4 text-center'>
                 <img alt='' src={userData.image} className='card-photo img img-responsive' />
                 <div className='profile-content'>
@@ -60,7 +65,7 @@ function Alumni() {
                   </div>
                   <div className='profile-description'>
                     {userData.field.map((data) => (
-                      <li>{data}</li>
+                      <li  key={data}>{data}</li>
                     ))}
                   </div>
                   <a href={userData.linkedin} className='bn5 align-self-end'>
@@ -81,7 +86,7 @@ function Alumni() {
 
         <div className='cards-list'>
           {alumni_members2.map((userData) => (
-            <label className='card-wrap'>
+            <label className='card-wrap'  key={userData.id}>
               <div className='profile-card-4 text-center'>
                 <img alt='' src={userData.image} className='card-photo img img-responsive' />
                 <div className='profile-content'>
@@ -91,7 +96,7 @@ function Alumni() {
                   </div>
                   <div className='profile-description'>
                     {userData.field.map((data) => (
-                      <li>{data}</li>
+                      <li  key={data}>{data}</li>
                     ))}
                   </div>
                   <a href={userData.linkedin} className='bn5 align-self-end'>
